@@ -1,1 +1,48 @@
-<applications><application guid="{aba7efe4-ade2-48e8-a804-48525a08a41e}" enable="True"><Name>Microsoft Office 2013 Professional Plus - x86</Name><CreatedTime>3/28/2015 3:54:23 PM</CreatedTime><CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy><LastModifiedTime>3/28/2015 3:54:23 PM</LastModifiedTime><LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy><ShortName>Microsoft Office 2013 Professional Plus - x86</ShortName><Version></Version><Publisher></Publisher><Language></Language><Source>.\Applications\Office2013ProPlus-x86</Source><CommandLine>setup.exe /config ProPlusr.ww\Config.xml</CommandLine><WorkingDirectory>.\Applications\Office2013ProPlus-x86</WorkingDirectory></application><application guid="{0ac32abc-40d8-4cc6-b3b4-caf787205750}" enable="True"><Name>Action - Cleanup before Sysprep</Name><CreatedTime>3/29/2015 2:57:22 AM</CreatedTime><CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy><LastModifiedTime>3/29/2015 2:57:22 AM</LastModifiedTime><LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy><ShortName>Action - Cleanup before Sysprep</ShortName><Version></Version><Publisher></Publisher><Language></Language><Source>.\Applications\Action - Cleanup before Sysprep</Source><CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine><WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory></application><application guid="{d53d154e-f219-4a02-9575-b13e5feb944d}"><Name>Visual Studio 2013 with Update 4</Name><CreatedTime>3/29/2015 11:54:09 AM</CreatedTime><CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy><LastModifiedTime>3/29/2015 11:54:09 AM</LastModifiedTime><LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy><ShortName>VS2013-Update4</ShortName><Source>.\Applications\VS2013-Update4</Source></application><application guid="{4bde9c4a-936b-4962-b3a8-0996c2d7a9eb}"><Name>SQL Server 2014 Developer Edition - x64</Name><CreatedTime>3/29/2015 12:05:03 PM</CreatedTime><CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy><LastModifiedTime>3/29/2015 12:05:03 PM</LastModifiedTime><LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy><ShortName>SQL2014-Dev-x64</ShortName><Source>.\Applications\SQL2014-Dev-x64</Source></application></applications>
+<applications>
+  <application guid="{aba7efe4-ade2-48e8-a804-48525a08a41e}" enable="True">
+    <Name>Microsoft Office 2013 Professional Plus - x86</Name>
+    <CreatedTime>3/28/2015 3:54:23 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/28/2015 3:54:23 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>Microsoft Office 2013 Professional Plus - x86</ShortName>
+    <Version></Version>
+    <Publisher></Publisher>
+    <Language></Language>
+    <Source>.\Applications\Office2013ProPlus-x86</Source>
+    <CommandLine>setup.exe /config ProPlusr.ww\Config.xml</CommandLine>
+    <WorkingDirectory>.\Applications\Office2013ProPlus-x86</WorkingDirectory>
+  </application>
+  <application guid="{0ac32abc-40d8-4cc6-b3b4-caf787205750}" enable="True">
+    <Name>Action - Cleanup before Sysprep</Name>
+    <CreatedTime>3/29/2015 2:57:22 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/29/2015 2:57:22 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>Action - Cleanup before Sysprep</ShortName>
+    <Version></Version>
+    <Publisher></Publisher>
+    <Language></Language>
+    <Source>.\Applications\Action - Cleanup before Sysprep</Source>
+    <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
+    <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
+  </application>
+  <application guid="{d53d154e-f219-4a02-9575-b13e5feb944d}">
+    <Name>Visual Studio 2013 with Update 4</Name>
+    <CreatedTime>3/29/2015 11:54:09 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/29/2015 11:54:09 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>VS2013-Update4</ShortName>
+    <Source>.\Applications\VS2013-Update4</Source>
+  </application>
+  <application guid="{4bde9c4a-936b-4962-b3a8-0996c2d7a9eb}">
+    <Name>SQL Server 2014 Developer Edition - x64</Name>
+    <CreatedTime>3/29/2015 12:05:03 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/29/2015 12:05:03 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SQL2014-Dev-x64</ShortName>
+    <Source>.\Applications\SQL2014-Dev-x64</Source>
+  </application>
+</applications>
