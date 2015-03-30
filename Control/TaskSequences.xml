@@ -21,4 +21,15 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
+  <ts guid="{871b64f9-5091-44bc-b60b-2c189e8b80f8}" enable="True">
+    <Name>SharePoint Server 2013 Development</Name>
+    <Comments>Windows Server 2012 R2, SQL Server 2014, Visual Studio 2013 with Update 4, Office 2013, and SharePoint Server 2013</Comments>
+    <CreatedTime>3/30/2015 4:20:06 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 4:20:06 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>SP2013-DEV</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
+  </ts>
 </tss>
