@@ -102,4 +102,25 @@
     <Dependency>{7bb3e7f5-f238-4235-97a7-69cea57587f7}</Dependency>
     <Dependency>{70185195-51f0-407d-bbf7-4856c189f519}</Dependency>
   </application>
+  <application guid="{94fd0ccd-b52c-4661-8c19-8123bd6861fd}">
+    <Name>SharePoint Server 2013 with Service Pack 1</Name>
+    <CreatedTime>3/30/2015 4:02:14 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 4:02:14 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SP2013-SP1</ShortName>
+    <Source>.\Applications\SP2013-SP1</Source>
+    <CommandLine>setup.exe /config Config.xml</CommandLine>
+    <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
+  </application>
+  <application guid="{b07e756e-72e7-45b0-8984-af7e4f94037b}">
+    <Name>SharePoint Server 2013 with Service Pack 1 - Prerequisites</Name>
+    <CreatedTime>3/30/2015 4:09:44 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 4:09:44 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SP2013-SP1-Prereq</ShortName>
+    <CommandLine>prerequisiteinstaller.cmd /unattended</CommandLine>
+    <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
+  </application>
 </applications>
