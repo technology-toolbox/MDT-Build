@@ -27,4 +27,46 @@
     <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
     <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
   </application>
+  <application guid="{c20c3e41-d18b-4e2c-a89f-a52f173eb59c}">
+    <Name>SQL Server 2014 Developer Edition - x64 (Complete)</Name>
+    <CreatedTime>3/30/2015 3:37:53 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 3:37:53 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SQL2014-Dev-x64</ShortName>
+    <Source>.\Applications\SQL2014-Dev-x64</Source>
+    <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQL,AS,RS,DQC,IS,MDS,Tools /INSTANCEID=MSSQLSERVER</CommandLine>
+    <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
+  </application>
+  <application guid="{ff101534-2de7-4667-b51d-2649552a4fbd}">
+    <Name>SQL Server 2014 Developer Edition - x64 (Database Engine and Management Tools)</Name>
+    <CreatedTime>3/30/2015 3:38:01 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 3:38:01 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SQL2014-Dev-x64-DE-MT</ShortName>
+    <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQLEngine,ADV_SSMS /INSTANCEID=MSSQLSERVER</CommandLine>
+    <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
+  </application>
+  <application guid="{2118659e-c23b-4422-b701-93857ce12629}">
+    <Name>Visual Studio 2013 with Update 4 (Default)</Name>
+    <CreatedTime>3/30/2015 3:43:21 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 3:43:21 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>VS2013-Update4</ShortName>
+    <Source>.\Applications\VS2013-Update4</Source>
+    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\appSetupFolder\AdminDeployment.xml</CommandLine>
+    <WorkingDirectory>.\Applications\VS2013-Update4</WorkingDirectory>
+  </application>
+  <application guid="{8d8f8f0f-35e5-4260-a5cc-f9e09833c4b9}">
+    <Name>Visual Studio 2013 with Update 4 (SP2013 Development)</Name>
+    <CreatedTime>3/30/2015 3:47:46 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/30/2015 3:47:46 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>VS2013-Update4-SP2013-Dev</ShortName>
+    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2013-Update4\AdminDeployment-SP2013-Dev.xml</CommandLine>
+    <WorkingDirectory>.\Applications\VS2013-Update4</WorkingDirectory>
+  </application>
 </applications>
