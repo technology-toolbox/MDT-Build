@@ -1,0 +1,15 @@
+<Configuration>
+  <Package Id="sts">
+    <Setting Id="LAUNCHEDFROMSETUPSTS" Value="Yes" />
+  </Package>
+  <Package Id="spswfe">
+    <Setting Id="SETUPCALLED" Value="1" />
+  </Package>
+  <Logging Type="verbose" Path="%temp%" Template="SharePoint Server Setup(*).log" />
+  <!-- Enterprise trial key = NQTMW-K63MQ-39G6H-B2CH9-FRDWJ -->
+  <PIDKEY Value="NQTMW-K63MQ-39G6H-B2CH9-FRDWJ" />
+  <Setting Id="SERVERROLE" Value="APPLICATION" />
+  <Setting Id="SETUPTYPE" Value="CLEAN_INSTALL" />
+  <Setting Id="SETUP_REBOOT" Value="Never" />
+  <Display Level="None" AcceptEula="Yes" />
+</Configuration>
