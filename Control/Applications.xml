@@ -27,22 +27,4 @@
     <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
     <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
   </application>
-  <application guid="{d53d154e-f219-4a02-9575-b13e5feb944d}">
-    <Name>Visual Studio 2013 with Update 4</Name>
-    <CreatedTime>3/29/2015 11:54:09 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/29/2015 11:54:09 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2013-Update4</ShortName>
-    <Source>.\Applications\VS2013-Update4</Source>
-  </application>
-  <application guid="{4bde9c4a-936b-4962-b3a8-0996c2d7a9eb}">
-    <Name>SQL Server 2014 Developer Edition - x64</Name>
-    <CreatedTime>3/29/2015 12:05:03 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/29/2015 12:05:03 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SQL2014-Dev-x64</ShortName>
-    <Source>.\Applications\SQL2014-Dev-x64</Source>
-  </application>
 </applications>
