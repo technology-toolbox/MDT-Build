@@ -398,14 +398,22 @@
         </defaultVarList>
         <action>robocopy \\ICEMAN\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
       </step>
-      <step type="BDD_InstallRoles" name="Install - Microsoft NET Framework 3.5" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <step type="BDD_InstallRoles" name="Install Windows features for SharePoint 2013" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="OSRoleIndex" property="OSRoleIndex">11</variable>
-          <variable name="OSRoles" property="OSRoles"></variable>
-          <variable name="OSRoleServices" property="OSRoleServices"></variable>
-          <variable name="OSFeatures" property="OSFeatures">NET-Framework-Core</variable>
+          <variable name="OSRoles" property="OSRoles">Application-Server,Web-Server</variable>
+          <variable name="OSRoleServices" property="OSRoleServices">AS-TCP-Port-Sharing,AS-Web-Support,AS-WAS-Support,AS-HTTP-Activation,AS-Named-Pipes,AS-TCP-Activation,Web-Mgmt-Tools,Web-Mgmt-Console,Web-Mgmt-Compat,Web-Metabase,Web-Lgcy-Scripting,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-Static-Content,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Basic-Auth,Web-Digest-Auth,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext,Web-Asp-Net,Web-ISAPI-Ext,Web-ISAPI-Filter</variable>
+          <variable name="OSFeatures" property="OSFeatures">NET-WCF-HTTP-Activation45,NET-WCF-Pipe-Activation45,NET-WCF-TCP-Activation45,Server-Media-Foundation,Windows-Identity-Foundation,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIOSRole.wsf"</action>
+      </step>
+      <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="SMSRebootMessage" property="Message"></variable>
+          <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+          <variable name="SMSRebootTarget" property="Target"></variable>
+        </defaultVarList>
+        <action>smsboot.exe /target:WinPE</action>
       </step>
       <step type="SMS_TaskSequence_RunCommandLineAction" name="Update PowerShell help files" description="" disable="false" continueOnError="false" startIn="" successCodeList="0 3010" runIn="WinPEandFullOS">
         <defaultVarList>
@@ -417,6 +425,49 @@
         </defaultVarList>
         <action>PowerShell.exe -Command "&amp; { Update-Help }"</action>
       </step>
+      <step type="BDD_InstallApplication" name="Install SQL Server 2014 Developer Edition - x64 (Database Engine and Management Tools)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{ff101534-2de7-4667-b51d-2649552a4fbd}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+      <step type="BDD_InstallApplication" name="Install Visual Studio 2013 for SP2013 Development" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{776941a8-a8a7-4fda-9861-628b92693a2e}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+      <step type="BDD_InstallApplication" name="Install Microsoft Office 2013 Professional Plus - x86" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{aba7efe4-ade2-48e8-a804-48525a08a41e}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+      <step type="BDD_InstallApplication" name="Install SharePoint Server 2013 with Service Pack 1 - Prerequisites" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{b07e756e-72e7-45b0-8984-af7e4f94037b}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+      <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="SMSRebootMessage" property="Message"></variable>
+          <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+          <variable name="SMSRebootTarget" property="Target"></variable>
+        </defaultVarList>
+        <action>smsboot.exe /target:WinPE</action>
+      </step>
+      <step type="BDD_InstallApplication" name="Install Install SharePoint Server 2013 with Service Pack 1" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{94fd0ccd-b52c-4661-8c19-8123bd6861fd}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
     </group>
     <step name="Opt In to CEIP and WER" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIOptIn.wsf" /CEIP:YES /WER:YES</action>
@@ -427,7 +478,7 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
-    <step name="Windows Update (Pre-Application Installation)" disable="false" continueOnError="true" successCodeList="0 3010" description="" startIn="">
+    <step name="Windows Update (Pre-Application Installation)" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIWindowsUpdate.wsf"</action>
       <defaultVarList>
         <variable name="RunAsUser" property="RunAsUser">false</variable>
@@ -453,7 +504,7 @@
       </defaultVarList>
       <action>cscript.exe "%SCRIPTROOT%\LTISuspend.wsf"</action>
     </step>
-    <step name="Windows Update (Post-Application Installation)" disable="false" continueOnError="true" successCodeList="0 3010" description="" startIn="">
+    <step name="Windows Update (Post-Application Installation)" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIWindowsUpdate.wsf"</action>
       <defaultVarList>
         <variable name="RunAsUser" property="RunAsUser">false</variable>
