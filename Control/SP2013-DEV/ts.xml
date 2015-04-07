@@ -453,6 +453,16 @@
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
+      <step type="SMS_TaskSequence_RunCommandLineAction" name="Remove SharePoint prerequisite files" description="" disable="false" continueOnError="false" startIn="" successCodeList="0 3010" runIn="WinPEandFullOS">
+        <defaultVarList>
+          <variable name="PackageID" property="PackageID"></variable>
+          <variable name="RunAsUser" property="RunAsUser">false</variable>
+          <variable name="SMSTSRunCommandLineUserName" property="SMSTSRunCommandLineUserName"></variable>
+          <variable name="SMSTSRunCommandLineUserPassword" property="SMSTSRunCommandLineUserPassword"></variable>
+          <variable name="LoadProfile" property="LoadProfile">false</variable>
+        </defaultVarList>
+        <action>PowerShell.exe -Command "&amp; { Remove-Item C:\PrerequisiteInstallerFiles_SP1 -Recurse -Force }"</action>
+      </step>
       <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="SMSRebootMessage" property="Message"></variable>
@@ -461,7 +471,7 @@
         </defaultVarList>
         <action>smsboot.exe /target:WinPE</action>
       </step>
-      <step type="BDD_InstallApplication" name="Install Install SharePoint Server 2013 with Service Pack 1" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <step type="BDD_InstallApplication" name="Install SharePoint Server 2013 with Service Pack 1" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{94fd0ccd-b52c-4661-8c19-8123bd6861fd}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
@@ -556,6 +566,35 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
+    <group expand="true" name="Cleanup before Sysprep" description="" disable="false" continueOnError="false">
+      <action />
+      <group expand="true" name="Compress the image" description="" disable="false" continueOnError="false">
+        <action />
+        <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+          <defaultVarList>
+            <variable name="SMSRebootMessage" property="Message"></variable>
+            <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+            <variable name="SMSRebootTarget" property="Target"></variable>
+          </defaultVarList>
+          <action>smsboot.exe /target:WinPE</action>
+        </step>
+        <step type="BDD_InstallApplication" name="Action - Cleanup before Sysprep" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+          <defaultVarList>
+            <variable name="ApplicationGUID" property="ApplicationGUID">{0ac32abc-40d8-4cc6-b3b4-caf787205750}</variable>
+            <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+          </defaultVarList>
+          <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+        </step>
+        <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+          <defaultVarList>
+            <variable name="SMSRebootMessage" property="Message"></variable>
+            <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+            <variable name="SMSRebootTarget" property="Target"></variable>
+          </defaultVarList>
+          <action>smsboot.exe /target:WinPE</action>
+        </step>
+      </group>
+    </group>
     <group expand="false" name="Imaging" description="" disable="false" continueOnError="false">
       <action />
       <group name="Prepare Only" disable="false" continueOnError="false" expand="false" description="">
