@@ -26,4 +26,14 @@
     <Member>{871b64f9-5091-44bc-b60b-2c189e8b80f8}</Member>
     <Member>{26eea10a-5e8b-4f6c-ad96-f87b30d61b7f}</Member>
   </group>
+  <group guid="{c98d32ea-3a57-4811-96e0-6c980faa4db8}" enable="True">
+    <Name>Windows 7</Name>
+    <Comments></Comments>
+    <CreatedTime>4/9/2015 1:46:48 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:49:59 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{863b2cef-5677-469c-bbc9-7a5b3bbffc8b}</Member>
+    <Member>{caee9553-6562-4382-851c-45ea25f656a5}</Member>
+  </group>
 </groups>

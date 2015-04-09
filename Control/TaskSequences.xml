@@ -32,4 +32,26 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
+  <ts guid="{caee9553-6562-4382-851c-45ea25f656a5}" enable="True">
+    <Name>Windows 7 Ultimate x86 - Baseline</Name>
+    <Comments>Baseline image (reference build)</Comments>
+    <CreatedTime>4/9/2015 1:47:58 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:47:58 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>W7ULT-X86</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
+  </ts>
+  <ts guid="{863b2cef-5677-469c-bbc9-7a5b3bbffc8b}" enable="True">
+    <Name>Windows 7 Ultimate x64 - Baseline</Name>
+    <Comments>Baseline image (reference build)</Comments>
+    <CreatedTime>4/9/2015 1:49:59 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:49:59 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>W7ULT-X64</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
+  </ts>
 </tss>
