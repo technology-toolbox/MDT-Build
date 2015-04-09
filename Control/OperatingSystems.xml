@@ -104,4 +104,193 @@
     <Size>12457</Size>
     <Language>en-US</Language>
   </os>
+  <os guid="{616d4827-8679-4b77-a4a3-47799ba3e4dd}" enable="True">
+    <Name>Windows 7 Starter with Service Pack 1 (x86)</Name>
+    <CreatedTime>4/9/2015 1:24:10 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:24:10 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 STARTER</Description>
+    <Platform>x86</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>1</ImageIndex>
+    <ImageName>Windows 7 STARTER</ImageName>
+    <Flags>Starter</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>7700</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{66ad53cb-a165-4244-9a5a-0d2fe748fb53}" enable="True">
+    <Name>Windows 7 Home Basic with Service Pack 1 (x86)</Name>
+    <CreatedTime>4/9/2015 1:24:10 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:24:10 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 HOMEBASIC</Description>
+    <Platform>x86</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>2</ImageIndex>
+    <ImageName>Windows 7 HOMEBASIC</ImageName>
+    <Flags>HomeBasic</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>7751</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{280272e6-043a-44e8-ade2-58301f3dff2a}" enable="True">
+    <Name>Windows 7 Home Premium with Service Pack 1 (x86)</Name>
+    <CreatedTime>4/9/2015 1:24:10 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:24:10 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 HOMEPREMIUM</Description>
+    <Platform>x86</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>3</ImageIndex>
+    <ImageName>Windows 7 HOMEPREMIUM</ImageName>
+    <Flags>HomePremium</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>8172</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{4d14f4ae-ecc4-41ae-91a3-16ff05ac5bff}" enable="True">
+    <Name>Windows 7 Professional with Service Pack 1 (x86)</Name>
+    <CreatedTime>4/9/2015 1:24:10 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:24:10 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 PROFESSIONAL</Description>
+    <Platform>x86</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>4</ImageIndex>
+    <ImageName>Windows 7 PROFESSIONAL</ImageName>
+    <Flags>Professional</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>8058</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{89b3c984-58b1-4fe3-ab32-80103532bb09}" enable="True">
+    <Name>Windows 7 Ultimate with Service Pack 1 (x86)</Name>
+    <CreatedTime>4/9/2015 1:24:10 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:24:10 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 ULTIMATE</Description>
+    <Platform>x86</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>5</ImageIndex>
+    <ImageName>Windows 7 ULTIMATE</ImageName>
+    <Flags>Ultimate</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>8211</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{fa019937-85c4-4620-a42e-e07230d14a0d}" enable="True">
+    <Name>Windows 7 Home Basic with Service Pack 1 (x64)</Name>
+    <CreatedTime>4/9/2015 1:33:02 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:33:02 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 HOMEBASIC</Description>
+    <Platform>x64</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>1</ImageIndex>
+    <ImageName>Windows 7 HOMEBASIC</ImageName>
+    <Flags>HomeBasic</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>11167</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{5bdeb022-c427-4d71-add8-9ae512590701}" enable="True">
+    <Name>Windows 7 Home Premium with Service Pack 1 (x64)</Name>
+    <CreatedTime>4/9/2015 1:33:02 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:33:02 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 HOMEPREMIUM</Description>
+    <Platform>x64</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>2</ImageIndex>
+    <ImageName>Windows 7 HOMEPREMIUM</ImageName>
+    <Flags>HomePremium</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>11656</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{3cb5fea4-7384-43b5-9178-ae43d3d32652}" enable="True">
+    <Name>Windows 7 Professional with Service Pack 1 (x64)</Name>
+    <CreatedTime>4/9/2015 1:33:02 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:33:02 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 PROFESSIONAL</Description>
+    <Platform>x64</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>3</ImageIndex>
+    <ImageName>Windows 7 PROFESSIONAL</ImageName>
+    <Flags>Professional</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>11561</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{c88025c1-dddf-44d2-bcb1-8c05e2c20b97}" enable="True">
+    <Name>Windows 7 Ultimate with Service Pack 1 (x64)</Name>
+    <CreatedTime>4/9/2015 1:33:02 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:33:02 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 7 ULTIMATE</Description>
+    <Platform>x64</Platform>
+    <Build>6.1.7601.17514</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+    <ImageIndex>4</ImageIndex>
+    <ImageName>Windows 7 ULTIMATE</ImageName>
+    <Flags>Ultimate</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>11716</Size>
+    <Language>en-US</Language>
+  </os>
 </oss>
