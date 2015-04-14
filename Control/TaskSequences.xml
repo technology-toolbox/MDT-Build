@@ -6,7 +6,7 @@
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
     <LastModifiedTime>3/27/2015 4:57:52 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ID>W81ENT-X64</ID>
+    <ID>W81ENT-X64-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
@@ -17,7 +17,7 @@
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
     <LastModifiedTime>3/27/2015 5:00:35 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ID>WS2012-R2</ID>
+    <ID>WS2012-R2-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
@@ -28,7 +28,7 @@
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
     <LastModifiedTime>3/30/2015 4:20:06 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ID>SP2013-DEV</ID>
+    <ID>SP2013-DEV-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
@@ -39,7 +39,7 @@
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
     <LastModifiedTime>4/9/2015 1:47:58 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ID>W7ULT-X86</ID>
+    <ID>W7ULT-X86-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
@@ -50,7 +50,7 @@
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
     <LastModifiedTime>4/9/2015 1:49:59 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ID>W7ULT-X64</ID>
+    <ID>W7ULT-X64-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
