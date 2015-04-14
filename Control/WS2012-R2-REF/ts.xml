@@ -388,7 +388,7 @@
     </step>
     <group expand="true" name="Custom Tasks (Pre-Windows Update)" description="" disable="false" continueOnError="false">
       <action />
-      <step type="SMS_TaskSequence_RunCommandLineAction" name="Copy Toolbox content from ICEMAN" description="" disable="false" continueOnError="false" startIn="" successCodeList="0 3010 1 2 3 4 5 6 7 8 16" runIn="WinPEandFullOS">
+      <step type="SMS_TaskSequence_RunCommandLineAction" name="Copy Toolbox content from ICEMAN" description="" disable="false" continueOnError="false" startIn="" successCodeList="0 1 2 3 4 5 6 7 8 16" runIn="WinPEandFullOS">
         <defaultVarList>
           <variable name="PackageID" property="PackageID"></variable>
           <variable name="RunAsUser" property="RunAsUser">false</variable>
