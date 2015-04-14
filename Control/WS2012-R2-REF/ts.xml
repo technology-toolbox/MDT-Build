@@ -398,7 +398,7 @@
         </defaultVarList>
         <action>robocopy \\ICEMAN\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
       </step>
-      <step type="BDD_InstallRoles" name="Install - Microsoft NET Framework 3.5" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <step type="BDD_InstallRoles" name="Install Microsoft .NET Framework 3.5" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="OSRoleIndex" property="OSRoleIndex">11</variable>
           <variable name="OSRoles" property="OSRoles"></variable>
