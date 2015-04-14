@@ -439,7 +439,7 @@
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
-      <step type="BDD_InstallApplication" name="Install Microsoft Office 2013 Professional Plus - x86" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <step type="BDD_InstallApplication" name="Install Microsoft Office 2013 Professional Plus (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{aba7efe4-ade2-48e8-a804-48525a08a41e}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
