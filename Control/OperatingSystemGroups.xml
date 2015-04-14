@@ -9,6 +9,22 @@
     <LastModifiedTime>3/28/2015 11:41:09 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
   </group>
+  <group guid="{d39b4faa-db51-40fd-a6d6-a38c8ee2f310}" enable="True">
+    <Name>Windows 7</Name>
+    <CreatedTime>4/9/2015 1:22:25 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/9/2015 1:33:40 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{fa019937-85c4-4620-a42e-e07230d14a0d}</Member>
+    <Member>{66ad53cb-a165-4244-9a5a-0d2fe748fb53}</Member>
+    <Member>{5bdeb022-c427-4d71-add8-9ae512590701}</Member>
+    <Member>{280272e6-043a-44e8-ade2-58301f3dff2a}</Member>
+    <Member>{3cb5fea4-7384-43b5-9178-ae43d3d32652}</Member>
+    <Member>{4d14f4ae-ecc4-41ae-91a3-16ff05ac5bff}</Member>
+    <Member>{616d4827-8679-4b77-a4a3-47799ba3e4dd}</Member>
+    <Member>{c88025c1-dddf-44d2-bcb1-8c05e2c20b97}</Member>
+    <Member>{89b3c984-58b1-4fe3-ab32-80103532bb09}</Member>
+  </group>
   <group guid="{60386a88-22ee-49d9-9d49-56c5adad0446}" enable="True">
     <Name>Windows 8.1</Name>
     <Comments></Comments>
@@ -29,21 +45,5 @@
     <Member>{f5f5209b-f379-42c0-9e2d-022c47bef3b4}</Member>
     <Member>{80a76302-c6a4-453e-ad06-b016efb4f029}</Member>
     <Member>{c82b94fc-d3e1-4d86-acec-1bcd0cd59939}</Member>
-  </group>
-  <group guid="{d39b4faa-db51-40fd-a6d6-a38c8ee2f310}" enable="True">
-    <Name>Windows 7</Name>
-    <CreatedTime>4/9/2015 1:22:25 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/9/2015 1:33:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Member>{fa019937-85c4-4620-a42e-e07230d14a0d}</Member>
-    <Member>{66ad53cb-a165-4244-9a5a-0d2fe748fb53}</Member>
-    <Member>{5bdeb022-c427-4d71-add8-9ae512590701}</Member>
-    <Member>{280272e6-043a-44e8-ade2-58301f3dff2a}</Member>
-    <Member>{3cb5fea4-7384-43b5-9178-ae43d3d32652}</Member>
-    <Member>{4d14f4ae-ecc4-41ae-91a3-16ff05ac5bff}</Member>
-    <Member>{616d4827-8679-4b77-a4a3-47799ba3e4dd}</Member>
-    <Member>{c88025c1-dddf-44d2-bcb1-8c05e2c20b97}</Member>
-    <Member>{89b3c984-58b1-4fe3-ab32-80103532bb09}</Member>
   </group>
 </groups>

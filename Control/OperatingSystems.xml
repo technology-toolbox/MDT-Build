@@ -1,109 +1,4 @@
 <oss>
-  <os guid="{be46f1aa-2066-4beb-b183-5c4845ada6f1}" enable="True">
-    <Name>Windows 8.1 Enterprise x64 with Update</Name>
-    <CreatedTime>3/28/2015 11:45:15 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/28/2015 11:45:15 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 8.1 Enterprise</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W81Ent-x64-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W81Ent-x64-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 8.1 Enterprise</ImageName>
-    <Flags>Enterprise</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>12493</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{80a76302-c6a4-453e-ad06-b016efb4f029}" enable="True">
-    <Name>Windows Server 2012 R2 Standard (Server Core Installation) with Update</Name>
-    <CreatedTime>3/28/2015 11:56:08 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/28/2015 11:56:08 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERSTANDARDCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERSTANDARDCORE</ImageName>
-    <Flags>ServerStandardCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>7114</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{c82b94fc-d3e1-4d86-acec-1bcd0cd59939}" enable="True">
-    <Name>Windows Server 2012 R2 Standard with Update</Name>
-    <CreatedTime>3/28/2015 11:56:08 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/28/2015 11:56:08 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERSTANDARD</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERSTANDARD</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>12462</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{b02d08fd-2da4-432e-bf12-36fd870d1976}" enable="True">
-    <Name>Windows Server 2012 R2 Datacenter (Server Core Installation) with Update</Name>
-    <CreatedTime>3/28/2015 11:56:09 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/28/2015 11:56:09 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERDATACENTERCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERDATACENTERCORE</ImageName>
-    <Flags>ServerDataCenterCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>7111</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{f5f5209b-f379-42c0-9e2d-022c47bef3b4}" enable="True">
-    <Name>Windows Server 2012 R2 Datacenter with Update</Name>
-    <CreatedTime>3/28/2015 11:56:09 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/28/2015 11:56:09 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERDATACENTER</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERDATACENTER</ImageName>
-    <Flags>ServerDataCenter</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>12457</Size>
-    <Language>en-US</Language>
-  </os>
   <os guid="{616d4827-8679-4b77-a4a3-47799ba3e4dd}" enable="True">
     <Name>Windows 7 Starter with Service Pack 1 (x86)</Name>
     <CreatedTime>4/9/2015 1:24:10 PM</CreatedTime>
@@ -291,6 +186,111 @@
     <Flags>Ultimate</Flags>
     <HAL>acpiapic</HAL>
     <Size>11716</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{be46f1aa-2066-4beb-b183-5c4845ada6f1}" enable="True">
+    <Name>Windows 8.1 Enterprise x64 with Update</Name>
+    <CreatedTime>3/28/2015 11:45:15 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/28/2015 11:45:15 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 8.1 Enterprise</Description>
+    <Platform>x64</Platform>
+    <Build>6.3.9600.17415</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W81Ent-x64-Update</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W81Ent-x64-Update\Sources\install.wim</ImageFile>
+    <ImageIndex>1</ImageIndex>
+    <ImageName>Windows 8.1 Enterprise</ImageName>
+    <Flags>Enterprise</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>12493</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{80a76302-c6a4-453e-ad06-b016efb4f029}" enable="True">
+    <Name>Windows Server 2012 R2 Standard (Server Core Installation) with Update</Name>
+    <CreatedTime>3/28/2015 11:56:08 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/28/2015 11:56:08 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2012 R2 SERVERSTANDARDCORE</Description>
+    <Platform>x64</Platform>
+    <Build>6.3.9600.17415</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2012-R2-Update</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+    <ImageIndex>1</ImageIndex>
+    <ImageName>Windows Server 2012 R2 SERVERSTANDARDCORE</ImageName>
+    <Flags>ServerStandardCore</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>7114</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{c82b94fc-d3e1-4d86-acec-1bcd0cd59939}" enable="True">
+    <Name>Windows Server 2012 R2 Standard with Update</Name>
+    <CreatedTime>3/28/2015 11:56:08 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/28/2015 11:56:08 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2012 R2 SERVERSTANDARD</Description>
+    <Platform>x64</Platform>
+    <Build>6.3.9600.17415</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2012-R2-Update</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+    <ImageIndex>2</ImageIndex>
+    <ImageName>Windows Server 2012 R2 SERVERSTANDARD</ImageName>
+    <Flags>ServerStandard</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>12462</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{b02d08fd-2da4-432e-bf12-36fd870d1976}" enable="True">
+    <Name>Windows Server 2012 R2 Datacenter (Server Core Installation) with Update</Name>
+    <CreatedTime>3/28/2015 11:56:09 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/28/2015 11:56:09 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2012 R2 SERVERDATACENTERCORE</Description>
+    <Platform>x64</Platform>
+    <Build>6.3.9600.17415</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2012-R2-Update</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+    <ImageIndex>3</ImageIndex>
+    <ImageName>Windows Server 2012 R2 SERVERDATACENTERCORE</ImageName>
+    <Flags>ServerDataCenterCore</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>7111</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{f5f5209b-f379-42c0-9e2d-022c47bef3b4}" enable="True">
+    <Name>Windows Server 2012 R2 Datacenter with Update</Name>
+    <CreatedTime>3/28/2015 11:56:09 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/28/2015 11:56:09 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2012 R2 SERVERDATACENTER</Description>
+    <Platform>x64</Platform>
+    <Build>6.3.9600.17415</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2012-R2-Update</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+    <ImageIndex>4</ImageIndex>
+    <ImageName>Windows Server 2012 R2 SERVERDATACENTER</ImageName>
+    <Flags>ServerDataCenter</Flags>
+    <HAL>acpiapic</HAL>
+    <Size>12457</Size>
     <Language>en-US</Language>
   </os>
 </oss>
