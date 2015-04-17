@@ -13,20 +13,6 @@
     <CommandLine>setup.exe /config ProPlusr.ww\Config.xml</CommandLine>
     <WorkingDirectory>.\Applications\Office2013ProPlus-x86</WorkingDirectory>
   </application>
-  <application guid="{0ac32abc-40d8-4cc6-b3b4-caf787205750}" enable="True">
-    <Name>Action - Cleanup before Sysprep</Name>
-    <CreatedTime>3/29/2015 2:57:22 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/29/2015 2:57:22 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Action - Cleanup before Sysprep</ShortName>
-    <Version></Version>
-    <Publisher></Publisher>
-    <Language></Language>
-    <Source>.\Applications\Action - Cleanup before Sysprep</Source>
-    <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
-    <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
-  </application>
   <application guid="{c20c3e41-d18b-4e2c-a89f-a52f173eb59c}">
     <Name>SQL Server 2014 Developer Edition - x64 (Complete)</Name>
     <CreatedTime>3/30/2015 3:37:53 PM</CreatedTime>
@@ -122,5 +108,19 @@
     <ShortName>SP2013-SP1-Prereq</ShortName>
     <CommandLine>prerequisiteinstaller.cmd /unattended</CommandLine>
     <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
+  </application>
+  <application guid="{0ac32abc-40d8-4cc6-b3b4-caf787205750}" enable="True">
+    <Name>Action - Cleanup before Sysprep</Name>
+    <CreatedTime>3/29/2015 2:57:22 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>3/29/2015 2:57:22 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>Action - Cleanup before Sysprep</ShortName>
+    <Version></Version>
+    <Publisher></Publisher>
+    <Language></Language>
+    <Source>.\Applications\Action - Cleanup before Sysprep</Source>
+    <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
+    <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
   </application>
 </applications>
