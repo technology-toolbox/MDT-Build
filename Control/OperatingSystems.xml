@@ -357,7 +357,7 @@
     <Language>en-US</Language>
   </os>
   <os guid="{be46f1aa-2066-4beb-b183-5c4845ada6f1}" enable="True">
-    <Name>Windows 8.1 Enterprise x64 with Update</Name>
+    <Name>Windows 8.1 Enterprise with Update (x64)</Name>
     <CreatedTime>3/28/2015 11:45:15 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
     <LastModifiedTime>3/28/2015 11:45:15 AM</LastModifiedTime>

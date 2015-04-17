@@ -425,7 +425,7 @@
         </defaultVarList>
         <action>PowerShell.exe -Command "&amp; { Update-Help }"</action>
       </step>
-      <step type="BDD_InstallApplication" name="Install SQL Server 2014 Developer Edition - x64 (Database Engine and Management Tools)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <step type="BDD_InstallApplication" name="Install SQL Server 2014 Developer Edition (x64) - Database Engine and Management Tools" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{ff101534-2de7-4667-b51d-2649552a4fbd}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
