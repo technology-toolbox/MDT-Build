@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sequence version="3.00" name="Standard Client Task Sequence" description="A complete task sequence for deploying a client operating system">
   <globalVarList>
-    <variable name="OSGUID" property="OSGUID">{89b3c984-58b1-4fe3-ab32-80103532bb09}</variable>
+    <variable name="OSGUID" property="OSGUID">{3d0d1753-dbf3-4081-be33-faa2d1df3cd5}</variable>
     <variable name="DestinationDisk" property="DestinationDisk">0</variable>
     <variable name="DestinationPartition" property="DestinationPartition">1</variable>
     <variable name="DestinationOSVariable" property="DestinationOSVariable">OSDisk</variable>
@@ -318,7 +318,7 @@
     </condition>
     <step type="BDD_InstallOS" name="Install Operating System" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
       <defaultVarList>
-        <variable name="OSGUID" property="OSGUID">{89b3c984-58b1-4fe3-ab32-80103532bb09}</variable>
+        <variable name="OSGUID" property="OSGUID">{3d0d1753-dbf3-4081-be33-faa2d1df3cd5}</variable>
         <variable name="DestinationDisk" property="DestinationDisk">0</variable>
         <variable name="DestinationPartition" property="DestinationPartition">1</variable>
         <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
@@ -462,7 +462,7 @@
       </step>
       <step type="BDD_InstallApplication" name="Install Microsoft Office 2013 Professional Plus (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{aba7efe4-ade2-48e8-a804-48525a08a41e}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{2ceeca60-258c-4077-891c-c1259091c0fe}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
@@ -578,24 +578,24 @@
         <action />
         <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="SMSRebootMessage" property="Message"></variable>
+            <variable name="SMSRebootMessage" property="Message" />
             <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
-            <variable name="SMSRebootTarget" property="Target"></variable>
+            <variable name="SMSRebootTarget" property="Target" />
           </defaultVarList>
           <action>smsboot.exe /target:WinPE</action>
         </step>
         <step type="BDD_InstallApplication" name="Action - Cleanup before Sysprep" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="ApplicationGUID" property="ApplicationGUID">{0ac32abc-40d8-4cc6-b3b4-caf787205750}</variable>
+            <variable name="ApplicationGUID" property="ApplicationGUID">{4985bc85-7f76-4efb-a3c4-b4c3d5306930}</variable>
             <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
           </defaultVarList>
           <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
         </step>
         <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="SMSRebootMessage" property="Message"></variable>
+            <variable name="SMSRebootMessage" property="Message" />
             <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
-            <variable name="SMSRebootTarget" property="Target"></variable>
+            <variable name="SMSRebootTarget" property="Target" />
           </defaultVarList>
           <action>smsboot.exe /target:WinPE</action>
         </step>

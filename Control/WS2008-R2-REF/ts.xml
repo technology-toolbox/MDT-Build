@@ -509,7 +509,7 @@
         </step>
         <step type="BDD_InstallApplication" name="Action - Cleanup before Sysprep" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="ApplicationGUID" property="ApplicationGUID">{0ac32abc-40d8-4cc6-b3b4-caf787205750}</variable>
+            <variable name="ApplicationGUID" property="ApplicationGUID">{4985bc85-7f76-4efb-a3c4-b4c3d5306930}</variable>
             <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
           </defaultVarList>
           <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>

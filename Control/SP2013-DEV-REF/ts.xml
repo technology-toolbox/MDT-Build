@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <sequence version="3.00" name="Standard Server Task Sequence" description="A complete task sequence for deploying a server operating system">
   <globalVarList>
-    <variable name="OSGUID" property="OSGUID">{c82b94fc-d3e1-4d86-acec-1bcd0cd59939}</variable>
+    <variable name="OSGUID" property="OSGUID">{a3ef5936-602e-4fb6-8818-3d19aa81e795}</variable>
     <variable name="DestinationDisk" property="DestinationDisk">0</variable>
     <variable name="DestinationPartition" property="DestinationPartition">1</variable>
     <variable name="DestinationOSVariable" property="DestinationOSVariable">OSDisk</variable>
@@ -265,7 +265,7 @@
     </condition>
     <step type="BDD_InstallOS" name="Install Operating System" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
       <defaultVarList>
-        <variable name="OSGUID" property="OSGUID">{c82b94fc-d3e1-4d86-acec-1bcd0cd59939}</variable>
+        <variable name="OSGUID" property="OSGUID">{a3ef5936-602e-4fb6-8818-3d19aa81e795}</variable>
         <variable name="DestinationDisk" property="DestinationDisk">0</variable>
         <variable name="DestinationPartition" property="DestinationPartition">1</variable>
         <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
@@ -403,7 +403,7 @@
           <variable name="OSRoleIndex" property="OSRoleIndex">11</variable>
           <variable name="OSRoles" property="OSRoles">Application-Server,Web-Server</variable>
           <variable name="OSRoleServices" property="OSRoleServices">AS-TCP-Port-Sharing,AS-Web-Support,AS-WAS-Support,AS-HTTP-Activation,AS-Named-Pipes,AS-TCP-Activation,Web-Mgmt-Tools,Web-Mgmt-Console,Web-Mgmt-Compat,Web-Metabase,Web-Lgcy-Scripting,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Dir-Browsing,Web-Http-Errors,Web-Static-Content,Web-Health,Web-Http-Logging,Web-Log-Libraries,Web-Request-Monitor,Web-Http-Tracing,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Basic-Auth,Web-Digest-Auth,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext,Web-Asp-Net,Web-ISAPI-Ext,Web-ISAPI-Filter</variable>
-          <variable name="OSFeatures" property="OSFeatures">NET-WCF-HTTP-Activation45,NET-WCF-Pipe-Activation45,NET-WCF-TCP-Activation45,Server-Media-Foundation,Windows-Identity-Foundation,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs</variable>
+          <variable name="OSFeatures" property="OSFeatures">NET-Framework-Core,NET-WCF-HTTP-Activation45,NET-WCF-Pipe-Activation45,NET-WCF-TCP-Activation45,Server-Media-Foundation,Windows-Identity-Foundation,WAS,WAS-Process-Model,WAS-NET-Environment,WAS-Config-APIs</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIOSRole.wsf"</action>
       </step>
@@ -427,28 +427,28 @@
       </step>
       <step type="BDD_InstallApplication" name="Install SQL Server 2014 Developer Edition (x64) - Database Engine and Management Tools" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{ff101534-2de7-4667-b51d-2649552a4fbd}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{c1f8aa44-168f-449f-a8bd-3797380a80f8}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
       <step type="BDD_InstallApplication" name="Install Visual Studio 2013 for SP2013 Development" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{776941a8-a8a7-4fda-9861-628b92693a2e}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
       <step type="BDD_InstallApplication" name="Install Microsoft Office 2013 Professional Plus (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{aba7efe4-ade2-48e8-a804-48525a08a41e}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{2ceeca60-258c-4077-891c-c1259091c0fe}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
       <step type="BDD_InstallApplication" name="Install SharePoint Server 2013 with Service Pack 1 - Prerequisites" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{b07e756e-72e7-45b0-8984-af7e4f94037b}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{4841eddc-8646-4c5a-a35d-4701d0702192}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
@@ -473,7 +473,7 @@
       </step>
       <step type="BDD_InstallApplication" name="Install SharePoint Server 2013 with Service Pack 1" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{94fd0ccd-b52c-4661-8c19-8123bd6861fd}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{50c55ab7-ccbe-442d-8dd7-14464017cf48}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
@@ -572,24 +572,24 @@
         <action />
         <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="SMSRebootMessage" property="Message"></variable>
+            <variable name="SMSRebootMessage" property="Message" />
             <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
-            <variable name="SMSRebootTarget" property="Target"></variable>
+            <variable name="SMSRebootTarget" property="Target" />
           </defaultVarList>
           <action>smsboot.exe /target:WinPE</action>
         </step>
         <step type="BDD_InstallApplication" name="Action - Cleanup before Sysprep" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="ApplicationGUID" property="ApplicationGUID">{0ac32abc-40d8-4cc6-b3b4-caf787205750}</variable>
+            <variable name="ApplicationGUID" property="ApplicationGUID">{4985bc85-7f76-4efb-a3c4-b4c3d5306930}</variable>
             <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
           </defaultVarList>
           <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
         </step>
         <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
-            <variable name="SMSRebootMessage" property="Message"></variable>
+            <variable name="SMSRebootMessage" property="Message" />
             <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
-            <variable name="SMSRebootTarget" property="Target"></variable>
+            <variable name="SMSRebootTarget" property="Target" />
           </defaultVarList>
           <action>smsboot.exe /target:WinPE</action>
         </step>

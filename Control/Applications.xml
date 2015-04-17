@@ -1,124 +1,118 @@
 <applications>
-  <application guid="{aba7efe4-ade2-48e8-a804-48525a08a41e}" enable="True">
-    <Name>Office 2013 Professional Plus (x86)</Name>
-    <CreatedTime>3/28/2015 3:54:23 PM</CreatedTime>
+  <application guid="{2ceeca60-258c-4077-891c-c1259091c0fe}">
+    <Name>Office Professional Plus 2013 (x86)</Name>
+    <CreatedTime>4/13/2015 3:06:40 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/28/2015 3:54:23 PM</LastModifiedTime>
+    <LastModifiedTime>4/13/2015 3:06:40 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Office 2013 Professional Plus (x86)</ShortName>
-    <Version></Version>
-    <Publisher></Publisher>
-    <Language></Language>
+    <ShortName>Office2013ProPlus-x86</ShortName>
     <Source>.\Applications\Office2013ProPlus-x86</Source>
     <CommandLine>setup.exe /config ProPlusr.ww\Config.xml</CommandLine>
     <WorkingDirectory>.\Applications\Office2013ProPlus-x86</WorkingDirectory>
   </application>
-  <application guid="{c20c3e41-d18b-4e2c-a89f-a52f173eb59c}">
-    <Name>SQL Server 2014 Developer Edition - x64 (Complete)</Name>
-    <CreatedTime>3/30/2015 3:37:53 PM</CreatedTime>
+  <application guid="{e1717022-159b-4acb-8cb9-7e2a958a6efe}">
+    <Name>SQL Server 2014 Developer Edition (x64) - Complete</Name>
+    <CreatedTime>4/14/2015 10:04:25 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:37:53 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:04:25 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>SQL2014-Dev-x64</ShortName>
     <Source>.\Applications\SQL2014-Dev-x64</Source>
     <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQL,AS,RS,DQC,IS,MDS,Tools /INSTANCEID=MSSQLSERVER</CommandLine>
     <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
   </application>
-  <application guid="{ff101534-2de7-4667-b51d-2649552a4fbd}">
-    <Name>SQL Server 2014 Developer Edition - x64 (Database Engine and Management Tools)</Name>
-    <CreatedTime>3/30/2015 3:38:01 PM</CreatedTime>
+  <application guid="{c1f8aa44-168f-449f-a8bd-3797380a80f8}">
+    <Name>SQL Server 2014 Developer Edition (x64) - Database Engine and Management Tools</Name>
+    <CreatedTime>4/14/2015 10:04:55 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:38:01 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:04:55 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>SQL2014-Dev-x64-DE-MT</ShortName>
     <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQLEngine,ADV_SSMS /INSTANCEID=MSSQLSERVER</CommandLine>
     <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
   </application>
-  <application guid="{2118659e-c23b-4422-b701-93857ce12629}">
-    <Name>Visual Studio 2013 with Update 4 (Default)</Name>
-    <CreatedTime>3/30/2015 3:43:21 PM</CreatedTime>
+  <application guid="{dbba4ec8-2623-4ac3-a80a-4cdb33f8b305}">
+    <Name>Visual Studio 2013 with Update 4 - Default</Name>
+    <CreatedTime>4/14/2015 10:10:32 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:43:21 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:10:32 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>VS2013-Update4</ShortName>
     <Source>.\Applications\VS2013-Update4</Source>
     <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\appSetupFolder\AdminDeployment.xml</CommandLine>
     <WorkingDirectory>.\Applications\VS2013-Update4</WorkingDirectory>
   </application>
-  <application guid="{8d8f8f0f-35e5-4260-a5cc-f9e09833c4b9}">
-    <Name>Visual Studio 2013 with Update 4 (SP2013 Development)</Name>
-    <CreatedTime>3/30/2015 3:47:46 PM</CreatedTime>
+  <application guid="{5a6efbfc-ec76-4904-aa7c-f61e17f29175}">
+    <Name>Visual Studio 2013 with Update 4 - SP2013 Development</Name>
+    <CreatedTime>4/14/2015 10:39:22 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:47:46 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:39:22 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>VS2013-Update4-SP2013-Dev</ShortName>
     <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2013-Update4\AdminDeployment-SP2013-Dev.xml</CommandLine>
     <WorkingDirectory>.\Applications\VS2013-Update4</WorkingDirectory>
   </application>
-  <application guid="{7bb3e7f5-f238-4235-97a7-69cea57587f7}">
+  <application guid="{f66c3f8a-da57-4a16-875f-0978e7e53290}">
     <Name>Microsoft Office Developer Tools for Visual Studio 2013 - November 2014 Update</Name>
-    <CreatedTime>3/30/2015 3:55:20 PM</CreatedTime>
+    <CreatedTime>4/14/2015 10:40:40 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:55:20 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:40:40 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>OfficeToolsForVS2013Update1</ShortName>
     <Source>.\Applications\OfficeToolsForVS2013Update1</Source>
     <CommandLine>cba_bundle.exe /Quiet /NoRestart</CommandLine>
     <WorkingDirectory>.\Applications\OfficeToolsForVS2013Update1</WorkingDirectory>
   </application>
-  <application guid="{70185195-51f0-407d-bbf7-4856c189f519}">
+  <application guid="{eb047540-e5a9-4230-aba5-c57a6e733648}">
     <Name>Microsoft SQL Server Update for database tooling (VS2013)</Name>
-    <CreatedTime>3/30/2015 3:55:53 PM</CreatedTime>
+    <CreatedTime>4/14/2015 10:41:37 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:55:53 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:41:37 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>SSDT-VS2013</ShortName>
     <Source>.\Applications\SSDT-VS2013</Source>
     <CommandLine>SSDTSETUP.EXE /q /norestart</CommandLine>
     <WorkingDirectory>.\Applications\SSDT-VS2013</WorkingDirectory>
   </application>
-  <application guid="{776941a8-a8a7-4fda-9861-628b92693a2e}">
+  <application guid="{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}">
     <Name>Visual Studio 2013 for SP2013 Development</Name>
-    <CreatedTime>3/30/2015 3:56:06 PM</CreatedTime>
+    <CreatedTime>4/14/2015 10:42:23 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 3:57:01 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:45:44 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>VS2013-SP2013</ShortName>
-    <Dependency>{8d8f8f0f-35e5-4260-a5cc-f9e09833c4b9}</Dependency>
-    <Dependency>{7bb3e7f5-f238-4235-97a7-69cea57587f7}</Dependency>
-    <Dependency>{70185195-51f0-407d-bbf7-4856c189f519}</Dependency>
+    <Dependency>{5a6efbfc-ec76-4904-aa7c-f61e17f29175}</Dependency>
+    <Dependency>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Dependency>
+    <Dependency>{eb047540-e5a9-4230-aba5-c57a6e733648}</Dependency>
   </application>
-  <application guid="{94fd0ccd-b52c-4661-8c19-8123bd6861fd}">
+  <application guid="{50c55ab7-ccbe-442d-8dd7-14464017cf48}">
     <Name>SharePoint Server 2013 with Service Pack 1</Name>
-    <CreatedTime>3/30/2015 4:02:14 PM</CreatedTime>
+    <CreatedTime>4/14/2015 10:48:24 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 4:02:14 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:48:24 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>SP2013-SP1</ShortName>
     <Source>.\Applications\SP2013-SP1</Source>
     <CommandLine>setup.exe /config Config.xml</CommandLine>
     <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
   </application>
-  <application guid="{b07e756e-72e7-45b0-8984-af7e4f94037b}">
+  <application guid="{4841eddc-8646-4c5a-a35d-4701d0702192}">
     <Name>SharePoint Server 2013 with Service Pack 1 - Prerequisites</Name>
-    <CreatedTime>3/30/2015 4:09:44 PM</CreatedTime>
+    <CreatedTime>4/14/2015 10:52:05 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 4:09:44 PM</LastModifiedTime>
+    <LastModifiedTime>4/14/2015 10:52:05 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>SP2013-SP1-Prereq</ShortName>
     <CommandLine>prerequisiteinstaller.cmd /unattended</CommandLine>
     <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
   </application>
-  <application guid="{0ac32abc-40d8-4cc6-b3b4-caf787205750}" enable="True">
+  <application guid="{4985bc85-7f76-4efb-a3c4-b4c3d5306930}">
     <Name>Action - Cleanup before Sysprep</Name>
-    <CreatedTime>3/29/2015 2:57:22 AM</CreatedTime>
+    <CreatedTime>4/15/2015 11:54:40 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/29/2015 2:57:22 AM</LastModifiedTime>
+    <LastModifiedTime>4/15/2015 11:54:40 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Action - Cleanup before Sysprep</ShortName>
-    <Version></Version>
-    <Publisher></Publisher>
-    <Language></Language>
+    <ShortName>Cleanup-image</ShortName>
     <Source>.\Applications\Action - Cleanup before Sysprep</Source>
     <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
     <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>

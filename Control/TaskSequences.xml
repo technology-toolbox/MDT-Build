@@ -1,21 +1,21 @@
 <tss>
-  <ts guid="{caee9553-6562-4382-851c-45ea25f656a5}" enable="True">
+  <ts guid="{76a6446a-6092-4a17-a753-eeff0c091d5a}" hide="False" enable="True">
     <Name>Windows 7 Ultimate (x86) - Baseline</Name>
     <Comments>Reference image - Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
-    <CreatedTime>4/9/2015 1:47:58 PM</CreatedTime>
+    <CreatedTime>4/13/2015 12:33:02 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/9/2015 1:47:58 PM</LastModifiedTime>
+    <LastModifiedTime>4/17/2015 2:25:05 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W7ULT-X86-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
-  <ts guid="{863b2cef-5677-469c-bbc9-7a5b3bbffc8b}" enable="True">
+  <ts guid="{38bcb21f-b1c4-4667-96f8-16a8c5686e6b}" hide="False" enable="True">
     <Name>Windows 7 Ultimate (x64) - Baseline</Name>
     <Comments>Reference image - Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
-    <CreatedTime>4/9/2015 1:49:59 PM</CreatedTime>
+    <CreatedTime>4/13/2015 12:33:18 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/9/2015 1:49:59 PM</LastModifiedTime>
+    <LastModifiedTime>4/17/2015 2:25:01 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W7ULT-X64-REF</ID>
     <Version>1.0</Version>
@@ -26,40 +26,40 @@
     <Comments>Reference image - Toolbox content, .NET Framework 3.5, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/13/2015 2:42:36 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 9:35:56 PM</LastModifiedTime>
+    <LastModifiedTime>4/17/2015 2:25:16 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2008-R2-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
-  <ts guid="{8ea4beb9-6c76-4f12-b109-8f3177543b42}" enable="True">
+  <ts guid="{b6015cba-795b-4aab-ba3b-d18e6089749d}" hide="False" enable="True">
     <Name>Windows 8.1 Enterprise (x64) - Baseline</Name>
     <Comments>Reference image - Toolbox content, .NET Framework 3.5, PowerShell help files, Office 2013, latest patches, and cleanup before Sysprep</Comments>
-    <CreatedTime>3/27/2015 4:57:52 PM</CreatedTime>
+    <CreatedTime>4/14/2015 4:31:33 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/27/2015 4:57:52 PM</LastModifiedTime>
+    <LastModifiedTime>4/17/2015 2:25:38 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W81ENT-X64-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
-  <ts guid="{26eea10a-5e8b-4f6c-ad96-f87b30d61b7f}" enable="True">
-    <Name>Windows Server 2012 R2 Standard - Baseline</Name>
+  <ts guid="{3f724378-216a-4625-ae5e-46c284446850}" hide="False" enable="True">
+    <Name>Windows Server 2012 R2 - Baseline</Name>
     <Comments>Reference image - Toolbox content, .NET Framework 3.5, PowerShell help files, latest patches, and cleanup before Sysprep</Comments>
-    <CreatedTime>3/27/2015 5:00:35 PM</CreatedTime>
+    <CreatedTime>4/14/2015 4:35:21 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/27/2015 5:00:35 PM</LastModifiedTime>
+    <LastModifiedTime>4/17/2015 2:25:50 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2012-R2-REF</ID>
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
-  <ts guid="{871b64f9-5091-44bc-b60b-2c189e8b80f8}" enable="True">
+  <ts guid="{aaa903ca-5b66-4585-95dc-25bc9428931a}" hide="False" enable="True">
     <Name>SharePoint Server 2013 - Development</Name>
     <Comments>Reference image - Windows Server 2012 R2, Toolbox content, Windows features for SharePoint 2013, PowerShell help files, SQL Server 2014, Visual Studio 2013 with Update 4, Office 2013, SharePoint Server 2013, latest patches, and cleanup before Sysprep</Comments>
-    <CreatedTime>3/30/2015 4:20:06 PM</CreatedTime>
+    <CreatedTime>4/14/2015 10:57:24 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/30/2015 4:20:06 PM</LastModifiedTime>
+    <LastModifiedTime>4/17/2015 12:22:59 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>SP2013-DEV-REF</ID>
     <Version>1.0</Version>
