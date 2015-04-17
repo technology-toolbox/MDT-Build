@@ -17,6 +17,14 @@
     <Member>{863b2cef-5677-469c-bbc9-7a5b3bbffc8b}</Member>
     <Member>{caee9553-6562-4382-851c-45ea25f656a5}</Member>
   </group>
+  <group guid="{f684274c-8ea2-4fa8-860d-d824acce5788}" enable="True">
+    <Name>Windows Server 2008 R2</Name>
+    <CreatedTime>4/13/2015 2:42:34 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/13/2015 2:42:36 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{40ab55be-b2fb-4c92-aded-0bd560acb8ac}</Member>
+  </group>
   <group guid="{beedbf05-a155-407a-8d00-c9c6bbcfc899}" enable="True">
     <Name>Windows 8.1</Name>
     <Comments></Comments>

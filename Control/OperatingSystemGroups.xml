@@ -25,6 +25,21 @@
     <Member>{c88025c1-dddf-44d2-bcb1-8c05e2c20b97}</Member>
     <Member>{89b3c984-58b1-4fe3-ab32-80103532bb09}</Member>
   </group>
+  <group guid="{a045b667-1d96-4459-adab-5caab21f88bf}" enable="True">
+    <Name>Windows Server 2008 R2</Name>
+    <CreatedTime>4/13/2015 11:56:55 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/13/2015 12:03:02 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{6e25df9a-cc3c-420f-b49a-189f1f19604a}</Member>
+    <Member>{5e0a380b-4838-44ad-baa2-dcc53220fd58}</Member>
+    <Member>{beaa043a-d4ce-42bf-bef3-5a6adbc594cd}</Member>
+    <Member>{dc14a70d-8aac-4f0a-b8b1-634133a3e425}</Member>
+    <Member>{3e21857f-c118-4a68-859d-ed033b1e3dcd}</Member>
+    <Member>{7f079742-17a3-43c0-af49-39bfdefd6035}</Member>
+    <Member>{0c8168bd-f69d-4de3-aaa7-e5686ce1aad9}</Member>
+    <Member>{4f0b8e33-669e-4bcc-b02b-7a707b858fa1}</Member>
+  </group>
   <group guid="{60386a88-22ee-49d9-9d49-56c5adad0446}" enable="True">
     <Name>Windows 8.1</Name>
     <Comments></Comments>

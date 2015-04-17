@@ -21,6 +21,17 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
+  <ts guid="{40ab55be-b2fb-4c92-aded-0bd560acb8ac}" hide="False" enable="True">
+    <Name>Windows Server 2008 R2 - Baseline</Name>
+    <Comments>Reference image</Comments>
+    <CreatedTime>4/13/2015 2:42:36 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/14/2015 9:35:56 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>WS2008-R2-REF</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
+  </ts>
   <ts guid="{8ea4beb9-6c76-4f12-b109-8f3177543b42}" enable="True">
     <Name>Windows 8.1 Enterprise x64 - Baseline</Name>
     <Comments>Baseline image (reference build)</Comments>
