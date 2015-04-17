@@ -505,6 +505,35 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
+    <group expand="true" name="Cleanup before Sysprep" description="" disable="false" continueOnError="false">
+      <action />
+      <group expand="true" name="Compress the image" description="" disable="false" continueOnError="false">
+        <action />
+        <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+          <defaultVarList>
+            <variable name="SMSRebootMessage" property="Message" />
+            <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+            <variable name="SMSRebootTarget" property="Target" />
+          </defaultVarList>
+          <action>smsboot.exe /target:WinPE</action>
+        </step>
+        <step type="BDD_InstallApplication" name="Action - Cleanup before Sysprep" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+          <defaultVarList>
+            <variable name="ApplicationGUID" property="ApplicationGUID">{0ac32abc-40d8-4cc6-b3b4-caf787205750}</variable>
+            <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+          </defaultVarList>
+          <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+        </step>
+        <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+          <defaultVarList>
+            <variable name="SMSRebootMessage" property="Message" />
+            <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+            <variable name="SMSRebootTarget" property="Target" />
+          </defaultVarList>
+          <action>smsboot.exe /target:WinPE</action>
+        </step>
+      </group>
+    </group>
     <group expand="false" name="Imaging" description="" disable="false" continueOnError="false">
       <action />
       <group name="Prepare Only" disable="false" continueOnError="false" expand="false" description="">
