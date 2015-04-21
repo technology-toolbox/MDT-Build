@@ -1,10 +1,10 @@
 <tss>
   <ts guid="{76a6446a-6092-4a17-a753-eeff0c091d5a}" hide="False" enable="True">
     <Name>Windows 7 Ultimate (x86) - Baseline</Name>
-    <Comments>Reference image - Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/13/2015 12:33:02 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/17/2015 2:25:05 PM</LastModifiedTime>
+    <LastModifiedTime>4/20/2015 11:53:08 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W7ULT-X86-REF</ID>
     <Version>1.0</Version>
@@ -12,10 +12,10 @@
   </ts>
   <ts guid="{38bcb21f-b1c4-4667-96f8-16a8c5686e6b}" hide="False" enable="True">
     <Name>Windows 7 Ultimate (x64) - Baseline</Name>
-    <Comments>Reference image - Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/13/2015 12:33:18 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/17/2015 2:25:01 PM</LastModifiedTime>
+    <LastModifiedTime>4/20/2015 11:53:18 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W7ULT-X64-REF</ID>
     <Version>1.0</Version>
@@ -23,10 +23,10 @@
   </ts>
   <ts guid="{40ab55be-b2fb-4c92-aded-0bd560acb8ac}" hide="False" enable="True">
     <Name>Windows Server 2008 R2 - Baseline</Name>
-    <Comments>Reference image - Toolbox content, .NET Framework 3.5, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/13/2015 2:42:36 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/17/2015 2:25:16 PM</LastModifiedTime>
+    <LastModifiedTime>4/20/2015 11:53:25 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2008-R2-REF</ID>
     <Version>1.0</Version>
@@ -34,10 +34,10 @@
   </ts>
   <ts guid="{b6015cba-795b-4aab-ba3b-d18e6089749d}" hide="False" enable="True">
     <Name>Windows 8.1 Enterprise (x64) - Baseline</Name>
-    <Comments>Reference image - Toolbox content, .NET Framework 3.5, PowerShell help files, Office 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, PowerShell help files, Office 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/14/2015 4:31:33 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/17/2015 2:25:38 PM</LastModifiedTime>
+    <LastModifiedTime>4/20/2015 11:53:33 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W81ENT-X64-REF</ID>
     <Version>1.0</Version>
@@ -45,10 +45,10 @@
   </ts>
   <ts guid="{3f724378-216a-4625-ae5e-46c284446850}" hide="False" enable="True">
     <Name>Windows Server 2012 R2 - Baseline</Name>
-    <Comments>Reference image - Toolbox content, .NET Framework 3.5, PowerShell help files, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, PowerShell help files, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/14/2015 4:35:21 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/17/2015 2:25:50 PM</LastModifiedTime>
+    <LastModifiedTime>4/20/2015 11:53:40 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2012-R2-REF</ID>
     <Version>1.0</Version>
@@ -56,10 +56,10 @@
   </ts>
   <ts guid="{aaa903ca-5b66-4585-95dc-25bc9428931a}" hide="False" enable="True">
     <Name>SharePoint Server 2013 - Development</Name>
-    <Comments>Reference image - Windows Server 2012 R2, Toolbox content, Windows features for SharePoint 2013, PowerShell help files, SQL Server 2014, Visual Studio 2013 with Update 4, Office 2013, SharePoint Server 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - Windows Server 2012 R2, MaxPatchCacheSize = 0, Toolbox content, Windows features for SharePoint 2013, PowerShell help files, SQL Server 2014, Visual Studio 2013 with Update 4, Office 2013, SharePoint Server 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/14/2015 10:57:24 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/17/2015 12:22:59 PM</LastModifiedTime>
+    <LastModifiedTime>4/20/2015 11:53:51 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>SP2013-DEV-REF</ID>
     <Version>1.0</Version>
