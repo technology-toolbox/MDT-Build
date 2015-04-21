@@ -85,6 +85,17 @@
     <Dependency>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Dependency>
     <Dependency>{eb047540-e5a9-4230-aba5-c57a6e733648}</Dependency>
   </application>
+  <application guid="{b71fabf8-51ab-44b7-9197-c8accc4a09c8}">
+    <Name>SharePoint Designer 2013 with Service Pack 1 (x86)</Name>
+    <CreatedTime>4/21/2015 4:36:07 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>4/21/2015 4:36:07 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SPD2013-x86-SP1</ShortName>
+    <Source>.\Applications\SPD2013-x86-SP1</Source>
+    <CommandLine>setup.exe /config sharepointdesigner.ww\config.xml</CommandLine>
+    <WorkingDirectory>.\Applications\SPD2013-x86-SP1</WorkingDirectory>
+  </application>
   <application guid="{50c55ab7-ccbe-442d-8dd7-14464017cf48}">
     <Name>SharePoint Server 2013 with Service Pack 1</Name>
     <CreatedTime>4/14/2015 10:48:24 PM</CreatedTime>

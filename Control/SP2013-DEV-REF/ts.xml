@@ -456,6 +456,13 @@
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
+      <step type="BDD_InstallApplication" name="Install SharePoint Designer 2013 with Service Pack 1 (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{b71fabf8-51ab-44b7-9197-c8accc4a09c8}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
       <step type="BDD_InstallApplication" name="Install SharePoint Server 2013 with Service Pack 1 - Prerequisites" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{4841eddc-8646-4c5a-a35d-4701d0702192}</variable>
