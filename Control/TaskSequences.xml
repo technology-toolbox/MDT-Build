@@ -56,10 +56,10 @@
   </ts>
   <ts guid="{aaa903ca-5b66-4585-95dc-25bc9428931a}" hide="False" enable="True">
     <Name>SharePoint Server 2013 - Development</Name>
-    <Comments>Reference image - Windows Server 2012 R2, MaxPatchCacheSize = 0, Toolbox content, Windows features for SharePoint 2013, PowerShell help files, SQL Server 2014, Visual Studio 2013 with Update 4, Office 2013, SharePoint Designer 2013, SharePoint Server 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - Windows Server 2012 R2, MaxPatchCacheSize = 0, Toolbox content, Windows features for SharePoint 2013, PowerShell help files, SQL Server 2014, Visual Studio 2013 with Update 5, Office 2013, SharePoint Designer 2013, SharePoint Server 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/14/2015 10:57:24 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/21/2015 5:08:31 PM</LastModifiedTime>
+    <LastModifiedTime>8/17/2015 10:52:08 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>SP2013-DEV-REF</ID>
     <Version>1.0</Version>
