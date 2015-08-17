@@ -31,27 +31,6 @@
     <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQLEngine,ADV_SSMS /INSTANCEID=MSSQLSERVER</CommandLine>
     <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
   </application>
-  <application guid="{dbba4ec8-2623-4ac3-a80a-4cdb33f8b305}">
-    <Name>Visual Studio 2013 with Update 4 - Default</Name>
-    <CreatedTime>4/14/2015 10:10:32 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:10:32 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2013-Update4</ShortName>
-    <Source>.\Applications\VS2013-Update4</Source>
-    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\appSetupFolder\AdminDeployment.xml</CommandLine>
-    <WorkingDirectory>.\Applications\VS2013-Update4</WorkingDirectory>
-  </application>
-  <application guid="{5a6efbfc-ec76-4904-aa7c-f61e17f29175}">
-    <Name>Visual Studio 2013 with Update 4 - SP2013 Development</Name>
-    <CreatedTime>4/14/2015 10:39:22 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:39:22 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2013-Update4-SP2013-Dev</ShortName>
-    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2013-Update4\AdminDeployment-SP2013-Dev.xml</CommandLine>
-    <WorkingDirectory>.\Applications\VS2013-Update4</WorkingDirectory>
-  </application>
   <application guid="{f66c3f8a-da57-4a16-875f-0978e7e53290}">
     <Name>Microsoft Office Developer Tools for Visual Studio 2013 - November 2014 Update</Name>
     <CreatedTime>4/14/2015 10:40:40 PM</CreatedTime>
@@ -78,10 +57,10 @@
     <Name>Visual Studio 2013 for SP2013 Development</Name>
     <CreatedTime>4/14/2015 10:42:23 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:45:44 PM</LastModifiedTime>
+    <LastModifiedTime>8/17/2015 5:25:02 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ShortName>VS2013-SP2013</ShortName>
-    <Dependency>{5a6efbfc-ec76-4904-aa7c-f61e17f29175}</Dependency>
+    <Dependency>{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}</Dependency>
     <Dependency>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Dependency>
     <Dependency>{eb047540-e5a9-4230-aba5-c57a6e733648}</Dependency>
   </application>
@@ -127,5 +106,26 @@
     <Source>.\Applications\SPD2013-x86-SP1</Source>
     <CommandLine>setup.exe /config sharepointdesigner.ww\config.xml</CommandLine>
     <WorkingDirectory>.\Applications\SPD2013-x86-SP1</WorkingDirectory>
+  </application>
+  <application guid="{4792e5b9-b2d2-4446-bab7-a6b36a01667e}">
+    <Name>Visual Studio 2013 with Update 5 - Default</Name>
+    <CreatedTime>8/17/2015 5:21:42 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>8/17/2015 5:21:42 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>VS2013-Update5</ShortName>
+    <Source>.\Applications\VS2013-Update5</Source>
+    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\appSetupFolder\AdminDeployment.xml</CommandLine>
+    <WorkingDirectory>.\Applications\VS2013-Update5</WorkingDirectory>
+  </application>
+  <application guid="{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}">
+    <Name>Visual Studio 2013 with Update 5 - SP2013 Development</Name>
+    <CreatedTime>8/17/2015 5:22:15 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>8/17/2015 5:22:15 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>VS2013-Update5-SP2013-Dev</ShortName>
+    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2013-Update5\AdminDeployment-SP2013-Dev.xml</CommandLine>
+    <WorkingDirectory>.\Applications\VS2013-Update5</WorkingDirectory>
   </application>
 </applications>
