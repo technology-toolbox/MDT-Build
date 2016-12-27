@@ -65,4 +65,5 @@
   </Database.Name>
   <Database.SQLShare>
   </Database.SQLShare>
+  <SkipWimSplit>True</SkipWimSplit>
 </Settings>
