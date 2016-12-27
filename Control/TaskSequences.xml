@@ -65,4 +65,15 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
+  <ts guid="{734350d5-8f64-493a-a7e9-cff15a1592e5}" enable="True">
+    <Name>Windows 10 Enterprise (x64) - Baseline</Name>
+    <Comments>Reference image</Comments>
+    <CreatedTime>12/27/2016 6:09:32 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/27/2016 6:09:32 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>W10ENT-1607-X64-REF</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
+  </ts>
 </tss>

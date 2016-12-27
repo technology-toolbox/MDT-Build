@@ -41,4 +41,12 @@
     <Member>{aaa903ca-5b66-4585-95dc-25bc9428931a}</Member>
     <Member>{3f724378-216a-4625-ae5e-46c284446850}</Member>
   </group>
+  <group guid="{6ff62314-ebdb-4a3b-8753-77deb80393b6}" enable="True">
+    <Name>Windows 10</Name>
+    <CreatedTime>12/27/2016 6:09:29 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/27/2016 6:09:32 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{734350d5-8f64-493a-a7e9-cff15a1592e5}</Member>
+  </group>
 </groups>
