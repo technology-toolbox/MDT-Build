@@ -65,12 +65,12 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
-  <ts guid="{734350d5-8f64-493a-a7e9-cff15a1592e5}" enable="True">
+  <ts guid="{734350d5-8f64-493a-a7e9-cff15a1592e5}" hide="False" enable="True">
     <Name>Windows 10 Enterprise (x64) - Baseline</Name>
-    <Comments>Reference image</Comments>
+    <Comments>Reference image - Toolbox content, .NET Framework 3.5, and latest patches</Comments>
     <CreatedTime>12/27/2016 6:09:32 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/27/2016 6:09:32 PM</LastModifiedTime>
+    <LastModifiedTime>12/27/2016 8:58:43 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W10ENT-X64-REF</ID>
     <Version>1.0</Version>
