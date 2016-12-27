@@ -76,4 +76,15 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Client.xml</TaskSequenceTemplate>
   </ts>
+  <ts guid="{678dbb58-e70a-4636-9475-2f343526f6e4}" enable="True">
+    <Name>Windows Server 2016 - Baseline</Name>
+    <Comments>Reference image</Comments>
+    <CreatedTime>12/27/2016 6:42:11 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/27/2016 6:42:11 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>WS2016-REF</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
+  </ts>
 </tss>

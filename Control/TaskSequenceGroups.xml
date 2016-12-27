@@ -49,4 +49,12 @@
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Member>{734350d5-8f64-493a-a7e9-cff15a1592e5}</Member>
   </group>
+  <group guid="{1ed4e756-133e-4392-86e8-4c71eb14ac62}" enable="True">
+    <Name>Windows Server 2016</Name>
+    <CreatedTime>12/27/2016 6:23:39 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/27/2016 6:42:11 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{678dbb58-e70a-4636-9475-2f343526f6e4}</Member>
+  </group>
 </groups>
