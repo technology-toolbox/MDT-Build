@@ -57,4 +57,23 @@
     <Member>{9abff136-a9c1-41dd-9d7e-c88c9125dee2}</Member>
     <Member>{a3ef5936-602e-4fb6-8818-3d19aa81e795}</Member>
   </group>
+  <group guid="{bc25c377-ad84-4f1a-b3a4-a1ab23b5d2ec}" enable="True">
+    <Name>Windows 10</Name>
+    <CreatedTime>12/27/2016 5:38:01 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/27/2016 5:46:36 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{da24f4b3-0a7f-4f6a-9f48-49d2c31a09e5}</Member>
+  </group>
+  <group guid="{ad26ab70-eb5b-4e50-af37-9e7c428b6f83}" enable="True">
+    <Name>Windows Server 2016</Name>
+    <CreatedTime>12/27/2016 5:49:18 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/27/2016 5:54:58 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{445ba6a8-4c60-48a8-a8f1-27155555681b}</Member>
+    <Member>{f1378db5-d7ad-4d8f-9b1d-7df70d77f02e}</Member>
+    <Member>{be772483-3e24-4bf4-87eb-48f2275675e1}</Member>
+    <Member>{e4ad6190-0f9f-42ae-99b0-f730ecdefa2c}</Member>
+  </group>
 </groups>
