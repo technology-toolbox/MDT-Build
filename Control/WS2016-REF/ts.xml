@@ -472,15 +472,6 @@
         </defaultVarList>
         <action>robocopy \\ICEMAN\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
       </step>
-      <step type="BDD_InstallRoles" name="Install Microsoft .NET Framework 3.5" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
-        <defaultVarList>
-          <variable name="OSRoleIndex" property="OSRoleIndex">14</variable>
-          <variable name="OSRoles" property="OSRoles"></variable>
-          <variable name="OSRoleServices" property="OSRoleServices"></variable>
-          <variable name="OSFeatures" property="OSFeatures">NET-Framework-Core</variable>
-        </defaultVarList>
-        <action>cscript.exe "%SCRIPTROOT%\ZTIOSRole.wsf"</action>
-      </step>
     </group>
     <step name="Opt In to CEIP and WER" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIOptIn.wsf" /CEIP:YES /WER:YES</action>
