@@ -1,6 +1,6 @@
 setlocal
 
-set SOURCE_PATH=\\ICEMAN\Products\Microsoft\SharePoint 2013\PrerequisiteInstallerFiles_SP1
+set SOURCE_PATH=\\TT-FS01\Products\Microsoft\SharePoint 2013\PrerequisiteInstallerFiles_SP1
 
 REM An error occurs if %TEMP% is used to store the prerequisite files when installing
 REM via the Microsoft Deployment Toolkit (presumably due to cleanup of temp files during

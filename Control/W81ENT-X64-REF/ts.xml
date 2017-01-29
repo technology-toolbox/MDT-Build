@@ -451,7 +451,7 @@
         <action>PowerShell.exe -Command "&amp; { New-Item -Path 'HKLM:\Software\Policies\Microsoft\Windows\Installer'; New-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows\Installer' -Name MaxPatchCacheSize -PropertyType DWord -Value 0 | Out-Null }"</action>
       </step>
       <action />
-      <step type="SMS_TaskSequence_RunCommandLineAction" name="Copy Toolbox content from ICEMAN" description="" disable="false" continueOnError="false" startIn="" successCodeList="0 1 2 3 4 5 6 7 8 16" runIn="WinPEandFullOS">
+      <step type="SMS_TaskSequence_RunCommandLineAction" name="Copy Toolbox content from TT-FS01" description="" disable="false" continueOnError="false" startIn="" successCodeList="0 1 2 3 4 5 6 7 8 16" runIn="WinPEandFullOS">
         <defaultVarList>
           <variable name="PackageID" property="PackageID"></variable>
           <variable name="RunAsUser" property="RunAsUser">false</variable>
@@ -459,7 +459,7 @@
           <variable name="SMSTSRunCommandLineUserPassword" property="SMSTSRunCommandLineUserPassword"></variable>
           <variable name="LoadProfile" property="LoadProfile">false</variable>
         </defaultVarList>
-        <action>robocopy \\ICEMAN\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
+        <action>robocopy \\TT-FS01\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
       </step>
       <step type="BDD_InstallRoles" name="Install Microsoft .NET Framework 3.5" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
