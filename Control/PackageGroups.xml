@@ -7,12 +7,4 @@
     <Name>hidden</Name>
     <Comments>This folder contains shared source items that have not been made explicitly visible in this deployment share.</Comments>
   </group>
-  <group guid="{dfbe608f-ce6e-4a9e-b39f-3573371b8f0e}" enable="True">
-    <Name>Windows 10 (x64)</Name>
-    <CreatedTime>12/28/2016 12:44:32 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/28/2016 12:49:39 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Member>{d8169f5a-2d78-4e58-97b0-1aa737b878a3}</Member>
-  </group>
 </groups>

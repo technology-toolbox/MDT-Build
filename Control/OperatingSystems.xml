@@ -461,11 +461,11 @@
     <Size>12457</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{da24f4b3-0a7f-4f6a-9f48-49d2c31a09e5}" enable="True">
+  <os guid="{c5bca89b-61f3-4d0f-948d-c1e7ba475c7a}" enable="True">
     <Name>Windows 10 Enterprise, Version 1607 (x64)</Name>
-    <CreatedTime>12/27/2016 5:44:24 PM</CreatedTime>
+    <CreatedTime>1/29/2017 12:47:11 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/27/2016 5:44:24 PM</LastModifiedTime>
+    <LastModifiedTime>1/29/2017 12:47:11 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Enterprise</Description>
     <Platform>x64</Platform>
@@ -478,15 +478,15 @@
     <ImageIndex>1</ImageIndex>
     <ImageName>Windows 10 Enterprise</ImageName>
     <Flags>Enterprise</Flags>
-    <HAL></HAL>
-    <Size>13319</Size>
+    <HAL>acpiapic</HAL>
+    <Size>13936</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{e4ad6190-0f9f-42ae-99b0-f730ecdefa2c}" enable="True">
+  <os guid="{725b4b6b-218f-45fa-9879-16c2da603eab}" enable="True">
     <Name>Windows Server 2016 Standard (Server Core Installation)</Name>
-    <CreatedTime>12/27/2016 5:52:22 PM</CreatedTime>
+    <CreatedTime>1/29/2017 12:52:27 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/27/2016 5:52:22 PM</LastModifiedTime>
+    <LastModifiedTime>1/29/2017 12:52:27 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2016 SERVERSTANDARDCORE</Description>
     <Platform>x64</Platform>
@@ -500,14 +500,14 @@
     <ImageName>Windows Server 2016 SERVERSTANDARDCORE</ImageName>
     <Flags>ServerStandard</Flags>
     <HAL>acpiapic</HAL>
-    <Size>8755</Size>
+    <Size>8920</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{be772483-3e24-4bf4-87eb-48f2275675e1}" enable="True">
+  <os guid="{5c18db6a-6f96-438f-aa82-6341120d5d74}" enable="True">
     <Name>Windows Server 2016 Standard</Name>
-    <CreatedTime>12/27/2016 5:52:22 PM</CreatedTime>
+    <CreatedTime>1/29/2017 12:52:27 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/27/2016 5:52:22 PM</LastModifiedTime>
+    <LastModifiedTime>1/29/2017 12:52:27 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2016 SERVERSTANDARD</Description>
     <Platform>x64</Platform>
@@ -521,14 +521,14 @@
     <ImageName>Windows Server 2016 SERVERSTANDARD</ImageName>
     <Flags>ServerStandard</Flags>
     <HAL>acpiapic</HAL>
-    <Size>14492</Size>
+    <Size>14718</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{f1378db5-d7ad-4d8f-9b1d-7df70d77f02e}" enable="True">
+  <os guid="{fa66c830-bf5b-476c-b857-d0adf54c833b}" enable="True">
     <Name>Windows Server 2016 Datacenter (Server Core Installation)</Name>
-    <CreatedTime>12/27/2016 5:52:22 PM</CreatedTime>
+    <CreatedTime>1/29/2017 12:52:27 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/27/2016 5:52:22 PM</LastModifiedTime>
+    <LastModifiedTime>1/29/2017 12:52:27 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2016 SERVERDATACENTERCORE</Description>
     <Platform>x64</Platform>
@@ -542,14 +542,14 @@
     <ImageName>Windows Server 2016 SERVERDATACENTERCORE</ImageName>
     <Flags>ServerDatacenter</Flags>
     <HAL>acpiapic</HAL>
-    <Size>8750</Size>
+    <Size>8920</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{445ba6a8-4c60-48a8-a8f1-27155555681b}" enable="True">
+  <os guid="{f734715e-eb7e-43d4-8495-87f86f39381e}" enable="True">
     <Name>Windows Server 2016 Datacenter</Name>
-    <CreatedTime>12/27/2016 5:52:22 PM</CreatedTime>
+    <CreatedTime>1/29/2017 12:52:27 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/27/2016 5:52:22 PM</LastModifiedTime>
+    <LastModifiedTime>1/29/2017 12:52:27 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2016 SERVERDATACENTER</Description>
     <Platform>x64</Platform>
@@ -563,7 +563,7 @@
     <ImageName>Windows Server 2016 SERVERDATACENTER</ImageName>
     <Flags>ServerDatacenter</Flags>
     <HAL>acpiapic</HAL>
-    <Size>14494</Size>
+    <Size>14724</Size>
     <Language>en-US</Language>
   </os>
 </oss>
