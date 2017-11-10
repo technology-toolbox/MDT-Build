@@ -149,4 +149,37 @@
     <CommandLine>vs_enterprise.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2015-Update3\AdminDeployment-SP2013-Dev.xml</CommandLine>
     <WorkingDirectory>.\Applications\VS2015-Update3</WorkingDirectory>
   </application>
+  <application guid="{affd90fb-a1b5-4042-9462-9c832934de63}">
+    <Name>Office Developer Tools Update 2 for Visual Studio 2015</Name>
+    <CreatedTime>11/10/2017 2:48:30 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>11/10/2017 2:48:30 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>OfficeToolsForVS2015Update2</ShortName>
+    <Source>.\Applications\OfficeToolsForVS2015Update2</Source>
+    <CommandLine>cba_bundle.exe /Quiet /NoRestart</CommandLine>
+    <WorkingDirectory>.\Applications\OfficeToolsForVS2015Update2</WorkingDirectory>
+  </application>
+  <application guid="{c3f2fda5-6322-4e6a-979a-3393ecd44128}">
+    <Name>Microsoft SQL Server Update for database tooling (VS2015)</Name>
+    <CreatedTime>11/10/2017 2:49:18 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>11/10/2017 2:49:18 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>SSDT-VS2015</ShortName>
+    <Source>.\Applications\SSDT-VS2015</Source>
+    <CommandLine>SSDTSETUP.EXE /q /norestart</CommandLine>
+    <WorkingDirectory>.\Applications\SSDT-VS2015</WorkingDirectory>
+  </application>
+  <application guid="{29c73a6d-8de0-4b06-9d3b-48e3ca63f069}">
+    <Name>Visual Studio 2015 for SP2013 Development</Name>
+    <CreatedTime>11/10/2017 2:49:19 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>11/10/2017 2:50:30 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>VS2015-SP2013</ShortName>
+    <Dependency>{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}</Dependency>
+    <Dependency>{affd90fb-a1b5-4042-9462-9c832934de63}</Dependency>
+    <Dependency>{c3f2fda5-6322-4e6a-979a-3393ecd44128}</Dependency>
+  </application>
 </applications>
