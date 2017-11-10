@@ -182,4 +182,14 @@
     <Dependency>{affd90fb-a1b5-4042-9462-9c832934de63}</Dependency>
     <Dependency>{c3f2fda5-6322-4e6a-979a-3393ecd44128}</Dependency>
   </application>
+  <application guid="{51ec1d53-e615-42db-bef7-64d8ab8d78ff}">
+    <Name>Office Professional Plus 2016 (x86)</Name>
+    <CreatedTime>11/10/2017 5:52:28 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>11/10/2017 5:52:28 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>Office2016ProPlus-x86</ShortName>
+    <CommandLine>setup.exe /configure configuration.xml</CommandLine>
+    <WorkingDirectory>.\Applications\Office2016ProPlus-x86</WorkingDirectory>
+  </application>
 </applications>
