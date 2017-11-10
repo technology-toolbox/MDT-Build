@@ -8,6 +8,7 @@
     <variable name="DestinationOSRefresh" property="DestinationOSRefresh"></variable>
     <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
     <variable name="DestinationOSInstallType" property="DestinationOSInstallType">ByVariable</variable>
+    <variable name="OSGUID" property="OSGUID">{a3ef5936-602e-4fb6-8818-3d19aa81e795}</variable>
   </globalVarList>
   <group name="Initialization" disable="false" continueOnError="false" description="Initialize the TS environment" expand="false">
     <step type="BDD_Gather" name="Gather local only" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
@@ -442,13 +443,6 @@
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
       </step>
-      <step type="BDD_InstallApplication" name="Install Visual Studio 2013 for SP2013 Development" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
-        <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}</variable>
-          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
-        </defaultVarList>
-        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
-      </step>
       <step type="BDD_InstallApplication" name="Install Microsoft Office 2013 Professional Plus (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="ApplicationGUID" property="ApplicationGUID">{2ceeca60-258c-4077-891c-c1259091c0fe}</variable>
@@ -494,6 +488,21 @@
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+      <step type="BDD_InstallApplication" name="Install Visual Studio 2015 for SP2013 Development" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{29c73a6d-8de0-4b06-9d3b-48e3ca63f069}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+      <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="SMSRebootMessage" property="Message" />
+          <variable name="SMSRebootTimeout" property="MessageTimeout">60</variable>
+          <variable name="SMSRebootTarget" property="Target" />
+        </defaultVarList>
+        <action>smsboot.exe /target:WinPE</action>
       </step>
     </group>
     <step name="Opt In to CEIP and WER" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
