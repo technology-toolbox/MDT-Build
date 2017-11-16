@@ -78,10 +78,10 @@
   </ts>
   <ts guid="{678dbb58-e70a-4636-9475-2f343526f6e4}" hide="False" enable="True">
     <Name>Windows Server 2016 - Baseline</Name>
-    <Comments>Reference image - Toolbox content and latest patches</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, and latest patches</Comments>
     <CreatedTime>12/27/2016 6:42:11 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>1/10/2017 5:31:30 PM</LastModifiedTime>
+    <LastModifiedTime>11/13/2017 1:43:12 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2016-REF</ID>
     <Version>1.0</Version>
