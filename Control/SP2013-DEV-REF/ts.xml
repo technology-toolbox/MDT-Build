@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <sequence version="3.00" name="Standard Server Task Sequence" description="A complete task sequence for deploying a server operating system">
   <globalVarList>
-    <variable name="OSGUID" property="OSGUID">{a3ef5936-602e-4fb6-8818-3d19aa81e795}</variable>
     <variable name="DestinationDisk" property="DestinationDisk">0</variable>
     <variable name="DestinationPartition" property="DestinationPartition">1</variable>
     <variable name="DestinationOSVariable" property="DestinationOSVariable">OSDisk</variable>
@@ -514,7 +513,7 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
-    <step name="Windows Update (Pre-Application Installation)" disable="false" continueOnError="true" successCodeList="0 3010" description="" startIn="">
+    <step name="Windows Update (Pre-Application Installation)" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIWindowsUpdate.wsf"</action>
       <defaultVarList>
         <variable name="RunAsUser" property="RunAsUser">false</variable>
@@ -540,7 +539,7 @@
       </defaultVarList>
       <action>cscript.exe "%SCRIPTROOT%\LTISuspend.wsf"</action>
     </step>
-    <step name="Windows Update (Post-Application Installation)" disable="false" continueOnError="true" successCodeList="0 3010" description="" startIn="">
+    <step name="Windows Update (Post-Application Installation)" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIWindowsUpdate.wsf"</action>
       <defaultVarList>
         <variable name="RunAsUser" property="RunAsUser">false</variable>
