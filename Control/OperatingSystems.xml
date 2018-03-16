@@ -461,27 +461,6 @@
     <Size>12457</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{c5bca89b-61f3-4d0f-948d-c1e7ba475c7a}" enable="True">
-    <Name>Windows 10 Enterprise, Version 1607 (x64)</Name>
-    <CreatedTime>1/29/2017 12:47:11 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>1/29/2017 12:47:11 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Enterprise</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.14393.0</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1607-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1607-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 10 Enterprise</ImageName>
-    <Flags>Enterprise</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>13936</Size>
-    <Language>en-US</Language>
-  </os>
   <os guid="{725b4b6b-218f-45fa-9879-16c2da603eab}" enable="True">
     <Name>Windows Server 2016 Standard (Server Core Installation)</Name>
     <CreatedTime>1/29/2017 12:52:27 AM</CreatedTime>
@@ -564,27 +543,6 @@
     <Flags>ServerDatacenter</Flags>
     <HAL>acpiapic</HAL>
     <Size>14724</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{e0d25045-f567-4cfe-8f0a-548ccfeb0edb}" enable="True">
-    <Name>Windows 10 Enterprise, Version 1703 (x64)</Name>
-    <CreatedTime>4/14/2017 4:25:48 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2017 4:25:48 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Enterprise</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.15063.0</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1703-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1703-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 10 Enterprise</ImageName>
-    <Flags>Enterprise</Flags>
-    <HAL></HAL>
-    <Size>14584</Size>
     <Language>en-US</Language>
   </os>
   <os guid="{44c08116-b2c9-4a3a-963d-fd3de74bb46c}" enable="True">
