@@ -192,4 +192,18 @@
     <CommandLine>setup.exe /configure configuration.xml</CommandLine>
     <WorkingDirectory>.\Applications\Office2016ProPlus-x86</WorkingDirectory>
   </application>
+  <application guid="{61a9f792-2d66-437c-bc9c-0bd8de22545d}" hide="False" enable="True">
+    <Name>Action - Import certificates</Name>
+    <CreatedTime>6/18/2018 3:06:35 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>6/18/2018 4:13:56 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>Import-certificates</ShortName>
+    <Version></Version>
+    <Publisher></Publisher>
+    <Language></Language>
+    <CommandLine>cscript.exe ZTIImportCertificates.wsf</CommandLine>
+    <WorkingDirectory>.\Applications\Action - Import certificates</WorkingDirectory>
+    <Reboot>False</Reboot>
+  </application>
 </applications>

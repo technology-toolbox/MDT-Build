@@ -1,0 +1,45 @@
+<job id="ZTIImportCertificates">
+<script language="VBScript" src="..\..\Scripts\ZTIUtility.vbs"/>
+<script language="VBScript">
+
+Option Explicit
+RunNewInstance
+
+'//----------------------------------------------------------------------------
+'//  Main Class
+'//----------------------------------------------------------------------------
+
+Class ZTIImportCertificates
+
+	'//----------------------------------------------------------------------------
+	'//  Main routine
+	'//----------------------------------------------------------------------------
+	
+	Function Main
+	
+		' Local Variables
+
+		Dim iRetVal
+		Dim sActionName
+
+		sActionName = "Action-ImportCertificates"
+
+		' Main script processing
+
+		oLogging.CreateEntry sActionName & ": Starting", LogTypeInfo
+
+		oLogging.CreateEntry sActionName & ": Importing certificate - COMODO SECURE™", LogTypeInfo
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -addstore root COMODO-SECURE.cer")
+
+		If (iRetVal <> 0) Then
+			oLogging.CreateEntry "Error importing certificate - COMODO SECURE™" , LogTypeError
+
+			Main = FAILURE
+			Exit Function
+		End If
+
+		Main = SUCCESS
+	End Function
+End Class
+</script>
+</job>

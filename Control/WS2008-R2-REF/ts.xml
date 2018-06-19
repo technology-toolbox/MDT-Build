@@ -417,6 +417,13 @@
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIOSRole.wsf"</action>
       </step>
+      <step type="BDD_InstallApplication" name="Action - Import certificates" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{61a9f792-2d66-437c-bc9c-0bd8de22545d}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
     </group>
     <step name="Opt In to CEIP and WER" disable="true" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIOptIn.wsf" /CEIP:YES /WER:YES</action>
