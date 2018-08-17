@@ -7,7 +7,7 @@
     <variable name="DestinationOSRefresh" property="DestinationOSRefresh"></variable>
     <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
     <variable name="DestinationOSInstallType" property="DestinationOSInstallType">ByVariable</variable>
-    <variable name="OSGUID" property="OSGUID">{632a7801-43c1-4ced-935f-ea42d7ab4c1e}</variable>
+    <variable name="OSGUID" property="OSGUID">{c5320235-378e-4c19-a803-b8a7e303cc42}</variable>
   </globalVarList>
   <group name="Initialization" disable="false" continueOnError="false" description="Initialize the TS environment" expand="false">
     <step type="BDD_Gather" name="Gather local only" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
@@ -391,7 +391,7 @@
     </condition>
     <step type="BDD_InstallOS" name="Install Operating System" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
       <defaultVarList>
-        <variable name="OSGUID" property="OSGUID">{632a7801-43c1-4ced-935f-ea42d7ab4c1e}</variable>
+        <variable name="OSGUID" property="OSGUID">{c5320235-378e-4c19-a803-b8a7e303cc42}</variable>
         <variable name="DestinationDisk" property="DestinationDisk">0</variable>
         <variable name="DestinationPartition" property="DestinationPartition">1</variable>
         <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
@@ -649,7 +649,7 @@
     </step>
     <group expand="false" name="Cleanup before Sysprep" description="" disable="false" continueOnError="false">
       <action />
-      <group expand="true" name="Compress the image" description="" disable="false" continueOnError="false">
+      <group expand="false" name="Compress the image" description="" disable="false" continueOnError="false">
         <action />
         <step type="SMS_TaskSequence_RebootAction" name="Restart computer" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
           <defaultVarList>
