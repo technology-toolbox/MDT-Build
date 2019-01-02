@@ -206,4 +206,14 @@
     <WorkingDirectory>.\Applications\Action - Import certificates</WorkingDirectory>
     <Reboot>False</Reboot>
   </application>
+  <application guid="{2fd6f17f-00c1-43d4-89a0-e5a4491bdf30}">
+    <Name>Office Professional Plus 2019 (x64)</Name>
+    <CreatedTime>10/31/2018 4:45:14 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>10/31/2018 4:45:14 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>Office2019ProPlus-x64</ShortName>
+    <CommandLine>setup.exe /configure configuration-Office365-x64.xml</CommandLine>
+    <WorkingDirectory>.\Applications\Office2019ProPlus-x64</WorkingDirectory>
+  </application>
 </applications>
