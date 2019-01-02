@@ -543,9 +543,9 @@
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIOSRole.wsf"</action>
       </step>
-      <step type="BDD_InstallApplication" name="Install Office Professional Plus 2016 (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+      <step type="BDD_InstallApplication" name="Install Office Professional Plus 2019 (x64)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
-          <variable name="ApplicationGUID" property="ApplicationGUID">{51ec1d53-e615-42db-bef7-64d8ab8d78ff}</variable>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{2fd6f17f-00c1-43d4-89a0-e5a4491bdf30}</variable>
           <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
         </defaultVarList>
         <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>

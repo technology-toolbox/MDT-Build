@@ -67,10 +67,10 @@
   </ts>
   <ts guid="{734350d5-8f64-493a-a7e9-cff15a1592e5}" hide="False" enable="True">
     <Name>Windows 10 Enterprise (x64) - Baseline</Name>
-    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, Office 2016, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, Office 2019, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>12/27/2016 6:09:32 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/13/2017 5:52:19 PM</LastModifiedTime>
+    <LastModifiedTime>10/31/2018 4:47:22 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W10ENT-X64-REF</ID>
     <Version>1.0</Version>
