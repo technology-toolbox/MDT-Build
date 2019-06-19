@@ -461,6 +461,13 @@
         </defaultVarList>
         <action>robocopy \\TT-FS01\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
       </step>
+      <step type="BDD_InstallApplication" name="Install Microsoft Security Essentials (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{7d367c9f-93e1-42b0-826d-d6f133059e08}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
       <step type="BDD_InstallRoles" name="Install Microsoft .NET Framework 3.5" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
           <variable name="OSRoleIndex" property="OSRoleIndex">4</variable>

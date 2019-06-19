@@ -216,4 +216,26 @@
     <CommandLine>setup.exe /configure configuration-Office365-x64.xml</CommandLine>
     <WorkingDirectory>.\Applications\Office2019ProPlus-x64</WorkingDirectory>
   </application>
+  <application guid="{03078b71-9e50-4023-b6f7-e7fd343886aa}">
+    <Name>Microsoft Security Essentials (x64)</Name>
+    <CreatedTime>2/21/2019 1:06:52 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>2/21/2019 1:06:52 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>MSE-x64</ShortName>
+    <Source>.\Applications\MSE-x64</Source>
+    <CommandLine>MSEInstall.exe /s /runwgacheck /o</CommandLine>
+    <WorkingDirectory>.\Applications\MSE-x64</WorkingDirectory>
+  </application>
+  <application guid="{7d367c9f-93e1-42b0-826d-d6f133059e08}">
+    <Name>Microsoft Security Essentials (x86)</Name>
+    <CreatedTime>2/21/2019 1:08:32 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>2/21/2019 1:08:32 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ShortName>MSE-x86</ShortName>
+    <Source>.\Applications\MSE-x86</Source>
+    <CommandLine>MSEInstall.exe /s /runwgacheck /o</CommandLine>
+    <WorkingDirectory>.\Applications\MSE-x86</WorkingDirectory>
+  </application>
 </applications>

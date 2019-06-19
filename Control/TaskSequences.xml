@@ -1,10 +1,10 @@
 <tss>
   <ts guid="{76a6446a-6092-4a17-a753-eeff0c091d5a}" hide="False" enable="True">
     <Name>Windows 7 Ultimate (x86) - Baseline</Name>
-    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, Microsoft Security Essentials, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/13/2015 12:33:02 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/20/2015 11:53:08 AM</LastModifiedTime>
+    <LastModifiedTime>2/21/2019 1:14:37 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W7ULT-X86-REF</ID>
     <Version>1.0</Version>
@@ -12,10 +12,10 @@
   </ts>
   <ts guid="{38bcb21f-b1c4-4667-96f8-16a8c5686e6b}" hide="False" enable="True">
     <Name>Windows 7 Ultimate (x64) - Baseline</Name>
-    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, Microsoft Security Essentials, .NET Framework 3.5, Office 2013, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>4/13/2015 12:33:18 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/20/2015 11:53:18 AM</LastModifiedTime>
+    <LastModifiedTime>2/21/2019 1:14:30 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>W7ULT-X64-REF</ID>
     <Version>1.0</Version>
