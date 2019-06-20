@@ -545,214 +545,214 @@
     <Size>14842</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{96ccfb15-dd7f-493c-9740-54cd58741f06}" enable="True">
-    <Name>Windows 10 Education in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{c6f8d646-88f8-4ef4-930b-d8d899a3dbd5}" enable="True">
+    <Name>Windows 10 Education in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:44 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:44 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Education</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>1</ImageIndex>
     <ImageName>Windows 10 Education</ImageName>
     <Flags>Education</Flags>
     <HAL></HAL>
-    <Size>14118</Size>
+    <Size>13834</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{b5446ef8-d72d-40fc-a4db-30514be44367}" enable="True">
-    <Name>Windows 10 Education N in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{f4132a5b-66d2-46f2-88c9-8ef0052a30b6}" enable="True">
+    <Name>Windows 10 Education N in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Education N</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>2</ImageIndex>
     <ImageName>Windows 10 Education N</ImageName>
     <Flags>EducationN</Flags>
     <HAL></HAL>
-    <Size>13332</Size>
+    <Size>13064</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{92434648-bf74-4334-adc6-c832ad15f9e6}" enable="True">
-    <Name>Windows 10 Enterprise in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{822f90fa-d4b5-4f36-a80e-8ca50b9ef0e0}" enable="True">
+    <Name>Windows 10 Enterprise in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Enterprise</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>3</ImageIndex>
     <ImageName>Windows 10 Enterprise</ImageName>
     <Flags>Enterprise</Flags>
     <HAL></HAL>
-    <Size>14118</Size>
+    <Size>13834</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{333d16de-012a-4f53-9e9d-f58ad474cf91}" enable="True">
-    <Name>Windows 10 Enterprise N in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{32c52483-2b4f-4eeb-8765-7b6a79d83268}" enable="True">
+    <Name>Windows 10 Enterprise N in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Enterprise N</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>4</ImageIndex>
     <ImageName>Windows 10 Enterprise N</ImageName>
     <Flags>EnterpriseN</Flags>
     <HAL></HAL>
-    <Size>13331</Size>
+    <Size>13064</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{240b3ee4-cfcb-4df1-8b1d-1c295ce1b205}" enable="True">
-    <Name>Windows 10 Pro in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{36ff33aa-e770-4c8e-b09b-8c300111243a}" enable="True">
+    <Name>Windows 10 Pro in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Pro</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>5</ImageIndex>
     <ImageName>Windows 10 Pro</ImageName>
     <Flags>Professional</Flags>
     <HAL></HAL>
-    <Size>14117</Size>
+    <Size>13834</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{14b49245-30df-46c7-b401-28676da7204d}" enable="True">
-    <Name>Windows 10 Pro N in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{99ca0a26-6bc6-4a46-875c-4c5cc041f6f2}" enable="True">
+    <Name>Windows 10 Pro N in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Pro N</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>6</ImageIndex>
     <ImageName>Windows 10 Pro N</ImageName>
     <Flags>ProfessionalN</Flags>
     <HAL></HAL>
-    <Size>13330</Size>
+    <Size>13064</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{933b210f-e7e5-4157-b772-0502f2fe67cb}" enable="True">
-    <Name>Windows 10 Pro Education in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{7c521f58-bcf4-4c6f-bdea-97f76fa4fb3a}" enable="True">
+    <Name>Windows 10 Pro Education in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Pro Education</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>7</ImageIndex>
     <ImageName>Windows 10 Pro Education</ImageName>
     <Flags>ProfessionalEducation</Flags>
     <HAL></HAL>
-    <Size>14118</Size>
+    <Size>13834</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{e51009a9-b93e-431a-9f2e-c7a2543104c3}" enable="True">
-    <Name>Windows 10 Pro Education N in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{6b04b454-416a-4ff9-bcdb-8c3beb486aa8}" enable="True">
+    <Name>Windows 10 Pro Education N in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Pro Education N</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>8</ImageIndex>
     <ImageName>Windows 10 Pro Education N</ImageName>
     <Flags>ProfessionalEducationN</Flags>
     <HAL></HAL>
-    <Size>13332</Size>
+    <Size>13064</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{824b13cd-bfe9-46a1-8b5a-45cb812a6231}" enable="True">
-    <Name>Windows 10 Pro for Workstations in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:53 PM</CreatedTime>
+  <os guid="{ef0c445c-8b14-4f0c-a8d3-32ed153d7ab4}" enable="True">
+    <Name>Windows 10 Pro for Workstations in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:45 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:53 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:45 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Pro for Workstations</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>9</ImageIndex>
     <ImageName>Windows 10 Pro for Workstations</ImageName>
     <Flags>ProfessionalWorkstation</Flags>
     <HAL></HAL>
-    <Size>14118</Size>
+    <Size>13834</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{904fe306-4c09-4f82-9282-9ac6cc7e53d6}" enable="True">
-    <Name>Windows 10 Pro N for Workstations in W10Ent-1809-Dec-2018-x64 install.wim</Name>
-    <CreatedTime>12/24/2018 1:35:54 PM</CreatedTime>
+  <os guid="{9fa18822-cb8e-4c3d-9535-80c3589e960d}" enable="True">
+    <Name>Windows 10 Pro N for Workstations in W10Ent-1903-Jun-2019-x64 install.wim</Name>
+    <CreatedTime>6/19/2019 4:26:46 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>12/24/2018 1:35:54 PM</LastModifiedTime>
+    <LastModifiedTime>6/19/2019 4:26:46 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows 10 Pro N for Workstations</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.194</Build>
+    <Build>10.0.18362.175</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-1809-Dec-2018-x64</Source>
+    <Source>.\Operating Systems\W10Ent-1903-Jun-2019-x64</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-1809-Dec-2018-x64\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\W10Ent-1903-Jun-2019-x64\Sources\install.wim</ImageFile>
     <ImageIndex>10</ImageIndex>
     <ImageName>Windows 10 Pro N for Workstations</ImageName>
     <Flags>ProfessionalWorkstationN</Flags>
     <HAL></HAL>
-    <Size>13332</Size>
+    <Size>13064</Size>
     <Language>en-US</Language>
   </os>
 </oss>
