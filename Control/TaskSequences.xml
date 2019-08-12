@@ -89,10 +89,10 @@
   </ts>
   <ts guid="{7a43afe0-9736-4b9a-abe9-70a366643278}" hide="False" enable="True">
     <Name>Windows Server 2019 - Baseline</Name>
-    <Comments>Reference image - Toolbox content and latest patches</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>8/12/2019 3:24:32 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>8/12/2019 3:43:42 PM</LastModifiedTime>
+    <LastModifiedTime>8/12/2019 5:40:08 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2019-REF</ID>
     <Version>1.0</Version>
