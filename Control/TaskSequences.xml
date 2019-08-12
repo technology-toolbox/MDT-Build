@@ -87,12 +87,12 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
-  <ts guid="{1c546f28-bba6-4155-ae02-7f8822b33640}" enable="True">
+  <ts guid="{7a43afe0-9736-4b9a-abe9-70a366643278}" enable="True">
     <Name>Windows Server 2019 - Baseline</Name>
     <Comments>Reference image</Comments>
-    <CreatedTime>8/12/2019 2:41:15 PM</CreatedTime>
+    <CreatedTime>8/12/2019 3:24:32 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>8/12/2019 2:41:15 PM</LastModifiedTime>
+    <LastModifiedTime>8/12/2019 3:24:32 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2019-REF</ID>
     <Version>1.0</Version>
