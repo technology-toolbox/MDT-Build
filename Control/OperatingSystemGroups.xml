@@ -87,4 +87,15 @@
     <Member>{2e068784-db21-4ebb-8f4d-cd33fdd788b3}</Member>
     <Member>{bc4d13e2-c063-42fe-b7ae-0d70effc2a07}</Member>
   </group>
+  <group guid="{ca32bae4-6705-4ac7-ae9c-3985e0b858ee}" enable="True">
+    <Name>Windows Server 2019</Name>
+    <CreatedTime>8/12/2019 2:23:10 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>8/12/2019 2:31:40 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{a5a03049-1f8e-43d0-b40f-da6de5e14faf}</Member>
+    <Member>{eeb3fc09-ff89-45b7-a2b9-0ba0f0b5a649}</Member>
+    <Member>{c1004ca2-eef7-4613-9c9b-b79506a9fc58}</Member>
+    <Member>{256773b4-915b-4e75-b4d5-0a2b5e8aac71}</Member>
+  </group>
 </groups>
