@@ -57,4 +57,12 @@
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Member>{678dbb58-e70a-4636-9475-2f343526f6e4}</Member>
   </group>
+  <group guid="{995fe863-fbde-4e22-add9-d0211c3da1fa}" enable="True">
+    <Name>Windows Server 2019</Name>
+    <CreatedTime>8/12/2019 2:40:08 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>8/12/2019 2:41:15 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{1c546f28-bba6-4155-ae02-7f8822b33640}</Member>
+  </group>
 </groups>
