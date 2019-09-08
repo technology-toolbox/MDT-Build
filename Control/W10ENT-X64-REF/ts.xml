@@ -7,7 +7,7 @@
     <variable name="DestinationOSRefresh" property="DestinationOSRefresh"></variable>
     <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
     <variable name="DestinationOSInstallType" property="DestinationOSInstallType">ByVariable</variable>
-    <variable name="OSGUID" property="OSGUID">{822f90fa-d4b5-4f36-a80e-8ca50b9ef0e0}</variable>
+    <variable name="OSGUID" property="OSGUID">{1815a8e0-52b1-4d63-b709-8074ac1c54d0}</variable>
   </globalVarList>
   <group name="Initialization" disable="false" continueOnError="false" description="Initialize the TS environment" expand="false">
     <step type="BDD_Gather" name="Gather local only" disable="false" continueOnError="false" successCodeList="0 3010" description="" startIn="">
@@ -391,7 +391,7 @@
     </condition>
     <step type="BDD_InstallOS" name="Install Operating System" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
       <defaultVarList>
-        <variable name="OSGUID" property="OSGUID">{822f90fa-d4b5-4f36-a80e-8ca50b9ef0e0}</variable>
+        <variable name="OSGUID" property="OSGUID">{1815a8e0-52b1-4d63-b709-8074ac1c54d0}</variable>
         <variable name="DestinationDisk" property="DestinationDisk">0</variable>
         <variable name="DestinationPartition" property="DestinationPartition">1</variable>
         <variable name="DestinationOSDriveLetter" property="DestinationOSDriveLetter"></variable>
