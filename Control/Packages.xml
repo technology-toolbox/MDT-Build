@@ -1,1 +1,38 @@
-<packages></packages>
+<packages>
+    <package guid="{2b4d984a-7f53-4043-b10f-caf9c8d3ac2a}" enable="True">
+        <Name>Package_for_KB4490628 neutral amd64 6.1.1.2</Name>
+        <Comments>Fix for KB4490628</Comments>
+        <CreatedTime>9/19/2019 11:49:26 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>9/19/2019 11:49:26 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <SupportInformation>http://support.microsoft.com/?kbid=4490628</SupportInformation>
+        <PackageType>Update</PackageType>
+        <ProcessorArchitecture>amd64</ProcessorArchitecture>
+        <Language>neutral</Language>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+        <Version>6.1.1.2</Version>
+        <ProductName>Package_for_KB4490628</ProductName>
+        <ProductVersion>6.1.1.2</ProductVersion>
+        <Source>.\Packages\Update\amd64_Package_for_KB4490628_6.1.1.2_neutral_31bf3856ad364e35_\Windows6.1-KB4490628-x64.cab</Source>
+        <Keyword></Keyword>
+    </package>
+    <package guid="{1cd0a1c9-e91b-4adf-9cc8-18ec198199e8}" enable="True">
+        <Name>Package_for_KB4490628 neutral x86 6.1.1.2</Name>
+        <Comments>Fix for KB4490628</Comments>
+        <CreatedTime>9/19/2019 11:49:28 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>9/19/2019 11:49:28 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <SupportInformation>http://support.microsoft.com/?kbid=4490628</SupportInformation>
+        <PackageType>Update</PackageType>
+        <ProcessorArchitecture>x86</ProcessorArchitecture>
+        <Language>neutral</Language>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+        <Version>6.1.1.2</Version>
+        <ProductName>Package_for_KB4490628</ProductName>
+        <ProductVersion>6.1.1.2</ProductVersion>
+        <Source>.\Packages\Update\x86_Package_for_KB4490628_6.1.1.2_neutral_31bf3856ad364e35_\Windows6.1-KB4490628-x86.cab</Source>
+        <Keyword></Keyword>
+    </package>
+</packages>
