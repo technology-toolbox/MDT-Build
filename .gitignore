@@ -2,6 +2,16 @@ Audit.log
 
 $OEM$/
 .vs/
+Applications/*
+!Applications/Action - Cleanup before Sysprep/
+!Applications/Action - Import certificates/
+!Applications/Office2016ProPlus-x86/configuration.xml
+!Applications/SP2013-SP1/Config.xml
+!Applications/SP2013-SP1/prerequisiteinstaller.cmd
+!Applications/VS2013-Update4/AdminDeployment-SP2013-Dev.xml
+!Applications/VS2013-Update5/AdminDeployment-SP2013-Dev.xml
+!Applications/VS2015-Update3/AdminDeployment-SP2013-Dev.xml
+!Applications/VS2015-Update3/AdminDeployment.xml
 Backup/
 Boot/
 Captures/
