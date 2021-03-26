@@ -755,88 +755,88 @@
     <Size>14367</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{2d7fd0de-b967-4aff-8d90-5aa9df02541b}" enable="True">
-    <Name>Windows Server 2019 SERVERSTANDARDCORE in WS2019-Oct-2020 install.wim</Name>
-    <CreatedTime>11/14/2020 4:21:13 PM</CreatedTime>
+  <os guid="{987b7458-fc94-4dd0-974f-65e211bc539e}" enable="True">
+    <Name>Windows Server 2019 SERVERSTANDARDCORE in WS2019-Mar-2021 install.wim</Name>
+    <CreatedTime>3/26/2021 11:27:38 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/14/2020 4:21:13 PM</LastModifiedTime>
+    <LastModifiedTime>3/26/2021 11:27:38 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2019 SERVERSTANDARDCORE</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.1518</Build>
+    <Build>10.0.17763.1817</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Oct-2020</Source>
+    <Source>.\Operating Systems\WS2019-Mar-2021</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Oct-2020\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\WS2019-Mar-2021\Sources\install.wim</ImageFile>
     <ImageIndex>1</ImageIndex>
     <ImageName>Windows Server 2019 SERVERSTANDARDCORE</ImageName>
     <Flags>ServerStandard</Flags>
     <HAL></HAL>
-    <Size>7984</Size>
+    <Size>8027</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{c2b5fc21-b4fc-4c5f-b1b6-504000e36500}" enable="True">
-    <Name>Windows Server 2019 SERVERSTANDARD in WS2019-Oct-2020 install.wim</Name>
-    <CreatedTime>11/14/2020 4:21:14 PM</CreatedTime>
+  <os guid="{cf5714b1-adea-4972-b4a6-3e8566b5ac9a}" enable="True">
+    <Name>Windows Server 2019 SERVERSTANDARD in WS2019-Mar-2021 install.wim</Name>
+    <CreatedTime>3/26/2021 11:27:38 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/14/2020 4:21:14 PM</LastModifiedTime>
+    <LastModifiedTime>3/26/2021 11:27:38 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2019 SERVERSTANDARD</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.1518</Build>
+    <Build>10.0.17763.1817</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Oct-2020</Source>
+    <Source>.\Operating Systems\WS2019-Mar-2021</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Oct-2020\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\WS2019-Mar-2021\Sources\install.wim</ImageFile>
     <ImageIndex>2</ImageIndex>
     <ImageName>Windows Server 2019 SERVERSTANDARD</ImageName>
     <Flags>ServerStandard</Flags>
     <HAL></HAL>
-    <Size>13938</Size>
+    <Size>14003</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{af9c8895-6226-438a-8c2f-b4b2a581bdfa}" enable="True">
-    <Name>Windows Server 2019 SERVERDATACENTERCORE in WS2019-Oct-2020 install.wim</Name>
-    <CreatedTime>11/14/2020 4:21:14 PM</CreatedTime>
+  <os guid="{5b9bc780-f01b-4909-9bf4-452fdd78bdd3}" enable="True">
+    <Name>Windows Server 2019 SERVERDATACENTERCORE in WS2019-Mar-2021 install.wim</Name>
+    <CreatedTime>3/26/2021 11:27:38 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/14/2020 4:21:14 PM</LastModifiedTime>
+    <LastModifiedTime>3/26/2021 11:27:38 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2019 SERVERDATACENTERCORE</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.1518</Build>
+    <Build>10.0.17763.1817</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Oct-2020</Source>
+    <Source>.\Operating Systems\WS2019-Mar-2021</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Oct-2020\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\WS2019-Mar-2021\Sources\install.wim</ImageFile>
     <ImageIndex>3</ImageIndex>
     <ImageName>Windows Server 2019 SERVERDATACENTERCORE</ImageName>
     <Flags>ServerDatacenter</Flags>
     <HAL></HAL>
-    <Size>7989</Size>
+    <Size>8025</Size>
     <Language>en-US</Language>
   </os>
-  <os guid="{80276488-2713-472a-b8a8-b97b76657796}" enable="True">
-    <Name>Windows Server 2019 SERVERDATACENTER in WS2019-Oct-2020 install.wim</Name>
-    <CreatedTime>11/14/2020 4:21:14 PM</CreatedTime>
+  <os guid="{0ad139bf-4fe6-45d5-b816-626694108004}" enable="True">
+    <Name>Windows Server 2019 SERVERDATACENTER in WS2019-Mar-2021 install.wim</Name>
+    <CreatedTime>3/26/2021 11:27:38 AM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/14/2020 4:21:14 PM</LastModifiedTime>
+    <LastModifiedTime>3/26/2021 11:27:38 AM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <Description>Windows Server 2019 SERVERDATACENTER</Description>
     <Platform>x64</Platform>
-    <Build>10.0.17763.1518</Build>
+    <Build>10.0.17763.1817</Build>
     <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Oct-2020</Source>
+    <Source>.\Operating Systems\WS2019-Mar-2021</Source>
     <IncludesSetup>True</IncludesSetup>
     <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Oct-2020\Sources\install.wim</ImageFile>
+    <ImageFile>.\Operating Systems\WS2019-Mar-2021\Sources\install.wim</ImageFile>
     <ImageIndex>4</ImageIndex>
     <ImageName>Windows Server 2019 SERVERDATACENTER</ImageName>
     <Flags>ServerDatacenter</Flags>
     <HAL></HAL>
-    <Size>13934</Size>
+    <Size>14002</Size>
     <Language>en-US</Language>
   </os>
 </oss>
