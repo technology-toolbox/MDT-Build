@@ -839,4 +839,88 @@
     <Size>13983</Size>
     <Language>en-US</Language>
   </os>
+  <os guid="{729aa164-3adc-4253-b743-45aed4321bdf}" enable="True">
+    <Name>Windows Server 2022 SERVERSTANDARDCORE in WS2022-RTM install.wim</Name>
+    <CreatedTime>9/7/2021 1:51:05 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>9/7/2021 1:51:05 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2022 SERVERSTANDARDCORE</Description>
+    <Platform>x64</Platform>
+    <Build>10.0.20348.169</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2022-RTM</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2022-RTM\Sources\install.wim</ImageFile>
+    <ImageIndex>1</ImageIndex>
+    <ImageName>Windows Server 2022 SERVERSTANDARDCORE</ImageName>
+    <Flags>ServerStandard</Flags>
+    <HAL></HAL>
+    <Size>8473</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{7fca92ff-4a9d-4e27-bfc3-2fae06272dee}" enable="True">
+    <Name>Windows Server 2022 SERVERSTANDARD in WS2022-RTM install.wim</Name>
+    <CreatedTime>9/7/2021 1:51:05 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>9/7/2021 1:51:05 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2022 SERVERSTANDARD</Description>
+    <Platform>x64</Platform>
+    <Build>10.0.20348.169</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2022-RTM</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2022-RTM\Sources\install.wim</ImageFile>
+    <ImageIndex>2</ImageIndex>
+    <ImageName>Windows Server 2022 SERVERSTANDARD</ImageName>
+    <Flags>ServerStandard</Flags>
+    <HAL></HAL>
+    <Size>14988</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{516c378f-2a9c-41d8-ad87-491ea56dc5de}" enable="True">
+    <Name>Windows Server 2022 SERVERDATACENTERCORE in WS2022-RTM install.wim</Name>
+    <CreatedTime>9/7/2021 1:51:05 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>9/7/2021 1:51:05 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2022 SERVERDATACENTERCORE</Description>
+    <Platform>x64</Platform>
+    <Build>10.0.20348.169</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2022-RTM</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2022-RTM\Sources\install.wim</ImageFile>
+    <ImageIndex>3</ImageIndex>
+    <ImageName>Windows Server 2022 SERVERDATACENTERCORE</ImageName>
+    <Flags>ServerDatacenter</Flags>
+    <HAL></HAL>
+    <Size>8470</Size>
+    <Language>en-US</Language>
+  </os>
+  <os guid="{e197df6f-2b8b-431f-94ef-e66b745fd017}" enable="True">
+    <Name>Windows Server 2022 SERVERDATACENTER in WS2022-RTM install.wim</Name>
+    <CreatedTime>9/7/2021 1:51:05 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>9/7/2021 1:51:05 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows Server 2022 SERVERDATACENTER</Description>
+    <Platform>x64</Platform>
+    <Build>10.0.20348.169</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\WS2022-RTM</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\WS2022-RTM\Sources\install.wim</ImageFile>
+    <ImageIndex>4</ImageIndex>
+    <ImageName>Windows Server 2022 SERVERDATACENTER</ImageName>
+    <Flags>ServerDatacenter</Flags>
+    <HAL></HAL>
+    <Size>14987</Size>
+    <Language>en-US</Language>
+  </os>
 </oss>
