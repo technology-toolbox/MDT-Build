@@ -98,4 +98,15 @@
     <Version>1.0</Version>
     <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
   </ts>
+  <ts guid="{92247e67-3395-41a8-9689-a07c9fd0070a}" enable="True">
+    <Name>Windows Server 2022 - Baseline</Name>
+    <Comments>Reference image</Comments>
+    <CreatedTime>9/7/2021 3:46:09 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>9/7/2021 3:46:09 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <ID>WS2022-REF</ID>
+    <Version>1.0</Version>
+    <TaskSequenceTemplate>Server.xml</TaskSequenceTemplate>
+  </ts>
 </tss>
