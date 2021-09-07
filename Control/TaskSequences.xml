@@ -100,10 +100,10 @@
   </ts>
   <ts guid="{92247e67-3395-41a8-9689-a07c9fd0070a}" hide="False" enable="True">
     <Name>Windows Server 2022 - Baseline</Name>
-    <Comments>Reference image - Toolbox content and latest patches</Comments>
+    <Comments>Reference image - MaxPatchCacheSize = 0, Toolbox content, latest patches, and cleanup before Sysprep</Comments>
     <CreatedTime>9/7/2021 3:46:09 PM</CreatedTime>
     <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>9/7/2021 7:21:10 PM</LastModifiedTime>
+    <LastModifiedTime>9/7/2021 9:20:38 PM</LastModifiedTime>
     <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
     <ID>WS2022-REF</ID>
     <Version>1.0</Version>
