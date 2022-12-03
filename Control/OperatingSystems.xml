@@ -1,926 +1,926 @@
 <oss>
-  <os guid="{b45404ef-0d97-43ef-8c68-110b4932bbd8}" enable="True">
-    <Name>Windows 7 Starter with Service Pack 1 (x86)</Name>
-    <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 STARTER</Description>
-    <Platform>x86</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 7 STARTER</ImageName>
-    <Flags>Starter</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>7700</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{7e00cccf-6b4b-48f4-abc0-c6a2b51294d8}" enable="True">
-    <Name>Windows 7 Home Basic with Service Pack 1 (x86)</Name>
-    <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 HOMEBASIC</Description>
-    <Platform>x86</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows 7 HOMEBASIC</ImageName>
-    <Flags>HomeBasic</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>7751</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{05541457-a2fe-4537-becc-1632212a5dce}" enable="True">
-    <Name>Windows 7 Home Premium with Service Pack 1 (x86)</Name>
-    <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 HOMEPREMIUM</Description>
-    <Platform>x86</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows 7 HOMEPREMIUM</ImageName>
-    <Flags>HomePremium</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>8172</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{e6e71269-2898-4141-9007-d4b7c21d75e0}" enable="True">
-    <Name>Windows 7 Professional with Service Pack 1 (x86)</Name>
-    <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 PROFESSIONAL</Description>
-    <Platform>x86</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows 7 PROFESSIONAL</ImageName>
-    <Flags>Professional</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>8058</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{3d0d1753-dbf3-4081-be33-faa2d1df3cd5}" enable="True">
-    <Name>Windows 7 Ultimate with Service Pack 1 (x86)</Name>
-    <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 ULTIMATE</Description>
-    <Platform>x86</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>5</ImageIndex>
-    <ImageName>Windows 7 ULTIMATE</ImageName>
-    <Flags>Ultimate</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>8211</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{23b13c33-9304-49dc-8ed6-0a9f43628a51}" enable="True">
-    <Name>Windows 7 Home Basic with Service Pack 1 (x64)</Name>
-    <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 HOMEBASIC</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 7 HOMEBASIC</ImageName>
-    <Flags>HomeBasic</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>11167</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{433c003e-3924-46ad-a809-dbb124be0cd5}" enable="True">
-    <Name>Windows 7 Home Premium with Service Pack 1 (x64)</Name>
-    <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 HOMEPREMIUM</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows 7 HOMEPREMIUM</ImageName>
-    <Flags>HomePremium</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>11656</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{ffa7f3bc-a934-4b97-827b-793d2de8881b}" enable="True">
-    <Name>Windows 7 Professional with Service Pack 1 (x64)</Name>
-    <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 PROFESSIONAL</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows 7 PROFESSIONAL</ImageName>
-    <Flags>Professional</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>11561</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{09e0300e-099e-4240-b704-8894e33cee19}" enable="True">
-    <Name>Windows 7 Ultimate with Service Pack 1 (x64)</Name>
-    <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 7 ULTIMATE</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows 7 ULTIMATE</ImageName>
-    <Flags>Ultimate</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>11716</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{7f079742-17a3-43c0-af49-39bfdefd6035}" enable="True">
-    <Name>Windows Server 2008 R2 Standard with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERSTANDARD</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERSTANDARD</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>10023</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{3e21857f-c118-4a68-859d-ed033b1e3dcd}" enable="True">
-    <Name>Windows Server 2008 R2 Standard (Server Core Installation) with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERSTANDARDCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERSTANDARDCORE</ImageName>
-    <Flags>ServerStandardCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>3398</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{dc14a70d-8aac-4f0a-b8b1-634133a3e425}" enable="True">
-    <Name>Windows Server 2008 R2 Enterprise with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERENTERPRISE</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERENTERPRISE</ImageName>
-    <Flags>ServerEnterprise</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>10023</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{beaa043a-d4ce-42bf-bef3-5a6adbc594cd}" enable="True">
-    <Name>Windows Server 2008 R2 Enterprise (Server Core Installation) with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERENTERPRISECORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERENTERPRISECORE</ImageName>
-    <Flags>ServerEnterpriseCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>3398</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{5e0a380b-4838-44ad-baa2-dcc53220fd58}" enable="True">
-    <Name>Windows Server 2008 R2 Datacenter with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERDATACENTER</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>5</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERDATACENTER</ImageName>
-    <Flags>ServerDataCenter</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>10024</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{6e25df9a-cc3c-420f-b49a-189f1f19604a}" enable="True">
-    <Name>Windows Server 2008 R2 Datacenter (Server Core Installation) with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERDATACENTERCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>6</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERDATACENTERCORE</ImageName>
-    <Flags>ServerDataCenterCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>3398</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{4f0b8e33-669e-4bcc-b02b-7a707b858fa1}" enable="True">
-    <Name>Windows Server 2008 R2 Web Edition with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERWEB</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>7</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERWEB</ImageName>
-    <Flags>ServerWeb</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>10032</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{0c8168bd-f69d-4de3-aaa7-e5686ce1aad9}" enable="True">
-    <Name>Windows Server 2008 R2 Web Edition (Server Core Installation) with Service Pack 1</Name>
-    <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2008 R2 SERVERWEBCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.1.7601.17514</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2008-R2-SP1</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
-    <ImageIndex>8</ImageIndex>
-    <ImageName>Windows Server 2008 R2 SERVERWEBCORE</ImageName>
-    <Flags>ServerWebCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>3397</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{26111dba-1a9c-465c-8cde-73550648bd4e}" enable="True">
-    <Name>Windows 8.1 Enterprise with Update (x64)</Name>
-    <CreatedTime>4/14/2015 4:19:32 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 4:19:32 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 8.1 Enterprise</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W81Ent-x64-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W81Ent-x64-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 8.1 Enterprise</ImageName>
-    <Flags>Enterprise</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>12493</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{9abff136-a9c1-41dd-9d7e-c88c9125dee2}" enable="True">
-    <Name>Windows Server 2012 R2 Standard (Server Core Installation) with Update</Name>
-    <CreatedTime>4/14/2015 4:26:33 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 4:26:33 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERSTANDARDCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERSTANDARDCORE</ImageName>
-    <Flags>ServerStandardCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>7114</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{a3ef5936-602e-4fb6-8818-3d19aa81e795}" enable="True">
-    <Name>Windows Server 2012 R2 Standard with Update</Name>
-    <CreatedTime>4/14/2015 4:26:34 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 4:26:34 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERSTANDARD</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERSTANDARD</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>12462</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{a25e0a0a-a4d8-4e50-9b2f-3eaa5386038d}" enable="True">
-    <Name>Windows Server 2012 R2 Datacenter (Server Core Installation) with Update</Name>
-    <CreatedTime>4/14/2015 4:26:34 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 4:26:34 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERDATACENTERCORE</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERDATACENTERCORE</ImageName>
-    <Flags>ServerDataCenterCore</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>7111</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{dbc14d6e-1368-47e9-b08b-87af118fd397}" enable="True">
-    <Name>Windows Server 2012 R2 Datacenter with Update</Name>
-    <CreatedTime>4/14/2015 4:26:34 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 4:26:34 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2012 R2 SERVERDATACENTER</Description>
-    <Platform>x64</Platform>
-    <Build>6.3.9600.17415</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2012-R2-Update</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows Server 2012 R2 SERVERDATACENTER</ImageName>
-    <Flags>ServerDataCenter</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>12457</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{bc4d13e2-c063-42fe-b7ae-0d70effc2a07}" enable="True">
-    <Name>Windows Server 2016 SERVERSTANDARDCORE in WS2016-Feb-2018 install.wim</Name>
-    <CreatedTime>3/16/2018 4:26:39 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/16/2018 4:26:39 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2016 SERVERSTANDARDCORE</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.14393.1198</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows Server 2016 SERVERSTANDARDCORE</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>9035</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{2e068784-db21-4ebb-8f4d-cd33fdd788b3}" enable="True">
-    <Name>Windows Server 2016 SERVERSTANDARD in WS2016-Feb-2018 install.wim</Name>
-    <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2016 SERVERSTANDARD</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.14393.1198</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows Server 2016 SERVERSTANDARD</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>14842</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{94fed361-8a3b-4e53-8492-6c4f673e479d}" enable="True">
-    <Name>Windows Server 2016 SERVERDATACENTERCORE in WS2016-Feb-2018 install.wim</Name>
-    <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2016 SERVERDATACENTERCORE</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.14393.1198</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows Server 2016 SERVERDATACENTERCORE</ImageName>
-    <Flags>ServerDatacenter</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>9044</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{d43d4004-a4e0-457f-9dde-0047fae0eb16}" enable="True">
-    <Name>Windows Server 2016 SERVERDATACENTER in WS2016-Feb-2018 install.wim</Name>
-    <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2016 SERVERDATACENTER</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.14393.1198</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows Server 2016 SERVERDATACENTER</ImageName>
-    <Flags>ServerDatacenter</Flags>
-    <HAL>acpiapic</HAL>
-    <Size>14842</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{9a8b77cd-9303-4adf-90c3-c46f09dbd589}" enable="True">
-    <Name>Windows 10 Education in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Education</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows 10 Education</ImageName>
-    <Flags>Education</Flags>
-    <HAL></HAL>
-    <Size>14587</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{81697247-1530-4b66-b6a7-406ad3f64daa}" enable="True">
-    <Name>Windows 10 Education N in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Education N</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows 10 Education N</ImageName>
-    <Flags>EducationN</Flags>
-    <HAL></HAL>
-    <Size>13867</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{59107ce8-8665-45ee-a39d-ef4daf94c47d}" enable="True">
-    <Name>Windows 10 Enterprise in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Enterprise</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows 10 Enterprise</ImageName>
-    <Flags>Enterprise</Flags>
-    <HAL></HAL>
-    <Size>14587</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{2ba4e2fa-8dfe-4a06-8ef6-3f56ccc2da13}" enable="True">
-    <Name>Windows 10 Enterprise N in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Enterprise N</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows 10 Enterprise N</ImageName>
-    <Flags>EnterpriseN</Flags>
-    <HAL></HAL>
-    <Size>13867</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{4f3ed9bd-fff7-46dd-9a7a-e8791d7c3145}" enable="True">
-    <Name>Windows 10 Pro in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Pro</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>5</ImageIndex>
-    <ImageName>Windows 10 Pro</ImageName>
-    <Flags>Professional</Flags>
-    <HAL></HAL>
-    <Size>14601</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{b6c787d8-536d-4b6a-8713-333518c9699e}" enable="True">
-    <Name>Windows 10 Pro N in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Pro N</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>6</ImageIndex>
-    <ImageName>Windows 10 Pro N</ImageName>
-    <Flags>ProfessionalN</Flags>
-    <HAL></HAL>
-    <Size>13865</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{4d75b39f-74b7-4d99-9d83-ff54121195f8}" enable="True">
-    <Name>Windows 10 Pro Education in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Pro Education</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>7</ImageIndex>
-    <ImageName>Windows 10 Pro Education</ImageName>
-    <Flags>ProfessionalEducation</Flags>
-    <HAL></HAL>
-    <Size>14587</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{334bdb7b-8035-45f3-873c-8ce94ae57ae1}" enable="True">
-    <Name>Windows 10 Pro Education N in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Pro Education N</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>8</ImageIndex>
-    <ImageName>Windows 10 Pro Education N</ImageName>
-    <Flags>ProfessionalEducationN</Flags>
-    <HAL></HAL>
-    <Size>13867</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{dd4f3685-c898-4e7d-b528-b21379ffc770}" enable="True">
-    <Name>Windows 10 Pro for Workstations in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Pro for Workstations</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>9</ImageIndex>
-    <ImageName>Windows 10 Pro for Workstations</ImageName>
-    <Flags>ProfessionalWorkstation</Flags>
-    <HAL></HAL>
-    <Size>14587</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{e87507fd-c488-453e-b4bd-127804693fe7}" enable="True">
-    <Name>Windows 10 Pro N for Workstations in W10Ent-21H2-Jun-2022-x64 install.wim</Name>
-    <CreatedTime>6/29/2022 1:11:57 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 1:11:57 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows 10 Pro N for Workstations</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.19041.1766</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\W10Ent-21H2-Jun-2022-x64</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\W10Ent-21H2-Jun-2022-x64\Sources\install.wim</ImageFile>
-    <ImageIndex>10</ImageIndex>
-    <ImageName>Windows 10 Pro N for Workstations</ImageName>
-    <Flags>ProfessionalWorkstationN</Flags>
-    <HAL></HAL>
-    <Size>13867</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{9960c92b-fb73-43f4-9f85-e4b29e418854}" enable="True">
-    <Name>Windows Server 2019 SERVERSTANDARDCORE in WS2019-Aug-2021 install.wim</Name>
-    <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2019 SERVERSTANDARDCORE</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.17763.2114</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Aug-2021</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows Server 2019 SERVERSTANDARDCORE</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL></HAL>
-    <Size>8038</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{358bdeae-5ba3-47af-b3ba-44b834ceb34f}" enable="True">
-    <Name>Windows Server 2019 SERVERSTANDARD in WS2019-Aug-2021 install.wim</Name>
-    <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2019 SERVERSTANDARD</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.17763.2114</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Aug-2021</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows Server 2019 SERVERSTANDARD</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL></HAL>
-    <Size>13978</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{aceeff33-dd53-43dc-8c92-4776de1598fe}" enable="True">
-    <Name>Windows Server 2019 SERVERDATACENTERCORE in WS2019-Aug-2021 install.wim</Name>
-    <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2019 SERVERDATACENTERCORE</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.17763.2114</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Aug-2021</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows Server 2019 SERVERDATACENTERCORE</ImageName>
-    <Flags>ServerDatacenter</Flags>
-    <HAL></HAL>
-    <Size>8040</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{846b2f9d-aacf-4c13-b7e4-830646c99bf1}" enable="True">
-    <Name>Windows Server 2019 SERVERDATACENTER in WS2019-Aug-2021 install.wim</Name>
-    <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2019 SERVERDATACENTER</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.17763.2114</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2019-Aug-2021</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows Server 2019 SERVERDATACENTER</ImageName>
-    <Flags>ServerDatacenter</Flags>
-    <HAL></HAL>
-    <Size>13983</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{668b5bf2-6950-47ee-8925-a45a906370fb}" enable="True">
-    <Name>Windows Server 2022 SERVERSTANDARDCORE in WS2022-Jun-2022 install.wim</Name>
-    <CreatedTime>6/29/2022 8:53:52 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 8:53:52 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2022 SERVERSTANDARDCORE</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.20348.768</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2022-Jun-2022</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2022-Jun-2022\Sources\install.wim</ImageFile>
-    <ImageIndex>1</ImageIndex>
-    <ImageName>Windows Server 2022 SERVERSTANDARDCORE</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL></HAL>
-    <Size>8021</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{96030cea-f04b-4612-990e-80f28095ca67}" enable="True">
-    <Name>Windows Server 2022 SERVERSTANDARD in WS2022-Jun-2022 install.wim</Name>
-    <CreatedTime>6/29/2022 8:53:53 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 8:53:53 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2022 SERVERSTANDARD</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.20348.768</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2022-Jun-2022</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2022-Jun-2022\Sources\install.wim</ImageFile>
-    <ImageIndex>2</ImageIndex>
-    <ImageName>Windows Server 2022 SERVERSTANDARD</ImageName>
-    <Flags>ServerStandard</Flags>
-    <HAL></HAL>
-    <Size>13785</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{4abb25e2-b12d-4eab-bec1-52f9b18d4314}" enable="True">
-    <Name>Windows Server 2022 SERVERDATACENTERCORE in WS2022-Jun-2022 install.wim</Name>
-    <CreatedTime>6/29/2022 8:53:53 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 8:53:53 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2022 SERVERDATACENTERCORE</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.20348.768</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2022-Jun-2022</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2022-Jun-2022\Sources\install.wim</ImageFile>
-    <ImageIndex>3</ImageIndex>
-    <ImageName>Windows Server 2022 SERVERDATACENTERCORE</ImageName>
-    <Flags>ServerDatacenter</Flags>
-    <HAL></HAL>
-    <Size>8015</Size>
-    <Language>en-US</Language>
-  </os>
-  <os guid="{4a615f92-8894-41c5-b918-c3b92cf73e68}" enable="True">
-    <Name>Windows Server 2022 SERVERDATACENTER in WS2022-Jun-2022 install.wim</Name>
-    <CreatedTime>6/29/2022 8:53:53 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/29/2022 8:53:53 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <Description>Windows Server 2022 SERVERDATACENTER</Description>
-    <Platform>x64</Platform>
-    <Build>10.0.20348.768</Build>
-    <OSType>Windows IBS</OSType>
-    <Source>.\Operating Systems\WS2022-Jun-2022</Source>
-    <IncludesSetup>True</IncludesSetup>
-    <SMSImage>False</SMSImage>
-    <ImageFile>.\Operating Systems\WS2022-Jun-2022\Sources\install.wim</ImageFile>
-    <ImageIndex>4</ImageIndex>
-    <ImageName>Windows Server 2022 SERVERDATACENTER</ImageName>
-    <Flags>ServerDatacenter</Flags>
-    <HAL></HAL>
-    <Size>13786</Size>
-    <Language>en-US</Language>
-  </os>
+    <os guid="{b45404ef-0d97-43ef-8c68-110b4932bbd8}" enable="True">
+        <Name>Windows 7 Starter with Service Pack 1 (x86)</Name>
+        <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 STARTER</Description>
+        <Platform>x86</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows 7 STARTER</ImageName>
+        <Flags>Starter</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>7700</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{7e00cccf-6b4b-48f4-abc0-c6a2b51294d8}" enable="True">
+        <Name>Windows 7 Home Basic with Service Pack 1 (x86)</Name>
+        <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 HOMEBASIC</Description>
+        <Platform>x86</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows 7 HOMEBASIC</ImageName>
+        <Flags>HomeBasic</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>7751</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{05541457-a2fe-4537-becc-1632212a5dce}" enable="True">
+        <Name>Windows 7 Home Premium with Service Pack 1 (x86)</Name>
+        <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 HOMEPREMIUM</Description>
+        <Platform>x86</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows 7 HOMEPREMIUM</ImageName>
+        <Flags>HomePremium</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>8172</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{e6e71269-2898-4141-9007-d4b7c21d75e0}" enable="True">
+        <Name>Windows 7 Professional with Service Pack 1 (x86)</Name>
+        <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 PROFESSIONAL</Description>
+        <Platform>x86</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows 7 PROFESSIONAL</ImageName>
+        <Flags>Professional</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>8058</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{3d0d1753-dbf3-4081-be33-faa2d1df3cd5}" enable="True">
+        <Name>Windows 7 Ultimate with Service Pack 1 (x86)</Name>
+        <CreatedTime>4/13/2015 11:49:20 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:49:20 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 ULTIMATE</Description>
+        <Platform>x86</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x86-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x86-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>5</ImageIndex>
+        <ImageName>Windows 7 ULTIMATE</ImageName>
+        <Flags>Ultimate</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>8211</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{23b13c33-9304-49dc-8ed6-0a9f43628a51}" enable="True">
+        <Name>Windows 7 Home Basic with Service Pack 1 (x64)</Name>
+        <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 HOMEBASIC</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows 7 HOMEBASIC</ImageName>
+        <Flags>HomeBasic</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>11167</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{433c003e-3924-46ad-a809-dbb124be0cd5}" enable="True">
+        <Name>Windows 7 Home Premium with Service Pack 1 (x64)</Name>
+        <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 HOMEPREMIUM</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows 7 HOMEPREMIUM</ImageName>
+        <Flags>HomePremium</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>11656</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{ffa7f3bc-a934-4b97-827b-793d2de8881b}" enable="True">
+        <Name>Windows 7 Professional with Service Pack 1 (x64)</Name>
+        <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 PROFESSIONAL</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows 7 PROFESSIONAL</ImageName>
+        <Flags>Professional</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>11561</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{09e0300e-099e-4240-b704-8894e33cee19}" enable="True">
+        <Name>Windows 7 Ultimate with Service Pack 1 (x64)</Name>
+        <CreatedTime>4/13/2015 11:51:38 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:51:38 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 7 ULTIMATE</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W7Ult-x64-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W7Ult-x64-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows 7 ULTIMATE</ImageName>
+        <Flags>Ultimate</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>11716</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{7f079742-17a3-43c0-af49-39bfdefd6035}" enable="True">
+        <Name>Windows Server 2008 R2 Standard with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERSTANDARD</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERSTANDARD</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>10023</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{3e21857f-c118-4a68-859d-ed033b1e3dcd}" enable="True">
+        <Name>Windows Server 2008 R2 Standard (Server Core Installation) with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERSTANDARDCORE</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERSTANDARDCORE</ImageName>
+        <Flags>ServerStandardCore</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>3398</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{dc14a70d-8aac-4f0a-b8b1-634133a3e425}" enable="True">
+        <Name>Windows Server 2008 R2 Enterprise with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERENTERPRISE</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERENTERPRISE</ImageName>
+        <Flags>ServerEnterprise</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>10023</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{beaa043a-d4ce-42bf-bef3-5a6adbc594cd}" enable="True">
+        <Name>Windows Server 2008 R2 Enterprise (Server Core Installation) with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERENTERPRISECORE</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERENTERPRISECORE</ImageName>
+        <Flags>ServerEnterpriseCore</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>3398</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{5e0a380b-4838-44ad-baa2-dcc53220fd58}" enable="True">
+        <Name>Windows Server 2008 R2 Datacenter with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERDATACENTER</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>5</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERDATACENTER</ImageName>
+        <Flags>ServerDataCenter</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>10024</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{6e25df9a-cc3c-420f-b49a-189f1f19604a}" enable="True">
+        <Name>Windows Server 2008 R2 Datacenter (Server Core Installation) with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERDATACENTERCORE</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>6</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERDATACENTERCORE</ImageName>
+        <Flags>ServerDataCenterCore</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>3398</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{4f0b8e33-669e-4bcc-b02b-7a707b858fa1}" enable="True">
+        <Name>Windows Server 2008 R2 Web Edition with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERWEB</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>7</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERWEB</ImageName>
+        <Flags>ServerWeb</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>10032</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{0c8168bd-f69d-4de3-aaa7-e5686ce1aad9}" enable="True">
+        <Name>Windows Server 2008 R2 Web Edition (Server Core Installation) with Service Pack 1</Name>
+        <CreatedTime>4/13/2015 11:59:05 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 11:59:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2008 R2 SERVERWEBCORE</Description>
+        <Platform>x64</Platform>
+        <Build>6.1.7601.17514</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2008-R2-SP1</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2008-R2-SP1\Sources\install.wim</ImageFile>
+        <ImageIndex>8</ImageIndex>
+        <ImageName>Windows Server 2008 R2 SERVERWEBCORE</ImageName>
+        <Flags>ServerWebCore</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>3397</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{26111dba-1a9c-465c-8cde-73550648bd4e}" enable="True">
+        <Name>Windows 8.1 Enterprise with Update (x64)</Name>
+        <CreatedTime>4/14/2015 4:19:32 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 4:19:32 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 8.1 Enterprise</Description>
+        <Platform>x64</Platform>
+        <Build>6.3.9600.17415</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W81Ent-x64-Update</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W81Ent-x64-Update\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows 8.1 Enterprise</ImageName>
+        <Flags>Enterprise</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>12493</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{9abff136-a9c1-41dd-9d7e-c88c9125dee2}" enable="True">
+        <Name>Windows Server 2012 R2 Standard (Server Core Installation) with Update</Name>
+        <CreatedTime>4/14/2015 4:26:33 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 4:26:33 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2012 R2 SERVERSTANDARDCORE</Description>
+        <Platform>x64</Platform>
+        <Build>6.3.9600.17415</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2012-R2-Update</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows Server 2012 R2 SERVERSTANDARDCORE</ImageName>
+        <Flags>ServerStandardCore</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>7114</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{a3ef5936-602e-4fb6-8818-3d19aa81e795}" enable="True">
+        <Name>Windows Server 2012 R2 Standard with Update</Name>
+        <CreatedTime>4/14/2015 4:26:34 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 4:26:34 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2012 R2 SERVERSTANDARD</Description>
+        <Platform>x64</Platform>
+        <Build>6.3.9600.17415</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2012-R2-Update</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows Server 2012 R2 SERVERSTANDARD</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>12462</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{a25e0a0a-a4d8-4e50-9b2f-3eaa5386038d}" enable="True">
+        <Name>Windows Server 2012 R2 Datacenter (Server Core Installation) with Update</Name>
+        <CreatedTime>4/14/2015 4:26:34 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 4:26:34 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2012 R2 SERVERDATACENTERCORE</Description>
+        <Platform>x64</Platform>
+        <Build>6.3.9600.17415</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2012-R2-Update</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows Server 2012 R2 SERVERDATACENTERCORE</ImageName>
+        <Flags>ServerDataCenterCore</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>7111</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{dbc14d6e-1368-47e9-b08b-87af118fd397}" enable="True">
+        <Name>Windows Server 2012 R2 Datacenter with Update</Name>
+        <CreatedTime>4/14/2015 4:26:34 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 4:26:34 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2012 R2 SERVERDATACENTER</Description>
+        <Platform>x64</Platform>
+        <Build>6.3.9600.17415</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2012-R2-Update</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2012-R2-Update\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows Server 2012 R2 SERVERDATACENTER</ImageName>
+        <Flags>ServerDataCenter</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>12457</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{bc4d13e2-c063-42fe-b7ae-0d70effc2a07}" enable="True">
+        <Name>Windows Server 2016 SERVERSTANDARDCORE in WS2016-Feb-2018 install.wim</Name>
+        <CreatedTime>3/16/2018 4:26:39 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>3/16/2018 4:26:39 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2016 SERVERSTANDARDCORE</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.14393.1198</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows Server 2016 SERVERSTANDARDCORE</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>9035</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{2e068784-db21-4ebb-8f4d-cd33fdd788b3}" enable="True">
+        <Name>Windows Server 2016 SERVERSTANDARD in WS2016-Feb-2018 install.wim</Name>
+        <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2016 SERVERSTANDARD</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.14393.1198</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows Server 2016 SERVERSTANDARD</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>14842</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{94fed361-8a3b-4e53-8492-6c4f673e479d}" enable="True">
+        <Name>Windows Server 2016 SERVERDATACENTERCORE in WS2016-Feb-2018 install.wim</Name>
+        <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2016 SERVERDATACENTERCORE</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.14393.1198</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows Server 2016 SERVERDATACENTERCORE</ImageName>
+        <Flags>ServerDatacenter</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>9044</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{d43d4004-a4e0-457f-9dde-0047fae0eb16}" enable="True">
+        <Name>Windows Server 2016 SERVERDATACENTER in WS2016-Feb-2018 install.wim</Name>
+        <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2016 SERVERDATACENTER</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.14393.1198</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows Server 2016 SERVERDATACENTER</ImageName>
+        <Flags>ServerDatacenter</Flags>
+        <HAL>acpiapic</HAL>
+        <Size>14842</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{e2202aca-0b3f-4ccc-a76f-487321e95ee7}" enable="True">
+        <Name>Windows 10 Education in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:23 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:23 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Education</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows 10 Education</ImageName>
+        <Flags>Education</Flags>
+        <HAL></HAL>
+        <Size>14738</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{f33edf45-9c73-41ed-972e-fec08d946684}" enable="True">
+        <Name>Windows 10 Education N in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:23 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:23 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Education N</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows 10 Education N</ImageName>
+        <Flags>EducationN</Flags>
+        <HAL></HAL>
+        <Size>13996</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{e041ce3f-2d3f-44ff-a7db-7a8c072b7e4b}" enable="True">
+        <Name>Windows 10 Enterprise in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:23 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:23 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Enterprise</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows 10 Enterprise</ImageName>
+        <Flags>Enterprise</Flags>
+        <HAL></HAL>
+        <Size>14739</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{4ab200b6-1339-44b7-a2f5-4944d6596983}" enable="True">
+        <Name>Windows 10 Enterprise N in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:23 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:23 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Enterprise N</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows 10 Enterprise N</ImageName>
+        <Flags>EnterpriseN</Flags>
+        <HAL></HAL>
+        <Size>13996</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{a8d10743-2634-41ac-a9c0-ac67a5cfcd6a}" enable="True">
+        <Name>Windows 10 Pro in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:23 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:23 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Pro</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>5</ImageIndex>
+        <ImageName>Windows 10 Pro</ImageName>
+        <Flags>Professional</Flags>
+        <HAL></HAL>
+        <Size>14736</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{f6d10ae0-4c14-4373-9a47-6011d2690c1e}" enable="True">
+        <Name>Windows 10 Pro N in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:23 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:23 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Pro N</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>6</ImageIndex>
+        <ImageName>Windows 10 Pro N</ImageName>
+        <Flags>ProfessionalN</Flags>
+        <HAL></HAL>
+        <Size>13993</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{c2b0cb2d-61b4-49c8-a6b9-9637957d42d4}" enable="True">
+        <Name>Windows 10 Pro Education in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:24 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:24 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Pro Education</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>7</ImageIndex>
+        <ImageName>Windows 10 Pro Education</ImageName>
+        <Flags>ProfessionalEducation</Flags>
+        <HAL></HAL>
+        <Size>14738</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{86f584af-0f54-414f-bc7d-eccdc363c785}" enable="True">
+        <Name>Windows 10 Pro Education N in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:24 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:24 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Pro Education N</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>8</ImageIndex>
+        <ImageName>Windows 10 Pro Education N</ImageName>
+        <Flags>ProfessionalEducationN</Flags>
+        <HAL></HAL>
+        <Size>13996</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{81069e41-10a2-4480-a2e7-31c3fad7738c}" enable="True">
+        <Name>Windows 10 Pro for Workstations in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:24 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:24 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Pro for Workstations</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>9</ImageIndex>
+        <ImageName>Windows 10 Pro for Workstations</ImageName>
+        <Flags>ProfessionalWorkstation</Flags>
+        <HAL></HAL>
+        <Size>14738</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{ae8ba7aa-16b9-4f41-8230-22da5c2cc2cd}" enable="True">
+        <Name>Windows 10 Pro N for Workstations in W10Ent-22H2-Nov-2022-x64 install.wim</Name>
+        <CreatedTime>12/3/2022 11:50:24 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 11:50:24 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows 10 Pro N for Workstations</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.19041.2251</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\W10Ent-22H2-Nov-2022-x64</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\W10Ent-22H2-Nov-2022-x64\Sources\install.wim</ImageFile>
+        <ImageIndex>10</ImageIndex>
+        <ImageName>Windows 10 Pro N for Workstations</ImageName>
+        <Flags>ProfessionalWorkstationN</Flags>
+        <HAL></HAL>
+        <Size>13996</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{9960c92b-fb73-43f4-9f85-e4b29e418854}" enable="True">
+        <Name>Windows Server 2019 SERVERSTANDARDCORE in WS2019-Aug-2021 install.wim</Name>
+        <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2019 SERVERSTANDARDCORE</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.17763.2114</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2019-Aug-2021</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows Server 2019 SERVERSTANDARDCORE</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL></HAL>
+        <Size>8038</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{358bdeae-5ba3-47af-b3ba-44b834ceb34f}" enable="True">
+        <Name>Windows Server 2019 SERVERSTANDARD in WS2019-Aug-2021 install.wim</Name>
+        <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2019 SERVERSTANDARD</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.17763.2114</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2019-Aug-2021</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows Server 2019 SERVERSTANDARD</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL></HAL>
+        <Size>13978</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{aceeff33-dd53-43dc-8c92-4776de1598fe}" enable="True">
+        <Name>Windows Server 2019 SERVERDATACENTERCORE in WS2019-Aug-2021 install.wim</Name>
+        <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2019 SERVERDATACENTERCORE</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.17763.2114</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2019-Aug-2021</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows Server 2019 SERVERDATACENTERCORE</ImageName>
+        <Flags>ServerDatacenter</Flags>
+        <HAL></HAL>
+        <Size>8040</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{846b2f9d-aacf-4c13-b7e4-830646c99bf1}" enable="True">
+        <Name>Windows Server 2019 SERVERDATACENTER in WS2019-Aug-2021 install.wim</Name>
+        <CreatedTime>9/5/2021 11:49:14 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>9/5/2021 11:49:14 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2019 SERVERDATACENTER</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.17763.2114</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2019-Aug-2021</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2019-Aug-2021\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows Server 2019 SERVERDATACENTER</ImageName>
+        <Flags>ServerDatacenter</Flags>
+        <HAL></HAL>
+        <Size>13983</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{983bc5a6-7192-4006-96aa-496c44fa60fd}" enable="True">
+        <Name>Windows Server 2022 SERVERSTANDARDCORE in WS2022-Nov-2022 install.wim</Name>
+        <CreatedTime>12/3/2022 12:14:48 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 12:14:48 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2022 SERVERSTANDARDCORE</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.20348.1249</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2022-Nov-2022</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2022-Nov-2022\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
+        <ImageName>Windows Server 2022 SERVERSTANDARDCORE</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL></HAL>
+        <Size>8199</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{e9430151-31e4-4879-8f68-f127ed13d5bf}" enable="True">
+        <Name>Windows Server 2022 SERVERSTANDARD in WS2022-Nov-2022 install.wim</Name>
+        <CreatedTime>12/3/2022 12:14:48 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 12:14:48 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2022 SERVERSTANDARD</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.20348.1249</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2022-Nov-2022</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2022-Nov-2022\Sources\install.wim</ImageFile>
+        <ImageIndex>2</ImageIndex>
+        <ImageName>Windows Server 2022 SERVERSTANDARD</ImageName>
+        <Flags>ServerStandard</Flags>
+        <HAL></HAL>
+        <Size>13975</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{a68b6ace-9219-4c0c-b8b6-26a582b26b81}" enable="True">
+        <Name>Windows Server 2022 SERVERDATACENTERCORE in WS2022-Nov-2022 install.wim</Name>
+        <CreatedTime>12/3/2022 12:14:48 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 12:14:48 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2022 SERVERDATACENTERCORE</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.20348.1249</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2022-Nov-2022</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2022-Nov-2022\Sources\install.wim</ImageFile>
+        <ImageIndex>3</ImageIndex>
+        <ImageName>Windows Server 2022 SERVERDATACENTERCORE</ImageName>
+        <Flags>ServerDatacenter</Flags>
+        <HAL></HAL>
+        <Size>8198</Size>
+        <Language>en-US</Language>
+    </os>
+    <os guid="{427a3c40-2f4f-4f97-b015-777a70d4e08b}" enable="True">
+        <Name>Windows Server 2022 SERVERDATACENTER in WS2022-Nov-2022 install.wim</Name>
+        <CreatedTime>12/3/2022 12:14:48 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/3/2022 12:14:48 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <Description>Windows Server 2022 SERVERDATACENTER</Description>
+        <Platform>x64</Platform>
+        <Build>10.0.20348.1249</Build>
+        <OSType>Windows IBS</OSType>
+        <Source>.\Operating Systems\WS2022-Nov-2022</Source>
+        <IncludesSetup>True</IncludesSetup>
+        <SMSImage>False</SMSImage>
+        <ImageFile>.\Operating Systems\WS2022-Nov-2022\Sources\install.wim</ImageFile>
+        <ImageIndex>4</ImageIndex>
+        <ImageName>Windows Server 2022 SERVERDATACENTER</ImageName>
+        <Flags>ServerDatacenter</Flags>
+        <HAL></HAL>
+        <Size>13971</Size>
+        <Language>en-US</Language>
+    </os>
 </oss>
