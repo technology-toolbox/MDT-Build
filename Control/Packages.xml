@@ -35,7 +35,7 @@
         <Source>.\Packages\Update\x86_Package_for_KB4490628_6.1.1.2_neutral_31bf3856ad364e35_\Windows6.1-KB4490628-x86.cab</Source>
         <Keyword></Keyword>
     </package>
-    <package guid="{6628a6fd-b81d-4eb3-be98-7f0fd40fe7c5}" enable="True" hide="False">
+    <package guid="{6628a6fd-b81d-4eb3-be98-7f0fd40fe7c5}" enable="False" hide="False">
         <Name>Package_for_RollupFix neutral amd64 14393.7606.1.5</Name>
         <Comments>Fix for KB5048671</Comments>
         <CreatedTime>12/29/2024 1:05:53 AM</CreatedTime>
