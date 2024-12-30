@@ -459,7 +459,7 @@
           <variable name="SMSTSRunCommandLineUserPassword" property="SMSTSRunCommandLineUserPassword"></variable>
           <variable name="LoadProfile" property="LoadProfile">false</variable>
         </defaultVarList>
-        <action>robocopy \\TT-FS01\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E</action>
+        <action>robocopy \\TT-FS01\Public\Toolbox C:\NotBackedUp\Public\Toolbox /E /NP</action>
       </step>
       <step type="BDD_InstallApplication" name="Install Microsoft Security Essentials (x86)" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
         <defaultVarList>
