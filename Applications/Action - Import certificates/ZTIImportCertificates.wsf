@@ -29,10 +29,30 @@ Class ZTIImportCertificates
 		oLogging.CreateEntry sActionName & ": Starting", LogTypeInfo
 
 		oLogging.CreateEntry sActionName & ": Importing certificate - COMODO SECURE™", LogTypeInfo
-		iRetVal = oUtility.RunWithConsoleLogging("certutil -addstore root COMODO-SECURE.cer")
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -addstore Root COMODO-SECURE.cer")
 
 		If (iRetVal <> 0) Then
 			oLogging.CreateEntry "Error importing certificate - COMODO SECURE™" , LogTypeError
+
+			Main = FAILURE
+			Exit Function
+		End If
+
+		oLogging.CreateEntry sActionName & ": Importing certificate - Technology Toolbox Root Certificate Authority", LogTypeInfo
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -addstore Root Technology-Toolbox-Root-Certificate-Authority.cer")
+
+		If (iRetVal <> 0) Then
+			oLogging.CreateEntry "Error importing certificate - Technology Toolbox Root Certificate Authority" , LogTypeError
+
+			Main = FAILURE
+			Exit Function
+		End If
+
+		oLogging.CreateEntry sActionName & ": Importing certificate - Technology Toolbox Issuing Certificate Authority 01", LogTypeInfo
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -addstore CA Technology-Toolbox-Issuing-Certificate-Authority-01.cer")
+
+		If (iRetVal <> 0) Then
+			oLogging.CreateEntry "Error importing certificate - Technology Toolbox Issuing Certificate Authority 01" , LogTypeError
 
 			Main = FAILURE
 			Exit Function
