@@ -40,13 +40,13 @@
         <Definition>&lt;SelectionProfile&gt;&lt;Include path="Packages\Windows 7 and Windows Server 2008 R2" /&gt;&lt;/SelectionProfile&gt;</Definition>
     </selectionProfile>
     <selectionProfile guid="{f2b39f56-0897-4dfb-9a92-b8500c1d0b2e}" enable="True">
-        <Name>Windows 10 (x64)</Name>
+        <Name>Windows 10 (x64) and Windows Server 2016 Packages</Name>
         <Comments>Slipstream patches during the WinPE phase</Comments>
         <CreatedTime>12/28/2016 12:55:36 PM</CreatedTime>
         <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>12/28/2016 12:55:36 PM</LastModifiedTime>
+        <LastModifiedTime>12/30/2024 11:43:10 AM</LastModifiedTime>
         <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
         <ReadOnly>False</ReadOnly>
-        <Definition>&lt;SelectionProfile&gt;&lt;Include path="Packages\Windows 10 (x64)" /&gt;&lt;/SelectionProfile&gt;</Definition>
+        <Definition>&lt;SelectionProfile&gt;&lt;Include path="Packages\Windows 10 (x64) and Windows Server 2016" /&gt;&lt;/SelectionProfile&gt;</Definition>
     </selectionProfile>
 </selectionProfiles>

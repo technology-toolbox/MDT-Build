@@ -35,4 +35,40 @@
         <Source>.\Packages\Update\x86_Package_for_KB4490628_6.1.1.2_neutral_31bf3856ad364e35_\Windows6.1-KB4490628-x86.cab</Source>
         <Keyword></Keyword>
     </package>
+    <package guid="{6628a6fd-b81d-4eb3-be98-7f0fd40fe7c5}" enable="True" hide="False">
+        <Name>Package_for_RollupFix neutral amd64 14393.7606.1.5</Name>
+        <Comments>Fix for KB5048671</Comments>
+        <CreatedTime>12/29/2024 1:05:53 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/29/2024 11:21:05 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <SupportInformation>https://support.microsoft.com/help/5048671</SupportInformation>
+        <PackageType>SecurityUpdate</PackageType>
+        <ProcessorArchitecture>amd64</ProcessorArchitecture>
+        <Language>neutral</Language>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+        <Version>14393.7606.1.5</Version>
+        <ProductName>Package_for_RollupFix</ProductName>
+        <ProductVersion>14393.7606.1.5</ProductVersion>
+        <Source>.\Packages\SecurityUpdate\amd64_Package_for_RollupFix_14393.7606.1.5_neutral_31bf3856ad364e35_\Windows10.0-KB5048671-x64.cab</Source>
+        <Keyword></Keyword>
+    </package>
+    <package guid="{0f7eaa6b-d6f3-4b67-99ee-02e08bc22681}" enable="True">
+        <Name>Package_for_KB5043124 neutral amd64 14393.7334.1.2</Name>
+        <Comments>Fix for KB5043124</Comments>
+        <CreatedTime>12/29/2024 1:30:11 AM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/29/2024 1:30:11 AM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <SupportInformation>https://support.microsoft.com/help/5043124</SupportInformation>
+        <PackageType>SecurityUpdate</PackageType>
+        <ProcessorArchitecture>amd64</ProcessorArchitecture>
+        <Language>neutral</Language>
+        <PublicKeyToken>31bf3856ad364e35</PublicKeyToken>
+        <Version>14393.7334.1.2</Version>
+        <ProductName>Package_for_KB5043124</ProductName>
+        <ProductVersion>14393.7334.1.2</ProductVersion>
+        <Source>.\Packages\SecurityUpdate\amd64_Package_for_KB5043124_14393.7334.1.2_neutral_31bf3856ad364e35_\Windows10.0-KB5043124-x64.cab</Source>
+        <Keyword></Keyword>
+    </package>
 </packages>
