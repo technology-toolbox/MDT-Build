@@ -461,88 +461,25 @@
         <Size>12457</Size>
         <Language>en-US</Language>
     </os>
-    <os guid="{bc4d13e2-c063-42fe-b7ae-0d70effc2a07}" enable="True">
-        <Name>Windows Server 2016 SERVERSTANDARDCORE in WS2016-Feb-2018 install.wim</Name>
-        <CreatedTime>3/16/2018 4:26:39 PM</CreatedTime>
+    <os guid="{da152750-0ca2-4fe6-929b-12c01a9cc5b5}" enable="True">
+        <Name>Windows Server 2016 SERVERSTANDARD in WS2016-Dec-2024 install.wim</Name>
+        <CreatedTime>12/29/2024 4:27:12 PM</CreatedTime>
         <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>3/16/2018 4:26:39 PM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Description>Windows Server 2016 SERVERSTANDARDCORE</Description>
-        <Platform>x64</Platform>
-        <Build>10.0.14393.1198</Build>
-        <OSType>Windows IBS</OSType>
-        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-        <IncludesSetup>True</IncludesSetup>
-        <SMSImage>False</SMSImage>
-        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-        <ImageIndex>1</ImageIndex>
-        <ImageName>Windows Server 2016 SERVERSTANDARDCORE</ImageName>
-        <Flags>ServerStandard</Flags>
-        <HAL>acpiapic</HAL>
-        <Size>9035</Size>
-        <Language>en-US</Language>
-    </os>
-    <os guid="{2e068784-db21-4ebb-8f4d-cd33fdd788b3}" enable="True">
-        <Name>Windows Server 2016 SERVERSTANDARD in WS2016-Feb-2018 install.wim</Name>
-        <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
+        <LastModifiedTime>12/29/2024 4:27:12 PM</LastModifiedTime>
         <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
         <Description>Windows Server 2016 SERVERSTANDARD</Description>
         <Platform>x64</Platform>
-        <Build>10.0.14393.1198</Build>
+        <Build>10.0.14393.7330</Build>
         <OSType>Windows IBS</OSType>
-        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
+        <Source>.\Operating Systems\WS2016-Dec-2024</Source>
         <IncludesSetup>True</IncludesSetup>
         <SMSImage>False</SMSImage>
-        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-        <ImageIndex>2</ImageIndex>
+        <ImageFile>.\Operating Systems\WS2016-Dec-2024\Sources\install.wim</ImageFile>
+        <ImageIndex>1</ImageIndex>
         <ImageName>Windows Server 2016 SERVERSTANDARD</ImageName>
         <Flags>ServerStandard</Flags>
         <HAL>acpiapic</HAL>
-        <Size>14842</Size>
-        <Language>en-US</Language>
-    </os>
-    <os guid="{94fed361-8a3b-4e53-8492-6c4f673e479d}" enable="True">
-        <Name>Windows Server 2016 SERVERDATACENTERCORE in WS2016-Feb-2018 install.wim</Name>
-        <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Description>Windows Server 2016 SERVERDATACENTERCORE</Description>
-        <Platform>x64</Platform>
-        <Build>10.0.14393.1198</Build>
-        <OSType>Windows IBS</OSType>
-        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-        <IncludesSetup>True</IncludesSetup>
-        <SMSImage>False</SMSImage>
-        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-        <ImageIndex>3</ImageIndex>
-        <ImageName>Windows Server 2016 SERVERDATACENTERCORE</ImageName>
-        <Flags>ServerDatacenter</Flags>
-        <HAL>acpiapic</HAL>
-        <Size>9044</Size>
-        <Language>en-US</Language>
-    </os>
-    <os guid="{d43d4004-a4e0-457f-9dde-0047fae0eb16}" enable="True">
-        <Name>Windows Server 2016 SERVERDATACENTER in WS2016-Feb-2018 install.wim</Name>
-        <CreatedTime>3/16/2018 4:26:40 PM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>3/16/2018 4:26:40 PM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Description>Windows Server 2016 SERVERDATACENTER</Description>
-        <Platform>x64</Platform>
-        <Build>10.0.14393.1198</Build>
-        <OSType>Windows IBS</OSType>
-        <Source>.\Operating Systems\WS2016-Feb-2018</Source>
-        <IncludesSetup>True</IncludesSetup>
-        <SMSImage>False</SMSImage>
-        <ImageFile>.\Operating Systems\WS2016-Feb-2018\Sources\install.wim</ImageFile>
-        <ImageIndex>4</ImageIndex>
-        <ImageName>Windows Server 2016 SERVERDATACENTER</ImageName>
-        <Flags>ServerDatacenter</Flags>
-        <HAL>acpiapic</HAL>
-        <Size>14842</Size>
+        <Size>15460</Size>
         <Language>en-US</Language>
     </os>
     <os guid="{e2202aca-0b3f-4ccc-a76f-487321e95ee7}" enable="True">
