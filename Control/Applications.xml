@@ -1,241 +1,255 @@
 <applications>
-  <application guid="{2ceeca60-258c-4077-891c-c1259091c0fe}">
-    <Name>Office Professional Plus 2013 (x86)</Name>
-    <CreatedTime>4/13/2015 3:06:40 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/13/2015 3:06:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Office2013ProPlus-x86</ShortName>
-    <Source>.\Applications\Office2013ProPlus-x86</Source>
-    <CommandLine>setup.exe /config ProPlusr.ww\Config.xml</CommandLine>
-    <WorkingDirectory>.\Applications\Office2013ProPlus-x86</WorkingDirectory>
-  </application>
-  <application guid="{e1717022-159b-4acb-8cb9-7e2a958a6efe}">
-    <Name>SQL Server 2014 Developer Edition (x64) - Complete</Name>
-    <CreatedTime>4/14/2015 10:04:25 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:04:25 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SQL2014-Dev-x64</ShortName>
-    <Source>.\Applications\SQL2014-Dev-x64</Source>
-    <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQL,AS,RS,DQC,IS,MDS,Tools /INSTANCEID=MSSQLSERVER</CommandLine>
-    <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
-  </application>
-  <application guid="{c1f8aa44-168f-449f-a8bd-3797380a80f8}">
-    <Name>SQL Server 2014 Developer Edition (x64) - Database Engine and Management Tools</Name>
-    <CreatedTime>4/14/2015 10:04:55 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:04:55 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SQL2014-Dev-x64-DE-MT</ShortName>
-    <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQLEngine,ADV_SSMS /INSTANCEID=MSSQLSERVER</CommandLine>
-    <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
-  </application>
-  <application guid="{f66c3f8a-da57-4a16-875f-0978e7e53290}">
-    <Name>Microsoft Office Developer Tools for Visual Studio 2013 - November 2014 Update</Name>
-    <CreatedTime>4/14/2015 10:40:40 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:40:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>OfficeToolsForVS2013Update1</ShortName>
-    <Source>.\Applications\OfficeToolsForVS2013Update1</Source>
-    <CommandLine>cba_bundle.exe /Quiet /NoRestart</CommandLine>
-    <WorkingDirectory>.\Applications\OfficeToolsForVS2013Update1</WorkingDirectory>
-  </application>
-  <application guid="{eb047540-e5a9-4230-aba5-c57a6e733648}">
-    <Name>Microsoft SQL Server Update for database tooling (VS2013)</Name>
-    <CreatedTime>4/14/2015 10:41:37 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:41:37 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SSDT-VS2013</ShortName>
-    <Source>.\Applications\SSDT-VS2013</Source>
-    <CommandLine>SSDTSETUP.EXE /q /norestart</CommandLine>
-    <WorkingDirectory>.\Applications\SSDT-VS2013</WorkingDirectory>
-  </application>
-  <application guid="{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}">
-    <Name>Visual Studio 2013 for SP2013 Development</Name>
-    <CreatedTime>4/14/2015 10:42:23 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>8/17/2015 5:25:02 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2013-SP2013</ShortName>
-    <Dependency>{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}</Dependency>
-    <Dependency>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Dependency>
-    <Dependency>{eb047540-e5a9-4230-aba5-c57a6e733648}</Dependency>
-  </application>
-  <application guid="{50c55ab7-ccbe-442d-8dd7-14464017cf48}">
-    <Name>SharePoint Server 2013 with Service Pack 1</Name>
-    <CreatedTime>4/14/2015 10:48:24 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:48:24 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SP2013-SP1</ShortName>
-    <Source>.\Applications\SP2013-SP1</Source>
-    <CommandLine>setup.exe /config Config.xml</CommandLine>
-    <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
-  </application>
-  <application guid="{4841eddc-8646-4c5a-a35d-4701d0702192}">
-    <Name>SharePoint Server 2013 with Service Pack 1 - Prerequisites</Name>
-    <CreatedTime>4/14/2015 10:52:05 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/14/2015 10:52:05 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SP2013-SP1-Prereq</ShortName>
-    <CommandLine>prerequisiteinstaller.cmd /unattended</CommandLine>
-    <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
-  </application>
-  <application guid="{4985bc85-7f76-4efb-a3c4-b4c3d5306930}">
-    <Name>Action - Cleanup before Sysprep</Name>
-    <CreatedTime>4/15/2015 11:54:40 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/15/2015 11:54:40 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Cleanup-image</ShortName>
-    <Source>.\Applications\Action - Cleanup before Sysprep</Source>
-    <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
-    <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
-  </application>
-  <application guid="{b71fabf8-51ab-44b7-9197-c8accc4a09c8}">
-    <Name>SharePoint Designer 2013 with Service Pack 1 (x86)</Name>
-    <CreatedTime>4/21/2015 4:36:07 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>4/21/2015 4:36:07 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SPD2013-x86-SP1</ShortName>
-    <Source>.\Applications\SPD2013-x86-SP1</Source>
-    <CommandLine>setup.exe /config sharepointdesigner.ww\config.xml</CommandLine>
-    <WorkingDirectory>.\Applications\SPD2013-x86-SP1</WorkingDirectory>
-  </application>
-  <application guid="{4792e5b9-b2d2-4446-bab7-a6b36a01667e}">
-    <Name>Visual Studio 2013 with Update 5 - Default</Name>
-    <CreatedTime>8/17/2015 5:21:42 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>8/17/2015 5:21:42 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2013-Update5</ShortName>
-    <Source>.\Applications\VS2013-Update5</Source>
-    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\appSetupFolder\AdminDeployment.xml</CommandLine>
-    <WorkingDirectory>.\Applications\VS2013-Update5</WorkingDirectory>
-  </application>
-  <application guid="{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}">
-    <Name>Visual Studio 2013 with Update 5 - SP2013 Development</Name>
-    <CreatedTime>8/17/2015 5:22:15 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>8/17/2015 5:22:15 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2013-Update5-SP2013-Dev</ShortName>
-    <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2013-Update5\AdminDeployment-SP2013-Dev.xml</CommandLine>
-    <WorkingDirectory>.\Applications\VS2013-Update5</WorkingDirectory>
-  </application>
-  <application guid="{0baf4194-b807-43b7-ad2c-c4fdff3a2fc7}">
-    <Name>Visual Studio 2015 with Update 3 - Default</Name>
-    <CreatedTime>11/9/2017 5:56:29 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/9/2017 5:56:29 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2015-Update3</ShortName>
-    <Source>.\Applications\VS2015-Update3</Source>
-    <CommandLine>vs_enterprise.exe /Quiet /NoRestart</CommandLine>
-    <WorkingDirectory>.\Applications\VS2015-Update3</WorkingDirectory>
-  </application>
-  <application guid="{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}">
-    <Name>Visual Studio 2015 with Update 3 - SP2013 Development</Name>
-    <CreatedTime>11/9/2017 5:56:58 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/9/2017 5:56:58 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2015-Update3-SP2013-Dev</ShortName>
-    <CommandLine>vs_enterprise.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2015-Update3\AdminDeployment-SP2013-Dev.xml</CommandLine>
-    <WorkingDirectory>.\Applications\VS2015-Update3</WorkingDirectory>
-  </application>
-  <application guid="{affd90fb-a1b5-4042-9462-9c832934de63}">
-    <Name>Office Developer Tools Update 2 for Visual Studio 2015</Name>
-    <CreatedTime>11/10/2017 2:48:30 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/10/2017 2:48:30 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>OfficeToolsForVS2015Update2</ShortName>
-    <Source>.\Applications\OfficeToolsForVS2015Update2</Source>
-    <CommandLine>cba_bundle.exe /Quiet /NoRestart</CommandLine>
-    <WorkingDirectory>.\Applications\OfficeToolsForVS2015Update2</WorkingDirectory>
-  </application>
-  <application guid="{c3f2fda5-6322-4e6a-979a-3393ecd44128}">
-    <Name>Microsoft SQL Server Update for database tooling (VS2015)</Name>
-    <CreatedTime>11/10/2017 2:49:18 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/10/2017 2:49:18 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>SSDT-VS2015</ShortName>
-    <Source>.\Applications\SSDT-VS2015</Source>
-    <CommandLine>SSDTSETUP.EXE /q /norestart</CommandLine>
-    <WorkingDirectory>.\Applications\SSDT-VS2015</WorkingDirectory>
-  </application>
-  <application guid="{29c73a6d-8de0-4b06-9d3b-48e3ca63f069}">
-    <Name>Visual Studio 2015 for SP2013 Development</Name>
-    <CreatedTime>11/10/2017 2:49:19 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/10/2017 2:50:30 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>VS2015-SP2013</ShortName>
-    <Dependency>{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}</Dependency>
-    <Dependency>{affd90fb-a1b5-4042-9462-9c832934de63}</Dependency>
-    <Dependency>{c3f2fda5-6322-4e6a-979a-3393ecd44128}</Dependency>
-  </application>
-  <application guid="{51ec1d53-e615-42db-bef7-64d8ab8d78ff}">
-    <Name>Office Professional Plus 2016 (x86)</Name>
-    <CreatedTime>11/10/2017 5:52:28 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>11/10/2017 5:52:28 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Office2016ProPlus-x86</ShortName>
-    <CommandLine>setup.exe /configure configuration.xml</CommandLine>
-    <WorkingDirectory>.\Applications\Office2016ProPlus-x86</WorkingDirectory>
-  </application>
-  <application guid="{61a9f792-2d66-437c-bc9c-0bd8de22545d}" hide="False" enable="True">
-    <Name>Action - Import certificates</Name>
-    <CreatedTime>6/18/2018 3:06:35 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>6/18/2018 4:13:56 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Import-certificates</ShortName>
-    <Version></Version>
-    <Publisher></Publisher>
-    <Language></Language>
-    <CommandLine>cscript.exe ZTIImportCertificates.wsf</CommandLine>
-    <WorkingDirectory>.\Applications\Action - Import certificates</WorkingDirectory>
-    <Reboot>False</Reboot>
-  </application>
-  <application guid="{2fd6f17f-00c1-43d4-89a0-e5a4491bdf30}">
-    <Name>Office Professional Plus 2019 (x64)</Name>
-    <CreatedTime>10/31/2018 4:45:14 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>10/31/2018 4:45:14 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>Office2019ProPlus-x64</ShortName>
-    <CommandLine>setup.exe /configure configuration-Office365-x64.xml</CommandLine>
-    <WorkingDirectory>.\Applications\Office2019ProPlus-x64</WorkingDirectory>
-  </application>
-  <application guid="{03078b71-9e50-4023-b6f7-e7fd343886aa}">
-    <Name>Microsoft Security Essentials (x64)</Name>
-    <CreatedTime>2/21/2019 1:06:52 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>2/21/2019 1:06:52 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>MSE-x64</ShortName>
-    <Source>.\Applications\MSE-x64</Source>
-    <CommandLine>MSEInstall.exe /s /runwgacheck /o</CommandLine>
-    <WorkingDirectory>.\Applications\MSE-x64</WorkingDirectory>
-  </application>
-  <application guid="{7d367c9f-93e1-42b0-826d-d6f133059e08}">
-    <Name>Microsoft Security Essentials (x86)</Name>
-    <CreatedTime>2/21/2019 1:08:32 PM</CreatedTime>
-    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-    <LastModifiedTime>2/21/2019 1:08:32 PM</LastModifiedTime>
-    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-    <ShortName>MSE-x86</ShortName>
-    <Source>.\Applications\MSE-x86</Source>
-    <CommandLine>MSEInstall.exe /s /runwgacheck /o</CommandLine>
-    <WorkingDirectory>.\Applications\MSE-x86</WorkingDirectory>
-  </application>
+    <application guid="{2ceeca60-258c-4077-891c-c1259091c0fe}">
+        <Name>Office Professional Plus 2013 (x86)</Name>
+        <CreatedTime>4/13/2015 3:06:40 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/13/2015 3:06:40 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>Office2013ProPlus-x86</ShortName>
+        <Source>.\Applications\Office2013ProPlus-x86</Source>
+        <CommandLine>setup.exe /config ProPlusr.ww\Config.xml</CommandLine>
+        <WorkingDirectory>.\Applications\Office2013ProPlus-x86</WorkingDirectory>
+    </application>
+    <application guid="{e1717022-159b-4acb-8cb9-7e2a958a6efe}">
+        <Name>SQL Server 2014 Developer Edition (x64) - Complete</Name>
+        <CreatedTime>4/14/2015 10:04:25 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 10:04:25 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SQL2014-Dev-x64</ShortName>
+        <Source>.\Applications\SQL2014-Dev-x64</Source>
+        <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQL,AS,RS,DQC,IS,MDS,Tools /INSTANCEID=MSSQLSERVER</CommandLine>
+        <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
+    </application>
+    <application guid="{c1f8aa44-168f-449f-a8bd-3797380a80f8}">
+        <Name>SQL Server 2014 Developer Edition (x64) - Database Engine and Management Tools</Name>
+        <CreatedTime>4/14/2015 10:04:55 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 10:04:55 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SQL2014-Dev-x64-DE-MT</ShortName>
+        <CommandLine>Setup.exe /Q /IACCEPTSQLSERVERLICENSETERMS /ACTION=PrepareImage /FEATURES=SQLEngine,ADV_SSMS /INSTANCEID=MSSQLSERVER</CommandLine>
+        <WorkingDirectory>.\Applications\SQL2014-Dev-x64</WorkingDirectory>
+    </application>
+    <application guid="{f66c3f8a-da57-4a16-875f-0978e7e53290}">
+        <Name>Microsoft Office Developer Tools for Visual Studio 2013 - November 2014 Update</Name>
+        <CreatedTime>4/14/2015 10:40:40 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 10:40:40 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>OfficeToolsForVS2013Update1</ShortName>
+        <Source>.\Applications\OfficeToolsForVS2013Update1</Source>
+        <CommandLine>cba_bundle.exe /Quiet /NoRestart</CommandLine>
+        <WorkingDirectory>.\Applications\OfficeToolsForVS2013Update1</WorkingDirectory>
+    </application>
+    <application guid="{eb047540-e5a9-4230-aba5-c57a6e733648}">
+        <Name>Microsoft SQL Server Update for database tooling (VS2013)</Name>
+        <CreatedTime>4/14/2015 10:41:37 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 10:41:37 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SSDT-VS2013</ShortName>
+        <Source>.\Applications\SSDT-VS2013</Source>
+        <CommandLine>SSDTSETUP.EXE /q /norestart</CommandLine>
+        <WorkingDirectory>.\Applications\SSDT-VS2013</WorkingDirectory>
+    </application>
+    <application guid="{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}">
+        <Name>Visual Studio 2013 for SP2013 Development</Name>
+        <CreatedTime>4/14/2015 10:42:23 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>8/17/2015 5:25:02 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>VS2013-SP2013</ShortName>
+        <Dependency>{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}</Dependency>
+        <Dependency>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Dependency>
+        <Dependency>{eb047540-e5a9-4230-aba5-c57a6e733648}</Dependency>
+    </application>
+    <application guid="{50c55ab7-ccbe-442d-8dd7-14464017cf48}">
+        <Name>SharePoint Server 2013 with Service Pack 1</Name>
+        <CreatedTime>4/14/2015 10:48:24 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 10:48:24 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SP2013-SP1</ShortName>
+        <Source>.\Applications\SP2013-SP1</Source>
+        <CommandLine>setup.exe /config Config.xml</CommandLine>
+        <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
+    </application>
+    <application guid="{4841eddc-8646-4c5a-a35d-4701d0702192}">
+        <Name>SharePoint Server 2013 with Service Pack 1 - Prerequisites</Name>
+        <CreatedTime>4/14/2015 10:52:05 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/14/2015 10:52:05 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SP2013-SP1-Prereq</ShortName>
+        <CommandLine>prerequisiteinstaller.cmd /unattended</CommandLine>
+        <WorkingDirectory>.\Applications\SP2013-SP1</WorkingDirectory>
+    </application>
+    <application guid="{4985bc85-7f76-4efb-a3c4-b4c3d5306930}">
+        <Name>Action - Cleanup before Sysprep</Name>
+        <CreatedTime>4/15/2015 11:54:40 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/15/2015 11:54:40 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>Cleanup-image</ShortName>
+        <Source>.\Applications\Action - Cleanup before Sysprep</Source>
+        <CommandLine>cscript.exe Action-CleanupBeforeSysprep.wsf</CommandLine>
+        <WorkingDirectory>.\Applications\Action - Cleanup before Sysprep</WorkingDirectory>
+    </application>
+    <application guid="{b71fabf8-51ab-44b7-9197-c8accc4a09c8}">
+        <Name>SharePoint Designer 2013 with Service Pack 1 (x86)</Name>
+        <CreatedTime>4/21/2015 4:36:07 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>4/21/2015 4:36:07 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SPD2013-x86-SP1</ShortName>
+        <Source>.\Applications\SPD2013-x86-SP1</Source>
+        <CommandLine>setup.exe /config sharepointdesigner.ww\config.xml</CommandLine>
+        <WorkingDirectory>.\Applications\SPD2013-x86-SP1</WorkingDirectory>
+    </application>
+    <application guid="{4792e5b9-b2d2-4446-bab7-a6b36a01667e}">
+        <Name>Visual Studio 2013 with Update 5 - Default</Name>
+        <CreatedTime>8/17/2015 5:21:42 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>8/17/2015 5:21:42 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>VS2013-Update5</ShortName>
+        <Source>.\Applications\VS2013-Update5</Source>
+        <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\appSetupFolder\AdminDeployment.xml</CommandLine>
+        <WorkingDirectory>.\Applications\VS2013-Update5</WorkingDirectory>
+    </application>
+    <application guid="{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}">
+        <Name>Visual Studio 2013 with Update 5 - SP2013 Development</Name>
+        <CreatedTime>8/17/2015 5:22:15 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>8/17/2015 5:22:15 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>VS2013-Update5-SP2013-Dev</ShortName>
+        <CommandLine>vs_ultimate.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2013-Update5\AdminDeployment-SP2013-Dev.xml</CommandLine>
+        <WorkingDirectory>.\Applications\VS2013-Update5</WorkingDirectory>
+    </application>
+    <application guid="{0baf4194-b807-43b7-ad2c-c4fdff3a2fc7}">
+        <Name>Visual Studio 2015 with Update 3 - Default</Name>
+        <CreatedTime>11/9/2017 5:56:29 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>11/9/2017 5:56:29 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>VS2015-Update3</ShortName>
+        <Source>.\Applications\VS2015-Update3</Source>
+        <CommandLine>vs_enterprise.exe /Quiet /NoRestart</CommandLine>
+        <WorkingDirectory>.\Applications\VS2015-Update3</WorkingDirectory>
+    </application>
+    <application guid="{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}">
+        <Name>Visual Studio 2015 with Update 3 - SP2013 Development</Name>
+        <CreatedTime>11/9/2017 5:56:58 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>11/9/2017 5:56:58 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>VS2015-Update3-SP2013-Dev</ShortName>
+        <CommandLine>vs_enterprise.exe /Quiet /NoRestart /AdminFile Z:\Applications\VS2015-Update3\AdminDeployment-SP2013-Dev.xml</CommandLine>
+        <WorkingDirectory>.\Applications\VS2015-Update3</WorkingDirectory>
+    </application>
+    <application guid="{affd90fb-a1b5-4042-9462-9c832934de63}">
+        <Name>Office Developer Tools Update 2 for Visual Studio 2015</Name>
+        <CreatedTime>11/10/2017 2:48:30 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>11/10/2017 2:48:30 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>OfficeToolsForVS2015Update2</ShortName>
+        <Source>.\Applications\OfficeToolsForVS2015Update2</Source>
+        <CommandLine>cba_bundle.exe /Quiet /NoRestart</CommandLine>
+        <WorkingDirectory>.\Applications\OfficeToolsForVS2015Update2</WorkingDirectory>
+    </application>
+    <application guid="{c3f2fda5-6322-4e6a-979a-3393ecd44128}">
+        <Name>Microsoft SQL Server Update for database tooling (VS2015)</Name>
+        <CreatedTime>11/10/2017 2:49:18 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>11/10/2017 2:49:18 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>SSDT-VS2015</ShortName>
+        <Source>.\Applications\SSDT-VS2015</Source>
+        <CommandLine>SSDTSETUP.EXE /q /norestart</CommandLine>
+        <WorkingDirectory>.\Applications\SSDT-VS2015</WorkingDirectory>
+    </application>
+    <application guid="{29c73a6d-8de0-4b06-9d3b-48e3ca63f069}">
+        <Name>Visual Studio 2015 for SP2013 Development</Name>
+        <CreatedTime>11/10/2017 2:49:19 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>11/10/2017 2:50:30 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>VS2015-SP2013</ShortName>
+        <Dependency>{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}</Dependency>
+        <Dependency>{affd90fb-a1b5-4042-9462-9c832934de63}</Dependency>
+        <Dependency>{c3f2fda5-6322-4e6a-979a-3393ecd44128}</Dependency>
+    </application>
+    <application guid="{51ec1d53-e615-42db-bef7-64d8ab8d78ff}">
+        <Name>Office Professional Plus 2016 (x86)</Name>
+        <CreatedTime>11/10/2017 5:52:28 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>11/10/2017 5:52:28 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>Office2016ProPlus-x86</ShortName>
+        <CommandLine>setup.exe /configure configuration.xml</CommandLine>
+        <WorkingDirectory>.\Applications\Office2016ProPlus-x86</WorkingDirectory>
+    </application>
+    <application guid="{61a9f792-2d66-437c-bc9c-0bd8de22545d}" hide="False" enable="True">
+        <Name>Action - Import certificates</Name>
+        <CreatedTime>6/18/2018 3:06:35 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>6/18/2018 4:13:56 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>Import-certificates</ShortName>
+        <Version></Version>
+        <Publisher></Publisher>
+        <Language></Language>
+        <CommandLine>cscript.exe ZTIImportCertificates.wsf</CommandLine>
+        <WorkingDirectory>.\Applications\Action - Import certificates</WorkingDirectory>
+        <Reboot>False</Reboot>
+    </application>
+    <application guid="{2fd6f17f-00c1-43d4-89a0-e5a4491bdf30}">
+        <Name>Office Professional Plus 2019 (x64)</Name>
+        <CreatedTime>10/31/2018 4:45:14 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>10/31/2018 4:45:14 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>Office2019ProPlus-x64</ShortName>
+        <CommandLine>setup.exe /configure configuration-Office365-x64.xml</CommandLine>
+        <WorkingDirectory>.\Applications\Office2019ProPlus-x64</WorkingDirectory>
+    </application>
+    <application guid="{03078b71-9e50-4023-b6f7-e7fd343886aa}">
+        <Name>Microsoft Security Essentials (x64)</Name>
+        <CreatedTime>2/21/2019 1:06:52 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>2/21/2019 1:06:52 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>MSE-x64</ShortName>
+        <Source>.\Applications\MSE-x64</Source>
+        <CommandLine>MSEInstall.exe /s /runwgacheck /o</CommandLine>
+        <WorkingDirectory>.\Applications\MSE-x64</WorkingDirectory>
+    </application>
+    <application guid="{7d367c9f-93e1-42b0-826d-d6f133059e08}">
+        <Name>Microsoft Security Essentials (x86)</Name>
+        <CreatedTime>2/21/2019 1:08:32 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>2/21/2019 1:08:32 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>MSE-x86</ShortName>
+        <Source>.\Applications\MSE-x86</Source>
+        <CommandLine>MSEInstall.exe /s /runwgacheck /o</CommandLine>
+        <WorkingDirectory>.\Applications\MSE-x86</WorkingDirectory>
+    </application>
+    <application guid="{340ef6fa-96e4-43c6-96e5-fa4d51de8388}" enable="True" hide="False">
+        <Name>Action - Remove certificates</Name>
+        <CreatedTime>12/28/2024 1:12:12 PM</CreatedTime>
+        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+        <LastModifiedTime>12/28/2024 1:14:49 PM</LastModifiedTime>
+        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+        <ShortName>Remove-certificates</ShortName>
+        <Version></Version>
+        <Publisher></Publisher>
+        <Language></Language>
+        <CommandLine>cscript.exe ZTIRemoveCertificates.wsf</CommandLine>
+        <WorkingDirectory>.\Applications\Action - Remove certificates</WorkingDirectory>
+        <Reboot>False</Reboot>
+    </application>
 </applications>

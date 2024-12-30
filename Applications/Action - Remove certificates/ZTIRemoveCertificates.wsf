@@ -1,0 +1,65 @@
+<job id="ZTIRemoveCertificates">
+<script language="VBScript" src="..\..\Scripts\ZTIUtility.vbs"/>
+<script language="VBScript">
+
+Option Explicit
+RunNewInstance
+
+'//----------------------------------------------------------------------------
+'//  Main Class
+'//----------------------------------------------------------------------------
+
+Class ZTIRemoveCertificates
+
+	'//----------------------------------------------------------------------------
+	'//  Main routine
+	'//----------------------------------------------------------------------------
+	
+	Function Main
+	
+		' Local Variables
+
+		Dim iRetVal
+		Dim sActionName
+
+		sActionName = "Action-RemoveCertificates"
+
+		' Main script processing
+
+		oLogging.CreateEntry sActionName & ": Starting", LogTypeInfo
+
+		oLogging.CreateEntry sActionName & ": Removing certificate - COMODO SECURE™", LogTypeInfo
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -delstore Root afe5d244a8d1194230ff479fe2f897bbcd7a8cb4")
+
+		If (iRetVal <> 0) Then
+			oLogging.CreateEntry "Error removing certificate - COMODO SECURE™" , LogTypeError
+
+			Main = FAILURE
+			Exit Function
+		End If
+
+		oLogging.CreateEntry sActionName & ": Removing certificate - Technology Toolbox Root Certificate Authority", LogTypeInfo
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -delstore Root da8475c9d5b85abe0e576999bb3592c849deaf5f")
+
+		If (iRetVal <> 0) Then
+			oLogging.CreateEntry "Error removing certificate - Technology Toolbox Root Certificate Authority" , LogTypeError
+
+			Main = FAILURE
+			Exit Function
+		End If
+
+		oLogging.CreateEntry sActionName & ": Removing certificate - Technology Toolbox Issuing Certificate Authority 01", LogTypeInfo
+		iRetVal = oUtility.RunWithConsoleLogging("certutil -delstore CA b862a1e92b327099cb8a851361edbd8a677ee23c")
+
+		If (iRetVal <> 0) Then
+			oLogging.CreateEntry "Error removing certificate - Technology Toolbox Issuing Certificate Authority 01" , LogTypeError
+
+			Main = FAILURE
+			Exit Function
+		End If
+
+		Main = SUCCESS
+	End Function
+End Class
+</script>
+</job>

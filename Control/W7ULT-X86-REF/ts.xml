@@ -544,7 +544,15 @@
         <variable name="LoadProfile" property="LoadProfile">false</variable>
       </defaultVarList>
     </step>
-    <group name="Custom Tasks (Post-Windows Update)" disable="false" continueOnError="false" expand="true" description=""></group>
+    <group name="Custom Tasks (Post-Windows Update)" disable="false" continueOnError="false" expand="true" description="">
+      <step type="BDD_InstallApplication" name="Action - Remove certificates" description="" disable="false" continueOnError="false" runIn="WinPEandFullOS" successCodeList="0 3010">
+        <defaultVarList>
+          <variable name="ApplicationGUID" property="ApplicationGUID">{340ef6fa-96e4-43c6-96e5-fa4d51de8388}</variable>
+          <variable name="ApplicationSuccessCodes" property="ApplicationSuccessCodes">0 3010</variable>
+        </defaultVarList>
+        <action>cscript.exe "%SCRIPTROOT%\ZTIApplications.wsf"</action>
+      </step>
+    </group>
     <step type="SMS_TaskSequence_EnableBitLockerAction" name="Enable BitLocker" continueOnError="true" successCodeList="0 3010" description="" startIn="">
       <action>cscript.exe "%SCRIPTROOT%\ZTIBde.wsf"</action>
       <condition>

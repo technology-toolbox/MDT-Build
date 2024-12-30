@@ -5,6 +5,7 @@ $OEM$/
 Applications/*
 !Applications/Action - Cleanup before Sysprep/
 !Applications/Action - Import certificates/
+!Applications/Action - Remove certificates/
 !Applications/Office2016ProPlus-x86/configuration.xml
 !Applications/SP2013-SP1/Config.xml
 !Applications/SP2013-SP1/prerequisiteinstaller.cmd
