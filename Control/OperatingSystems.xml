@@ -860,4 +860,25 @@
     <Size>13971</Size>
     <Language>en-US</Language>
   </os>
+  <os guid="{f70f68d1-2308-4ebf-9abe-f0badcd6bfa3}" enable="True">
+    <Name>Windows 10 Enterprise in W10Ent-22H2-Dec-2024 install.wim</Name>
+    <CreatedTime>1/4/2025 12:51:49 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>1/4/2025 12:51:49 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Description>Windows 10 Enterprise</Description>
+    <Platform>x64</Platform>
+    <Build>10.0.19041.5198</Build>
+    <OSType>Windows IBS</OSType>
+    <Source>.\Operating Systems\W10Ent-22H2-Dec-2024</Source>
+    <IncludesSetup>True</IncludesSetup>
+    <SMSImage>False</SMSImage>
+    <ImageFile>.\Operating Systems\W10Ent-22H2-Dec-2024\Sources\install.wim</ImageFile>
+    <ImageIndex>1</ImageIndex>
+    <ImageName>Windows 10 Enterprise</ImageName>
+    <Flags>Enterprise</Flags>
+    <HAL></HAL>
+    <Size>15987</Size>
+    <Language>en-US</Language>
+  </os>
 </oss>
