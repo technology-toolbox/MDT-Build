@@ -1,47 +1,47 @@
 <groups>
-    <group guid="{00000000-0000-0000-0000-000000000000}" enable="True">
-        <Name>default</Name>
-        <Comments>default folder (root)</Comments>
-    </group>
-    <group guid="{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}" enable="True">
-        <Name>hidden</Name>
-        <Comments>This folder contains shared source items that have not been made explicitly visible in this deployment share.</Comments>
-    </group>
-    <group guid="{0ff233bd-59f2-4081-a35e-81cfe9104178}" enable="True">
-        <Name>Microsoft</Name>
-        <CreatedTime>4/13/2015 3:05:14 PM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>2/21/2019 1:08:32 PM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Member>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Member>
-        <Member>{03078b71-9e50-4023-b6f7-e7fd343886aa}</Member>
-        <Member>{7d367c9f-93e1-42b0-826d-d6f133059e08}</Member>
-        <Member>{eb047540-e5a9-4230-aba5-c57a6e733648}</Member>
-        <Member>{c3f2fda5-6322-4e6a-979a-3393ecd44128}</Member>
-        <Member>{affd90fb-a1b5-4042-9462-9c832934de63}</Member>
-        <Member>{2ceeca60-258c-4077-891c-c1259091c0fe}</Member>
-        <Member>{51ec1d53-e615-42db-bef7-64d8ab8d78ff}</Member>
-        <Member>{2fd6f17f-00c1-43d4-89a0-e5a4491bdf30}</Member>
-        <Member>{b71fabf8-51ab-44b7-9197-c8accc4a09c8}</Member>
-        <Member>{50c55ab7-ccbe-442d-8dd7-14464017cf48}</Member>
-        <Member>{4841eddc-8646-4c5a-a35d-4701d0702192}</Member>
-        <Member>{e1717022-159b-4acb-8cb9-7e2a958a6efe}</Member>
-        <Member>{c1f8aa44-168f-449f-a8bd-3797380a80f8}</Member>
-        <Member>{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}</Member>
-        <Member>{4792e5b9-b2d2-4446-bab7-a6b36a01667e}</Member>
-        <Member>{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}</Member>
-        <Member>{29c73a6d-8de0-4b06-9d3b-48e3ca63f069}</Member>
-        <Member>{0baf4194-b807-43b7-ad2c-c4fdff3a2fc7}</Member>
-        <Member>{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}</Member>
-    </group>
-    <group guid="{0d3f451d-fd49-40b8-82b0-3c35f5901259}" enable="True">
-        <Name>Actions</Name>
-        <CreatedTime>4/15/2015 11:54:38 PM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>12/28/2024 1:12:12 PM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Member>{4985bc85-7f76-4efb-a3c4-b4c3d5306930}</Member>
-        <Member>{61a9f792-2d66-437c-bc9c-0bd8de22545d}</Member>
-        <Member>{340ef6fa-96e4-43c6-96e5-fa4d51de8388}</Member>
-    </group>
+  <group guid="{00000000-0000-0000-0000-000000000000}" enable="True">
+    <Name>default</Name>
+    <Comments>default folder (root)</Comments>
+  </group>
+  <group guid="{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}" enable="True">
+    <Name>hidden</Name>
+    <Comments>This folder contains shared source items that have not been made explicitly visible in this deployment share.</Comments>
+  </group>
+  <group guid="{0ff233bd-59f2-4081-a35e-81cfe9104178}" enable="True">
+    <Name>Microsoft</Name>
+    <CreatedTime>4/13/2015 3:05:14 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>2/21/2019 1:08:32 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{f66c3f8a-da57-4a16-875f-0978e7e53290}</Member>
+    <Member>{03078b71-9e50-4023-b6f7-e7fd343886aa}</Member>
+    <Member>{7d367c9f-93e1-42b0-826d-d6f133059e08}</Member>
+    <Member>{eb047540-e5a9-4230-aba5-c57a6e733648}</Member>
+    <Member>{c3f2fda5-6322-4e6a-979a-3393ecd44128}</Member>
+    <Member>{affd90fb-a1b5-4042-9462-9c832934de63}</Member>
+    <Member>{2ceeca60-258c-4077-891c-c1259091c0fe}</Member>
+    <Member>{51ec1d53-e615-42db-bef7-64d8ab8d78ff}</Member>
+    <Member>{2fd6f17f-00c1-43d4-89a0-e5a4491bdf30}</Member>
+    <Member>{b71fabf8-51ab-44b7-9197-c8accc4a09c8}</Member>
+    <Member>{50c55ab7-ccbe-442d-8dd7-14464017cf48}</Member>
+    <Member>{4841eddc-8646-4c5a-a35d-4701d0702192}</Member>
+    <Member>{e1717022-159b-4acb-8cb9-7e2a958a6efe}</Member>
+    <Member>{c1f8aa44-168f-449f-a8bd-3797380a80f8}</Member>
+    <Member>{cf637ddd-a21e-4ee3-883b-26b3db0bd7b4}</Member>
+    <Member>{4792e5b9-b2d2-4446-bab7-a6b36a01667e}</Member>
+    <Member>{c81a1fd2-8d4d-4d82-86b9-2b99589e4aa1}</Member>
+    <Member>{29c73a6d-8de0-4b06-9d3b-48e3ca63f069}</Member>
+    <Member>{0baf4194-b807-43b7-ad2c-c4fdff3a2fc7}</Member>
+    <Member>{5f8785d1-7dab-4acd-9e90-bbc207d78f3a}</Member>
+  </group>
+  <group guid="{0d3f451d-fd49-40b8-82b0-3c35f5901259}" enable="True">
+    <Name>Actions</Name>
+    <CreatedTime>4/15/2015 11:54:38 PM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/28/2024 1:12:12 PM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{4985bc85-7f76-4efb-a3c4-b4c3d5306930}</Member>
+    <Member>{61a9f792-2d66-437c-bc9c-0bd8de22545d}</Member>
+    <Member>{340ef6fa-96e4-43c6-96e5-fa4d51de8388}</Member>
+  </group>
 </groups>

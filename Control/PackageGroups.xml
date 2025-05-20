@@ -1,29 +1,29 @@
 <groups>
-    <group guid="{00000000-0000-0000-0000-000000000000}" enable="True">
-        <Name>default</Name>
-        <Comments>default folder (root)</Comments>
-    </group>
-    <group guid="{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}" enable="True">
-        <Name>hidden</Name>
-        <Comments>This folder contains shared source items that have not been made explicitly visible in this deployment share.</Comments>
-    </group>
-    <group guid="{c46695f6-f19e-49f1-b2d7-148489064074}" enable="True">
-        <Name>Windows 7 and Windows Server 2008 R2</Name>
-        <CreatedTime>9/19/2019 11:48:50 AM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>9/19/2019 11:50:42 AM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Member>{2b4d984a-7f53-4043-b10f-caf9c8d3ac2a}</Member>
-        <Member>{1cd0a1c9-e91b-4adf-9cc8-18ec198199e8}</Member>
-    </group>
-    <group guid="{e410546e-2d0f-4bad-a7da-0c7eb628f97b}" enable="True">
-        <Name>Windows 10 (x64) and Windows Server 2016</Name>
-        <Comments></Comments>
-        <CreatedTime>12/29/2024 1:02:06 AM</CreatedTime>
-        <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
-        <LastModifiedTime>12/29/2024 1:30:11 AM</LastModifiedTime>
-        <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
-        <Member>{0f7eaa6b-d6f3-4b67-99ee-02e08bc22681}</Member>
-        <Member>{6628a6fd-b81d-4eb3-be98-7f0fd40fe7c5}</Member>
-    </group>
+  <group guid="{00000000-0000-0000-0000-000000000000}" enable="True">
+    <Name>default</Name>
+    <Comments>default folder (root)</Comments>
+  </group>
+  <group guid="{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}" enable="True">
+    <Name>hidden</Name>
+    <Comments>This folder contains shared source items that have not been made explicitly visible in this deployment share.</Comments>
+  </group>
+  <group guid="{c46695f6-f19e-49f1-b2d7-148489064074}" enable="True">
+    <Name>Windows 7 and Windows Server 2008 R2</Name>
+    <CreatedTime>9/19/2019 11:48:50 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>9/19/2019 11:50:42 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{2b4d984a-7f53-4043-b10f-caf9c8d3ac2a}</Member>
+    <Member>{1cd0a1c9-e91b-4adf-9cc8-18ec198199e8}</Member>
+  </group>
+  <group guid="{e410546e-2d0f-4bad-a7da-0c7eb628f97b}" enable="True">
+    <Name>Windows 10 (x64) and Windows Server 2016</Name>
+    <Comments></Comments>
+    <CreatedTime>12/29/2024 1:02:06 AM</CreatedTime>
+    <CreatedBy>TECHTOOLBOX\jjameson-admin</CreatedBy>
+    <LastModifiedTime>12/29/2024 1:30:11 AM</LastModifiedTime>
+    <LastModifiedBy>TECHTOOLBOX\jjameson-admin</LastModifiedBy>
+    <Member>{0f7eaa6b-d6f3-4b67-99ee-02e08bc22681}</Member>
+    <Member>{6628a6fd-b81d-4eb3-be98-7f0fd40fe7c5}</Member>
+  </group>
 </groups>
