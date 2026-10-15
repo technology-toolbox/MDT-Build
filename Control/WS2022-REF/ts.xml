@@ -618,6 +618,16 @@
           <action>smsboot.exe /target:WinPE</action>
         </step>
       </group>
+      <step type="SMS_TaskSequence_RunCommandLineAction" name="Remove Microsoft Edge" description="This is necessary to avoid an error when running SysPrep (i.e. &quot;Package ... was installed for a user, but not provisioned for all users&quot;)" disable="false" continueOnError="false" startIn="" successCodeList="0 3010" runIn="WinPEandFullOS">
+        <defaultVarList>
+          <variable name="PackageID" property="PackageID"></variable>
+          <variable name="RunAsUser" property="RunAsUser">false</variable>
+          <variable name="SMSTSRunCommandLineUserName" property="SMSTSRunCommandLineUserName"></variable>
+          <variable name="SMSTSRunCommandLineUserPassword" property="SMSTSRunCommandLineUserPassword"></variable>
+          <variable name="LoadProfile" property="LoadProfile">false</variable>
+        </defaultVarList>
+        <action>powershell.exe -command "Get-AppxPackage -Name Microsoft.MicrosoftEdge.Stable | Remove-AppxPackage"</action>
+      </step>
     </group>
     <group expand="false" name="Imaging" description="" disable="false" continueOnError="false">
       <action />
